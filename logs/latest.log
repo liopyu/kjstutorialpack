@@ -2281,3 +2281,4 @@ com.google.gson.JsonSyntaxException: Unknown item 'irons_spellbooks:mithril_ingo
 [15:38:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
 [15:38:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
 [15:38:17] [Render thread/INFO]: Stopping worker threads
+[15:51:33] [Render thread/INFO]: Stopping!
