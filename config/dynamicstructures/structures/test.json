@@ -1,0 +1,15 @@
+{
+    "Structure Name": "test",
+    "Ladder Chance": 10,
+    "Room Count": 10,
+    "Height": 6,
+    "Width": 10,
+    "Length": 10,
+    "Size Threshold": 30,
+    "Generate Spawners": true,
+    "Max Spawners": 2,
+    "Spawner Entities": [
+        "minecraft:zombie",
+        "minecraft:skeleton"
+    ]
+}

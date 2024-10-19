@@ -1,0 +1,13 @@
+[13:58:09] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[13:58:09] [INIT] Loaded plugins:
+[13:58:09] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[13:58:09] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[13:58:09] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
+[13:58:09] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
+[13:58:09] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[13:58:09] [INIT] - com.probejs.ProbeJSPlugin
+[13:58:09] [INFO] example.js#1: Loaded Java class 'snownee.jade.impl.WailaClientRegistration'
+[13:58:09] [INFO] Loaded script client_scripts:example.js in 0.02 s
+[13:58:09] [INFO] Loaded script client_scripts:illusion_rendering_client (1).js in 0.001 s
+[13:58:09] [INFO] Loaded 2/2 KubeJS client scripts in 0.045 s with 0 errors and 0 warnings
+[13:58:11] [INFO] Client resource reload complete!

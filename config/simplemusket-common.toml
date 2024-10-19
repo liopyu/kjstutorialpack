@@ -1,0 +1,24 @@
+#The number of ticks needed to reload a musket. 20 ticks = 1 second.
+#Range: 25 ~ 100
+"Musket reload time" = 50
+#The number of ticks needed to aim a musket. 20 ticks = 1 second.
+#Range: 25 ~ 100
+"Musket aim time" = 50
+#If enabled, copper bullets are craftable.
+"Copper bullets" = true
+#If enabled, gold bullets are craftable.
+"Gold bullets" = true
+#If enabled, netherite bullets are craftable.
+"Craftable netherite bullets" = false
+#If enabled, netherite bullets can be found in chest loot.
+"Netherite bullets" = true
+#The maximum number of netherite bullets that can be found in chest loot. The minimum will be half, rounded up.
+#Range: 1 ~ 16
+"Maximum Netherite bullet loot" = 8
+#If enabled, netherite bullets can be obtained by bartering with piglins
+"Barter netherite bullets" = true
+#If enabled, the amount of damage dealt by Pillagers armed with muskets is reduced by 25%.
+"Reduced Pillager bullet damage" = false
+#If enabled while consecration is installed, change golden bullet behavior to remove undead protection.
+"Gold bullet damage bonus" = true
+

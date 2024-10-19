@@ -1,0 +1,16 @@
+{
+  "type": "jigsaw",
+  "biomes": "#lios_outlandish_villages:has_structure/spiral_tower_village",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {},
+  "start_pool": "lios_outlandish_villages:spiral_tower_village/base/a1b",
+  "start_jigsaw_name": "minecraft:anchor",
+  "size": 7,
+  "start_height": {
+    "absolute": -22
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 116,
+  "use_expansion_hack": false
+}

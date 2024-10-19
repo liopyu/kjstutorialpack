@@ -1,0 +1,12 @@
+{
+	"Liopyu": {
+		"minecraft:golden_apple": {
+			"count": 5,
+			"displayName": "Golden Apple"
+		},
+		"minecraft:apple": {
+			"count": 4,
+			"displayName": "Apple"
+		}
+	}
+}

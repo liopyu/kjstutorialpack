@@ -1,0 +1,11 @@
+{
+	"Liopyu": [
+		{
+			"owner": "Liopyu",
+			"uuid": "2af56080-9397-4944-bbb9-6a52e61a6b63",
+			"nbt": "{AbsorptionAmount:0.0f,Age:0,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:0.1d,Name:\"caelus:fall_flying\"},{Base:0.17499999701976776d,Name:\"minecraft:generic.movement_speed\"},{Base:0.0d,Name:\"forge:step_height_addition\"},{Base:0.08d,Name:\"forge:entity_gravity\"}],Brain:{memories:{}},Bred:0b,CanPickUpLoot:0b,CanUpdate:1b,ChestedHorse:1b,CitadelData:{},CustomName:'{\"text\":\"Liopyu\\'s Donkey\"}',DeathTime:0s,EatingHaystack:0b,FallDistance:0.0f,FallFlying:0b,Fire:-1s,ForcedAge:0,ForgeCaps:{\"curios:inventory\":{Curios:[]}},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:0.0f,HurtByTimestamp:8029,HurtTime:10s,InLove:0,Invulnerable:0b,Items:[{Count:60b,Slot:9b,id:\"minecraft:diamond\"}],KubeJSPersistentData:{KeepsItems:1b,PersonalDonkey:\"Liopyu\"},LeftHanded:0b,Motion:[0.3962052583179419d,0.36080000519752503d,0.05496724524282245d],OnGround:1b,Owner:[I;271514046,-784447124,-1969393913,-2071780152],PersistenceRequired:0b,PortalCooldown:0,Pos:[-98.58859396408046d,-59.4375d,-156.38377826566364d],Rotation:[47.03189f,16.82553f],SaddleItem:{Count:1b,id:\"minecraft:saddle\"},Tame:1b,Temper:0,UUID:[I;720724096,-1818801852,-1145476526,-434476189]}",
+			"name": "Liopyu's Donkey",
+			"isAlive": "false"
+		}
+	]
+}

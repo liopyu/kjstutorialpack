@@ -1,0 +1,13 @@
+{
+  "skulk_whatever_tizu": {
+    "base": "skulk_whatever_tizu/base",
+    "height": 1,
+    "components": {
+      "chalubratud": "skulk_whatever_tizu/chalubratud"
+    },
+    "interactions": {
+      "Toggle": "[1 0][2 0]",
+      "Delete": "[8 0]"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "Structure Name": "example_structure",
+    "Ladder Chance": 0.1,
+    "Room Count": 10,
+    "Height": 6,
+    "Width": 10,
+    "Length": 10,
+    "Generate Spawners": true,
+    "Max Spawners": 2,
+    "Spawner Entities": [
+        "minecraft:zombie",
+        "minecraft:skeleton"
+    ]
+}

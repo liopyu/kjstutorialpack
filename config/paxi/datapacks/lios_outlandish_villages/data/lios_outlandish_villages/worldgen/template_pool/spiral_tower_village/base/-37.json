@@ -1,0 +1,114 @@
+{
+  "name": "lios_outlandish_villages:spiral_tower_village/base/-37",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "lios_outlandish_villages:spiral_tower_village/base/a2b",
+        "processors": "lios_outlandish_villages:replace_water_with_sand",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "lios_outlandish_villages:spiral_tower_village/base/a3b",
+        "processors": "lios_outlandish_villages:replace_water_with_sand",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "lios_outlandish_villages:spiral_tower_village/base/a4b",
+        "processors": "lios_outlandish_villages:replace_water_with_sand",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "lios_outlandish_villages:spiral_tower_village/base/a6b",
+        "processors": "lios_outlandish_villages:replace_water_with_sand",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "lios_outlandish_villages:spiral_tower_village/base/a7b",
+        "processors": "lios_outlandish_villages:replace_water_with_sand",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "lios_outlandish_villages:spiral_tower_village/base/a8b",
+        "processors": "lios_outlandish_villages:replace_water_with_sand",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "lios_outlandish_villages:spiral_tower_village/base/b2b",
+        "processors": "lios_outlandish_villages:replace_water_with_sand",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "lios_outlandish_villages:spiral_tower_village/base/b3b",
+        "processors": "lios_outlandish_villages:replace_water_with_sand",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "lios_outlandish_villages:spiral_tower_village/base/b4b",
+        "processors": "lios_outlandish_villages:replace_water_with_sand",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "lios_outlandish_villages:spiral_tower_village/base/b6b",
+        "processors": "lios_outlandish_villages:replace_water_with_sand",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "lios_outlandish_villages:spiral_tower_village/base/b7b",
+        "processors": "lios_outlandish_villages:replace_water_with_sand",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "lios_outlandish_villages:spiral_tower_village/base/b8b",
+        "processors": "lios_outlandish_villages:replace_water_with_sand",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

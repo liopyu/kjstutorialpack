@@ -1,0 +1,15 @@
+{
+  "name": "lios_outlandish_villages:spiral_tower_village/base/a5b",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "lios_outlandish_villages:spiral_tower_village/base/a5b",
+        "processors": "lios_outlandish_villages:replace_water_with_sand",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

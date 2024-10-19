@@ -1,0 +1,11 @@
+[13:58:08] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[13:58:08] [INIT] Loaded plugins:
+[13:58:08] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[13:58:08] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[13:58:08] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
+[13:58:08] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
+[13:58:08] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[13:58:08] [INIT] - com.probejs.ProbeJSPlugin
+[13:58:09] [INFO] Loaded script startup_scripts:@libs/uniui.js in 0.077 s
+[13:58:09] [INFO] Loaded script startup_scripts:illusion_rendering_startup-forge.js in 0.001 s
+[13:58:09] [INFO] Loaded 2/2 KubeJS startup scripts in 0.802 s with 0 errors and 0 warnings
