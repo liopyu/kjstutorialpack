@@ -75,13 +75,4 @@ ItemEvents.entityInteracted("minecraft:wooden_axe", event => {
     if (event.target.type != "minecraft:item_frame") return
     event.target.setInvisible(true)
     event.cancel()
-    event.entity.entityType
-})
-const $WailaClientRegistration = Java.loadClass("snownee.jade.impl.WailaClientRegistration")
-
-PlayerEvents.tick(event => {
-    $WailaClientRegistration.INSTANCE.addTooltipCollectedCallback(0, (tooltip, accessor) => {
-        if (!accessor.hitResult) return
-        console.log(accessor.hitResult)
-    })
 })

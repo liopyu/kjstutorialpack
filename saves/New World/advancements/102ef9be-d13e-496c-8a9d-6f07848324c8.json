@@ -2999,5 +2999,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2024-10-20 10:50:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2024-10-20 11:20:42 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

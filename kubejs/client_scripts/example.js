@@ -12,3 +12,5 @@ global.clientRegistration = (tooltip, accessor) => {
     /*  if (!accessor.hitResult) return
      console.log(accessor.getHitResult().getType()) */
 }
+
+
