@@ -72,7 +72,30 @@ ItemEvents.rightClicked(event => {
 });
 
 ItemEvents.entityInteracted("minecraft:wooden_axe", event => {
-    if (event.target.type != "minecraft:item_frame") return
-    event.target.setInvisible(true)
-    event.cancel()
+    const { player, target, target: { type } } = event
+    if (target.type == "minecraft:item_frame") {
+        target.setInvisible(true)
+        event.cancel()
+    }
+})
+
+ItemEvents.rightClicked("minecraft:stick", event => {
+    const { player, target, level } = event
+    if (event.hand == "off_hand") {
+        if (player.mainHandItem.id == "minecraft:wooden_axe") {
+            let summon = player.block.createEntity("minecraft:armor_stand")
+            summon.setRotation(player.yaw, player.pitch)
+            summon.setPos(player.x, player.y, player.z)
+            summon.spawn()
+            event.cancel()
+            return
+        }
+        let aabb = player.boundingBox.inflate(1)
+        level.getEntitiesWithin(aabb).forEach(entity => {
+            if (entity.type == "minecraft:armor_stand") {
+                entity.setRotation(entity.yaw + 90, 0)
+            }
+        })
+        event.cancel()
+    }
 })

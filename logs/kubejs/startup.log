@@ -1,11 +1,12 @@
-[08:03:03] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[08:03:03] [INIT] Loaded plugins:
-[08:03:03] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[08:03:03] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[08:03:03] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
-[08:03:03] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
-[08:03:03] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[08:03:03] [INIT] - com.probejs.ProbeJSPlugin
-[08:03:04] [INFO] Loaded script startup_scripts:@libs/uniui.js in 0.071 s
-[08:03:04] [INFO] Loaded script startup_scripts:illusion_rendering_startup-forge.js in 0.001 s
-[08:03:04] [INFO] Loaded 2/2 KubeJS startup scripts in 0.952 s with 0 errors and 0 warnings
+[08:04:38] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[08:04:38] [INIT] Loaded plugins:
+[08:04:38] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[08:04:38] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[08:04:38] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
+[08:04:38] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
+[08:04:38] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[08:04:38] [INIT] - net.liopyu.animationjs.AnimationJSPlugin
+[08:04:38] [INIT] - com.probejs.ProbeJSPlugin
+[08:04:39] [INFO] Loaded script startup_scripts:@libs/uniui.js in 0.082 s
+[08:04:39] [INFO] Loaded script startup_scripts:illusion_rendering_startup-forge.js in 0.001 s
+[08:04:39] [INFO] Loaded 2/2 KubeJS startup scripts in 1.0 s with 0 errors and 0 warnings
