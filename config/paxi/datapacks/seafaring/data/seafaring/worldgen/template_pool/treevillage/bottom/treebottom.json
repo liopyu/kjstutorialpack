@@ -1,0 +1,25 @@
+{
+  "name": "seafaring:treevillage/bottom/treebottom",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "seafaring:treevillage/bottom/treebottom",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "seafaring:treevillage/bottom/treebottom1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+    
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "seafaring:floating_hub/floating_hub15",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "seafaring:floating_hub/floating_hub15",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

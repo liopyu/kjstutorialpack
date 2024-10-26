@@ -20,19 +20,19 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | render | Consumer<PlayerRenderContext> |  | void | ✘ |
-| cancel |  |  | Object | ✘ |
 | getEntity |  |  | LivingEntity | ✘ |
-| getPlayer |  |  | Player | ✘ |
+| cancel |  |  | Object | ✘ |
 | getRenderContext |  |  | PlayerRenderContext | ✘ |
 | renderBodyItem | Object, float, float, float, float, float, float, int |  | void | ✘ |
 | renderBodyItem | Object, float, float, float, float, float, float |  | void | ✘ |
+| getPlayer |  |  | Player | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
@@ -121,6 +121,15 @@ AnimationJS.playerRenderer(event => {
 ```
 ```
 
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
+```
+
 - `boolean hasGameStage(String var0)`
 
   Parameters:
@@ -139,13 +148,11 @@ Checks if the player has the specified game stage
 Adds the specified game stage to the player
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `Object success()`
 ```
-Removes the specified game stage from the player
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
 ```
 
 - `Object success(Object var0)`
@@ -155,13 +162,6 @@ Removes the specified game stage from the player
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

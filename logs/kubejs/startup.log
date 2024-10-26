@@ -1,12 +1,18 @@
-[08:04:38] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[08:04:38] [INIT] Loaded plugins:
-[08:04:38] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[08:04:38] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[08:04:38] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
-[08:04:38] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
-[08:04:38] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[08:04:38] [INIT] - net.liopyu.animationjs.AnimationJSPlugin
-[08:04:38] [INIT] - com.probejs.ProbeJSPlugin
-[08:04:39] [INFO] Loaded script startup_scripts:@libs/uniui.js in 0.082 s
-[08:04:39] [INFO] Loaded script startup_scripts:illusion_rendering_startup-forge.js in 0.001 s
-[08:04:39] [INFO] Loaded 2/2 KubeJS startup scripts in 1.0 s with 0 errors and 0 warnings
+[10:43:08] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[10:43:08] [INIT] Loaded plugins:
+[10:43:08] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[10:43:08] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[10:43:08] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
+[10:43:08] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
+[10:43:08] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[10:43:08] [INIT] - net.liopyu.animationjs.AnimationJSPlugin
+[10:43:08] [INIT] - com.probejs.ProbeJSPlugin
+[10:43:08] [INFO] Loaded script startup_scripts:@libs/uniui.js in 0.001 s
+[10:43:08] [WARN] illusion_rendering_startup-forge.js#1: ForgeEvents.onEvent() can't be reloaded! You will have to restart the game for changes to take effect.
+[10:43:08] [INFO] illusion_rendering_startup-forge.js#2: Loaded Java class 'net.minecraftforge.client.event.RenderLevelStageEvent$Stage'
+[10:43:08] [INFO] illusion_rendering_startup-forge.js#3: Loaded Java class 'net.minecraft.client.Minecraft'
+[10:43:08] [INFO] illusion_rendering_startup-forge.js#4: Loaded Java class 'net.minecraft.client.renderer.blockentity.BeaconRenderer'
+[10:43:08] [INFO] illusion_rendering_startup-forge.js#5: Loaded Java class 'net.minecraft.world.level.block.entity.BeaconBlockEntity'
+[10:43:08] [INFO] illusion_rendering_startup-forge.js#6: Loaded Java class 'com.mojang.math.Axis'
+[10:43:08] [INFO] Loaded script startup_scripts:illusion_rendering_startup-forge.js in 0.001 s
+[10:43:08] [INFO] Loaded 2/2 KubeJS startup scripts in 0.006 s with 0 errors and 0 warnings

@@ -39,21 +39,21 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getEntity |  |  | LivingEntity | ✘ |
-| getPlayer |  |  | Player | ✘ |
-| getHeadPitch |  |  | float | ✘ |
-| getAgeInTicks |  |  | float | ✘ |
+| getEntity |  |  | Player | ✘ |
 | getPlayerModel |  |  | PlayerModel<?> | ✘ |
+| getHeadPitch |  |  | float | ✘ |
+| getNetHeadYaw |  |  | float | ✘ |
+| getAgeInTicks |  |  | float | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | getLimbSwingAmount |  |  | float | ✘ |
 | getLimbSwing |  |  | float | ✘ |
-| getNetHeadYaw |  |  | float | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -61,6 +61,16 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 
 ### Documented members:
+
+- `PlayerModel<?> getPlayerModel()`
+```
+Retrieves the player model associated with the current animation context.
+
+Example Usage:
+```javascript
+const playerModel = event.getPlayerModel();
+```
+```
 
 - `float getHeadPitch()`
 ```
@@ -72,6 +82,16 @@ const headPitch = event.getHeadPitch();
 ```
 ```
 
+- `float getNetHeadYaw()`
+```
+Retrieves the yaw of the entity's head, used for controlling horizontal head movement in animations.
+
+Example Usage:
+```javascript
+const netHeadYaw = event.getNetHeadYaw();
+```
+```
+
 - `float getAgeInTicks()`
 ```
 Retrieves the age of the entity in ticks, used for animations that depend on the entity's lifetime.
@@ -79,16 +99,6 @@ Retrieves the age of the entity in ticks, used for animations that depend on the
 Example Usage:
 ```javascript
 const ageInTicks = event.getAgeInTicks();
-```
-```
-
-- `PlayerModel<?> getPlayerModel()`
-```
-Retrieves the player model associated with the current animation context.
-
-Example Usage:
-```javascript
-const playerModel = event.getPlayerModel();
 ```
 ```
 
@@ -112,14 +122,13 @@ const limbSwing = event.getLimbSwing();
 ```
 ```
 
-- `float getNetHeadYaw()`
-```
-Retrieves the yaw of the entity's head, used for controlling horizontal head movement in animations.
+- `void removeGameStage(String var0)`
 
-Example Usage:
-```javascript
-const netHeadYaw = event.getNetHeadYaw();
+  Parameters:
+  - var0: String
+
 ```
+Removes the specified game stage from the player
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -140,13 +149,11 @@ Checks if the player has the specified game stage
 Adds the specified game stage to the player
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `Object success()`
 ```
-Removes the specified game stage from the player
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
 ```
 
 - `Object success(Object var0)`
@@ -156,13 +163,6 @@ Removes the specified game stage from the player
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

@@ -19,36 +19,31 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getSpellId |  |  | String | ✘ |
-| getCastSource |  |  | CastSource | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | getSchoolType |  |  | SchoolType | ✘ |
 | getSpellLevel |  |  | int | ✘ |
+| getSpellId |  |  | String | ✘ |
+| getCastSource |  |  | CastSource | ✘ |
 | isCancelable |  |  | boolean | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
 
-- `String getSpellId()`
+- `LivingEntity getEntity()`
 ```
-    Returns the spell ID of the spell that was cast.
-```
-
-- `CastSource getCastSource()`
-```
-    Returns the cast source.
+    Returns the player that cast the spell.
 ```
 
 - `SchoolType getSchoolType()`
@@ -61,14 +56,28 @@ Note: Even if no fields are listed above, some methods are still available as fi
     Returns the new spell level of the spell that was cast.
 ```
 
+- `String getSpellId()`
+```
+    Returns the spell ID of the spell that was cast.
+```
+
+- `CastSource getCastSource()`
+```
+    Returns the cast source.
+```
+
 - `boolean isCancelable()`
 ```
     Returns if the event is cancelable.
 ```
 
-- `LivingEntity getEntity()`
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
 ```
-    Returns the player that cast the spell.
+Removes the specified game stage from the player
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -89,31 +98,11 @@ Checks if the player has the specified game stage
 Adds the specified game stage to the player
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
-```
-
-- `Object exit(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object exit()`
+- `Object success()`
 ```
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
-`exit` denotes a `default` outcome.
+`success` denotes a `true` outcome.
 ```
 
 - `Object success(Object var0)`
@@ -123,13 +112,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```
@@ -150,6 +132,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 

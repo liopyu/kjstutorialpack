@@ -6,7 +6,7 @@
   "spawn_overrides": {},
   "start_pool": "lios_outlandish_villages:spiral_tower_village/base/a1b",
   "start_jigsaw_name": "minecraft:anchor",
-  "size": 7,
+  "size": 4,
   "start_height": {
     "absolute": -22
   },

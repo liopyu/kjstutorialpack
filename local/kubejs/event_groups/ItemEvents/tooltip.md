@@ -25,31 +25,31 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| add | Ingredient, Object |  | void | ✘ |
-| addAdvancedToAll | StaticTooltipHandlerFromJS |  | void | ✘ |
 | isCtrl |  |  | boolean | ✘ |
-| addToAll | Object |  | void | ✘ |
-| addAdvanced | Ingredient, StaticTooltipHandlerFromJS |  | void | ✘ |
 | isShift |  |  | boolean | ✘ |
+| addAdvancedToAll | StaticTooltipHandlerFromJS |  | void | ✘ |
 | isAlt |  |  | boolean | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
+| addAdvanced | Ingredient, StaticTooltipHandlerFromJS |  | void | ✘ |
+| addToAll | Object |  | void | ✘ |
+| add | Ingredient, Object |  | void | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
 
-- `void add(Ingredient var0, Object var1)`
-
-  Parameters:
-  - var0: Ingredient
-  - var1: Object
-
+- `boolean isCtrl()`
 ```
-Adds text to all items matching the ingredient.
+Is control key pressed.
+```
+
+- `boolean isShift()`
+```
+Is shift key pressed.
 ```
 
 - `void addAdvancedToAll(StaticTooltipHandlerFromJS var0)`
@@ -61,18 +61,9 @@ Adds text to all items matching the ingredient.
 Adds a dynamic tooltip handler to all items.
 ```
 
-- `boolean isCtrl()`
+- `boolean isAlt()`
 ```
-Is control key pressed.
-```
-
-- `void addToAll(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Adds text to all items.
+Is alt key pressed.
 ```
 
 - `void addAdvanced(Ingredient var0, StaticTooltipHandlerFromJS var1)`
@@ -85,32 +76,30 @@ Adds text to all items.
 Adds a dynamic tooltip handler to all items matching the ingredient.
 ```
 
-- `boolean isShift()`
-```
-Is shift key pressed.
-```
-
-- `boolean isAlt()`
-```
-Is alt key pressed.
-```
-
-- `Object exit(Object var0)`
+- `void addToAll(Object var0)`
 
   Parameters:
   - var0: Object
 
 ```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
+Adds text to all items.
 ```
 
-- `Object exit()`
+- `void add(Ingredient var0, Object var1)`
+
+  Parameters:
+  - var0: Ingredient
+  - var1: Object
+
+```
+Adds text to all items matching the ingredient.
+```
+
+- `Object success()`
 ```
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
-`exit` denotes a `default` outcome.
+`success` denotes a `true` outcome.
 ```
 
 - `Object success(Object var0)`
@@ -120,13 +109,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```
@@ -147,6 +129,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 

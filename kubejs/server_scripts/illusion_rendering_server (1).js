@@ -81,6 +81,7 @@ ItemEvents.entityInteracted("minecraft:wooden_axe", event => {
 
 ItemEvents.rightClicked("minecraft:stick", event => {
     const { player, target, level } = event
+
     if (event.hand == "off_hand") {
         if (player.mainHandItem.id == "minecraft:wooden_axe") {
             let summon = player.block.createEntity("minecraft:armor_stand")
@@ -97,5 +98,45 @@ ItemEvents.rightClicked("minecraft:stick", event => {
             }
         })
         event.cancel()
+    }
+})
+
+ItemEvents.rightClicked("minecraft:diamond", event => {
+    const { player, target, level, hand } = event
+    let pos = player.blockPosition()
+    if (hand != "OFF_HAND") return
+    for (let i = 0; i < 10; i++) {
+        let x = i
+        for (let j = 0; j < 10; j++) {
+            let y = j
+            for (let k = 0; k < 10; k++) {
+                let z = k
+                let newpos = pos.offset(x, y, z)
+                let block = level.getBlock(newpos)
+                if (block.id == "minecraft:oak_fence" && block.down.id == "minecraft:spruce_wood") {
+                    block.down.set("minecraft:stripped_spruce_wood")
+                }
+                if (block.id == "minecraft:oak_fence") {
+                    block.up.set("minecraft:spruce_trapdoor")
+                }
+            }
+        }
+    }
+    for (let i = 0; i < -10; i--) {
+        let x = i
+        for (let j = 0; j < -10; j--) {
+            let y = j
+            for (let k = 0; k < -10; k--) {
+                let z = k
+                let newpos = pos.offset(x, y, z)
+                let block = level.getBlock(newpos)
+                if (block.id == "minecraft:oak_fence" && block.down.id == "minecraft:spruce_wood") {
+                    block.down.set("minecraft:stripped_spruce_wood")
+                }
+                if (block.id == "minecraft:oak_fence") {
+                    block.up.set("minecraft:spruce_trapdoor")
+                }
+            }
+        }
     }
 })

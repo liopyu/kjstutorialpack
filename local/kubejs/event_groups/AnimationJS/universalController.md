@@ -19,21 +19,21 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| startAnimation | Object, int, String, boolean, boolean, List<?>, Consumer<PlayerParts> |  | void | ✘ |
+| startAnimation | Object, boolean |  | void | ✘ |
+| startAnimation | Object, int, String, boolean, boolean |  | void | ✘ |
+| startAnimation | Object |  | void | ✘ |
 | isAnimActive | Player |  | boolean | ✘ |
 | stopAnimation | Object |  | void | ✘ |
-| startAnimation | Object, int, String, boolean, boolean, List<?>, Consumer<PlayerParts> |  | void | ✘ |
-| startAnimation | Object, int, String, boolean, boolean |  | void | ✘ |
-| startAnimation | Object, boolean |  | void | ✘ |
-| startAnimation | Object |  | void | ✘ |
 | getEntity |  |  | Entity | ✘ |
-| getPlayer |  |  | Player | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -41,20 +41,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 
 ### Documented members:
-
-- `void stopAnimation(Object animationName)`
-
-  Parameters:
-  - animationName: Object- ResourceLocation: The name of the animation specified in the json
-
-```
-Used to stop a certain player animation.
-
-Example Usage:
-```javascript
-event.stopAnimation("animationjs:waving")
-```
-```
 
 - `void startAnimation(Object animationID, int transitionLength, String easeID, boolean firstPersonEnabled, boolean important, List<?> modifiers, Consumer<PlayerParts> partsConsumer)`
 
@@ -78,6 +64,22 @@ event.startAnimation("animationjs:smith", 1, "linear", true, false, ["playeranim
 ```
 ```
 
+- `void startAnimation(Object animationName, boolean canOverlapSelf)`
+
+  Parameters:
+  - animationName: Object- ResourceLocation: The name of the animation specified in the json
+  - canOverlapSelf: boolean- Boolean: Whether the animation can overlap itself if it's already playing
+
+```
+Used to play animations on player tick with the option
+to have animations overlap themselves when played.
+
+Example Usage:
+```javascript
+event.startAnimation("animationjs:waving", true)
+```
+```
+
 - `void startAnimation(Object animationID, int transitionLength, String easeID, boolean firstPersonEnabled, boolean important)`
 
   Parameters:
@@ -96,22 +98,6 @@ event.startAnimation("animationjs:waving", 1, "linear", true, false);
 ```
 ```
 
-- `void startAnimation(Object animationName, boolean canOverlapSelf)`
-
-  Parameters:
-  - animationName: Object- ResourceLocation: The name of the animation specified in the json
-  - canOverlapSelf: boolean- Boolean: Whether the animation can overlap itself if it's already playing
-
-```
-Used to play animations on player tick with the option
-to have animations overlap themselves when played.
-
-Example Usage:
-```javascript
-event.startAnimation("animationjs:waving", true)
-```
-```
-
 - `void startAnimation(Object animationName)`
 
   Parameters:
@@ -124,6 +110,29 @@ Example Usage:
 ```javascript
 event.startAnimation("animationjs:waving")
 ```
+```
+
+- `void stopAnimation(Object animationName)`
+
+  Parameters:
+  - animationName: Object- ResourceLocation: The name of the animation specified in the json
+
+```
+Used to stop a certain player animation.
+
+Example Usage:
+```javascript
+event.stopAnimation("animationjs:waving")
+```
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -144,13 +153,11 @@ Checks if the player has the specified game stage
 Adds the specified game stage to the player
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `Object success()`
 ```
-Removes the specified game stage from the player
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
 ```
 
 - `Object success(Object var0)`
@@ -160,13 +167,6 @@ Removes the specified game stage from the player
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

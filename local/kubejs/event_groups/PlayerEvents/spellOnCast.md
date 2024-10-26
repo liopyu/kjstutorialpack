@@ -19,41 +19,60 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getOriginalSpellLevel |  |  | int | ✘ |
-| getOriginalManaCost |  |  | int | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
+| getManaCost |  |  | int | ✘ |
+| setManaCost | int |  | void | ✘ |
+| getSchoolType |  |  | SchoolType | ✘ |
+| getSpellLevel |  |  | int | ✘ |
 | getSpellId |  |  | String | ✘ |
 | getCastSource |  |  | CastSource | ✘ |
-| setManaCost | int |  | void | ✘ |
 | setSpellLevel | int |  | void | ✘ |
-| getSchoolType |  |  | SchoolType | ✘ |
-| getManaCost |  |  | int | ✘ |
-| getSpellLevel |  |  | int | ✘ |
 | isCancelable |  |  | boolean | ✘ |
-| getEntity |  |  | Entity | ✘ |
+| getOriginalSpellLevel |  |  | int | ✘ |
+| getOriginalManaCost |  |  | int | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
 
-- `int getOriginalSpellLevel()`
+- `LivingEntity getEntity()`
 ```
-    Returns the original spell level of the spell that was cast.
+    Returns the player that cast the spell.
 ```
 
-- `int getOriginalManaCost()`
+- `int getManaCost()`
 ```
-    Returns the original mana cost.
+    Returns the new mana cost.
+```
+
+- `void setManaCost(int var0)`
+
+  Parameters:
+  - var0: int
+
+```
+    Sets the new mana cost.
+```
+
+- `SchoolType getSchoolType()`
+```
+    Returns the school type of the spell that was cast.
+```
+
+- `int getSpellLevel()`
+```
+    Returns the new spell level of the spell that was cast.
 ```
 
 - `String getSpellId()`
@@ -66,15 +85,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
     Returns the cast source.
 ```
 
-- `void setManaCost(int var0)`
-
-  Parameters:
-  - var0: int
-
-```
-    Sets the new mana cost.
-```
-
 - `void setSpellLevel(int var0)`
 
   Parameters:
@@ -84,29 +94,28 @@ Note: Even if no fields are listed above, some methods are still available as fi
     Sets the new spell level of the spell that was cast.
 ```
 
-- `SchoolType getSchoolType()`
-```
-    Returns the school type of the spell that was cast.
-```
-
-- `int getManaCost()`
-```
-    Returns the new mana cost.
-```
-
-- `int getSpellLevel()`
-```
-    Returns the new spell level of the spell that was cast.
-```
-
 - `boolean isCancelable()`
 ```
     Returns if the event is cancelable.
 ```
 
-- `Entity getEntity()`
+- `int getOriginalSpellLevel()`
 ```
-    Returns the player that cast the spell.
+    Returns the original spell level of the spell that was cast.
+```
+
+- `int getOriginalManaCost()`
+```
+    Returns the original mana cost.
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -127,31 +136,11 @@ Checks if the player has the specified game stage
 Adds the specified game stage to the player
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
-```
-
-- `Object exit(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object exit()`
+- `Object success()`
 ```
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
-`exit` denotes a `default` outcome.
+`success` denotes a `true` outcome.
 ```
 
 - `Object success(Object var0)`
@@ -161,13 +150,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```
@@ -188,6 +170,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 
