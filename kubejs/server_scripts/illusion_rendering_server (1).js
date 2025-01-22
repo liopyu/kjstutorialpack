@@ -25,6 +25,7 @@ PlayerEvents.loggedIn(event => {
     server.runCommandSilent(`attribute Liopyu minecraft:generic.movement_speed base set 0.2`)
     server.runCommandSilent(`time set day`)
     server.runCommandSilent(`effect give Liopyu minecraft:night_vision 1000000 1 true`)
+    server.runCommandSilent(`scale set pehkui:step_height 1.3 Liopyu`)
 })
 
 // Configurable chunk radius (adjust as needed)
@@ -81,11 +82,11 @@ ItemEvents.entityInteracted("minecraft:wooden_axe", event => {
 
 ItemEvents.rightClicked("minecraft:stick", event => {
     const { player, target, level } = event
-
     if (event.hand == "off_hand") {
         if (player.mainHandItem.id == "minecraft:wooden_axe") {
             let summon = player.block.createEntity("minecraft:armor_stand")
             summon.setRotation(player.yaw, player.pitch)
+            //summon.setPos(player.block.pos.x + (1 / 2), player.y, player.block.pos.z + (1 / 2))
             summon.setPos(player.x, player.y, player.z)
             summon.spawn()
             event.cancel()
@@ -100,8 +101,32 @@ ItemEvents.rightClicked("minecraft:stick", event => {
         event.cancel()
     }
 })
-
-ItemEvents.rightClicked("minecraft:diamond", event => {
+let litBlocks = [
+    "minecraft:furnace",
+    "minecraft:smoker",
+    "minecraft:blast_furnace"
+]
+BlockEvents.placed(event => {
+    const { player, block, level, server } = event
+    let item = player.offhandItem
+    if ((item.id != "minecraft:stick" || !litBlocks.includes(block.id))) return
+    server.scheduleInTicks(1, () => {
+        if (block.id == "minecraft:furnace") {
+            let facing = player.facing.opposite.toString().toLowerCase()
+            server.runCommandSilent(`execute as Liopyu at @s run setblock ${block.x.toFixed(0)} ${block.y.toFixed(0)} ${block.z.toFixed(0)} minecraft:furnace[facing=${facing},lit=true]`)
+        }
+        if (block.id == "minecraft:smoker") {
+            let facing = player.facing.opposite.toString().toLowerCase()
+            server.runCommandSilent(`execute as Liopyu at @s run setblock ${block.x.toFixed(0)} ${block.y.toFixed(0)} ${block.z.toFixed(0)} minecraft:smoker[facing=${facing},lit=true]`)
+        }
+        if (block.id == "minecraft:blast_furnace") {
+            let facing = player.facing.opposite.toString().toLowerCase()
+            server.runCommandSilent(`execute as Liopyu at @s run setblock ${block.x.toFixed(0)} ${block.y.toFixed(0)} ${block.z.toFixed(0)} minecraft:blast_furnace[facing=${facing},lit=true]`)
+        }
+    })
+    event.cancel()
+})
+/* ItemEvents.rightClicked("minecraft:diamond", event => {
     const { player, target, level, hand } = event
     let pos = player.blockPosition()
     if (hand != "OFF_HAND") return
@@ -139,4 +164,4 @@ ItemEvents.rightClicked("minecraft:diamond", event => {
             }
         }
     }
-})
+}) */

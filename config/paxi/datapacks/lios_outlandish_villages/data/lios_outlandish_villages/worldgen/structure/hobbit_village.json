@@ -2,7 +2,7 @@
   "type": "jigsaw",
   "biomes": "#lios_outlandish_villages:has_structure/hobbit_village",
   "step": "surface_structures",
-  "terrain_adaptation": "none",
+  "terrain_adaptation": "bury",
   "spawn_overrides": {},
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "start_height": {

@@ -10,6 +10,15 @@
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "lios_outlandish_villages:spiral_tower_village/base/a9b2",
+        "processors": "lios_outlandish_villages:replace_water_with_sand",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
     }
   ]
 }

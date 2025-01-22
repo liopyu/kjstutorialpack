@@ -1,13 +1,10 @@
-[10:12:45] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[10:12:45] [INIT] Loaded plugins:
-[10:12:45] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[10:12:45] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[10:12:45] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
-[10:12:45] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
-[10:12:45] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[10:12:45] [INIT] - net.liopyu.animationjs.AnimationJSPlugin
-[10:12:45] [INIT] - com.probejs.ProbeJSPlugin
-[10:12:45] [INFO] Loaded script client_scripts:example.js in 0.0 s
-[10:12:45] [INFO] Loaded script client_scripts:illusion_rendering_client (1).js in 0.004 s
-[10:12:45] [INFO] Loaded 2/2 KubeJS client scripts in 0.032 s with 0 errors and 0 warnings
-[10:12:47] [INFO] Client resource reload complete!
+[09:13:30] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[09:13:30] [INIT] Loaded plugins:
+[09:13:30] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[09:13:30] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[09:13:30] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[09:13:30] [INIT] - com.probejs.ProbeJSPlugin
+[09:13:30] [INFO] Loaded script client_scripts:example.js in 0.0 s
+[09:13:30] [INFO] Loaded script client_scripts:illusion_rendering_client (1).js in 0.002 s
+[09:13:30] [INFO] Loaded 2/2 KubeJS client scripts in 0.022 s with 0 errors and 0 warnings
+[09:13:32] [INFO] Client resource reload complete!
