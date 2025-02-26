@@ -1,9 +1,9 @@
-[09:13:29] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[09:13:29] [INIT] Loaded plugins:
-[09:13:29] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[09:13:29] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[09:13:29] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[09:13:29] [INIT] - com.probejs.ProbeJSPlugin
-[09:13:30] [INFO] Loaded script startup_scripts:@libs/uniui.js in 0.072 s
-[09:13:30] [INFO] Loaded script startup_scripts:forge.js in 0.001 s
-[09:13:30] [INFO] Loaded 2/2 KubeJS startup scripts in 0.565 s with 0 errors and 0 warnings
+[11:46:40] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[11:46:40] [INIT] Loaded plugins:
+[11:46:40] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[11:46:40] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[11:46:40] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[11:46:40] [INIT] - com.probejs.ProbeJSPlugin
+[11:46:41] [INFO] Loaded script startup_scripts:@libs/uniui.js in 0.061 s
+[11:46:41] [INFO] Loaded script startup_scripts:forge.js in 0.001 s
+[11:46:41] [INFO] Loaded 2/2 KubeJS startup scripts in 0.996 s with 0 errors and 0 warnings
