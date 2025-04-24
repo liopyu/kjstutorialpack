@@ -19,28 +19,18 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| modify | EntityType<? extends LivingEntity>, Consumer<AttributeModificationHelper> |  | void | ✘ |
 | getAllTypes |  |  | List<EntityType<? extends LivingEntity>> | ✘ |
 | getAttributes | EntityType<? extends LivingEntity> |  | List<Attribute> | ✘ |
+| modify | EntityType<? extends LivingEntity>, Consumer<AttributeModificationHelper> |  | void | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 | success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
-
-- `void modify(EntityType<? extends LivingEntity> entityType, Consumer<AttributeModificationHelper> attributes)`
-
-  Parameters:
-  - entityType: EntityType<? extends LivingEntity>- The entity type whose default attributes are to be modified
-  - attributes: Consumer<AttributeModificationHelper>- A consumer for setting the default attributes and their values
-
-```
-Modifies the given entity type's attributes
-```
 
 - `List<EntityType<? extends LivingEntity>> getAllTypes()`
 ```
@@ -54,6 +44,34 @@ Returns a list of all entity types that can have their attributes modified by th
 
 ```
 Returns a list of all attributes the given entity type has by default
+```
+
+- `void modify(EntityType<? extends LivingEntity> entityType, Consumer<AttributeModificationHelper> attributes)`
+
+  Parameters:
+  - entityType: EntityType<? extends LivingEntity>- The entity type whose default attributes are to be modified
+  - attributes: Consumer<AttributeModificationHelper>- A consumer for setting the default attributes and their values
+
+```
+Modifies the given entity type's attributes
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 - `Object success()`
@@ -90,24 +108,6 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
-```
-
-- `Object exit(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object exit()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
 ```
 
 
