@@ -1,10 +1,13 @@
-[08:37:09] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[08:37:09] [INIT] Loaded plugins:
-[08:37:09] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[08:37:09] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[08:37:09] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[08:37:09] [INIT] - com.probejs.ProbeJSPlugin
-[08:37:10] [INFO] Loaded script startup_scripts:@libs/uniui.js in 0.136 s
-[08:37:10] [INFO] forge.js#1: Loaded Java class 'net.minecraft.world.entity.item.ItemEntity'
-[08:37:10] [INFO] Loaded script startup_scripts:forge.js in 0.063 s
-[08:37:10] [INFO] Loaded 2/2 KubeJS startup scripts in 1.013 s with 0 errors and 0 warnings
+[11:49:28] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[11:49:28] [INIT] Loaded plugins:
+[11:49:28] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[11:49:28] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[11:49:28] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[11:49:28] [INIT] - com.probejs.ProbeJSPlugin
+[11:49:31] [INFO] Loaded script startup_scripts:@libs/uniui.js in 0.309 s
+[11:49:31] [INFO] forge.js#1: Loaded Java class 'net.minecraft.world.entity.item.ItemEntity'
+[11:49:31] [INFO] forge.js#2: Loaded Java class 'net.minecraft.world.entity.PathfinderMob'
+[11:49:31] [INFO] forge.js#3: Loaded Java class 'net.minecraft.world.entity.npc.Villager'
+[11:49:31] [INFO] forge.js#4: Loaded Java class 'net.liopyu.entityjs.builders.modification.ModifyLivingEntityBuilder'
+[11:49:31] [INFO] Loaded script startup_scripts:forge.js in 0.333 s
+[11:49:31] [INFO] Loaded 2/2 KubeJS startup scripts in 2.443 s with 0 errors and 0 warnings

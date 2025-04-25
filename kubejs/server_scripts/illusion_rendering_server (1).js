@@ -17,7 +17,7 @@ PlayerEvents.loggedIn(event => {
     let { player, server } = event
     server.runCommandSilent(`attribute Liopyu forge:block_reach base set 16`)
     server.runCommandSilent(`attribute Liopyu forge:swim_speed base set 4`)
-    server.runCommandSilent(`scale set pehkui:flight 3 Liopyu`)
+    server.runCommandSilent(`scale set pehkui:flight 2.5 Liopyu`)
     server.runCommandSilent(`gamerule doDaylightCycle false`)
     server.runCommandSilent(`gamerule keepInventory true`)
     server.runCommandSilent(`gamerule doWeatherCycle false`)
@@ -200,7 +200,6 @@ BlockEvents.rightClicked(event => {
     let center = block.pos
     let didConsume = false
     let spawnedParticles = new Set()
-    // this is an optional hook to let other mods cancel the bonemeal event via their current bonemeal logic
     let hook = ForgeEventFactory.onApplyBonemeal(player, level, center, block.blockState, item);
     if (hook != 0) {
         return hook > 0 ?? event.cancel()
@@ -273,10 +272,10 @@ BlockEvents.rightClicked(event => {
                             let chosen = blockPool[Math.floor(Math.random() * blockPool.length)]
 
                             if (chosen === 'minecraft:wheat') {
-                                blockSetQueue.push({ pos: base, block: 'minecraft:farmland' }) // replace grass_block with farmland
+                                blockSetQueue.push({ pos: base, block: 'minecraft:farmland' })
                             }
 
-                            blockSetQueue.push({ pos: above, block: chosen }) // place chosen block on top
+                            blockSetQueue.push({ pos: above, block: chosen })
                             didConsume = true
 
                             if (Math.random() < 0.12) {
@@ -294,7 +293,7 @@ BlockEvents.rightClicked(event => {
         let block = level.getBlock(entry.pos)
 
         if (entry.block === "minecraft:wheat") {
-            let randomAge = Math.floor(Math.random() * 7) // wheat valid age: 0–7
+            let randomAge = Math.floor(Math.random() * 7)
             block.set("minecraft:wheat", { age: randomAge.toString() }, 3)
         } else {
             block.set(entry.block)
@@ -311,3 +310,14 @@ BlockEvents.rightClicked(event => {
     event.cancel()
 })
 
+
+Utils.getRegistryIds("entity_type").forEach(entityType => {
+    EntityJSEvents.addGoalSelectors(entityType, event => {
+        if (Client.player.offHandItem.id == "minecraft:totem_of_undying")
+            event.removeAllGoals()
+    })
+    EntityJSEvents.addGoals(entityType, event => {
+        if (Client.player.offHandItem.id == "minecraft:totem_of_undying")
+            event.removeAllGoals()
+    })
+})
