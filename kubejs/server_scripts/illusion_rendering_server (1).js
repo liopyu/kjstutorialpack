@@ -189,8 +189,8 @@ let weightedBlocks = [
     ['minecraft:air', 100],
     ['minecraft:wheat', 30]
 ]
-const useVanillaBonemeal = false
-const radius = 10
+let useVanillaBonemeal = false
+let radius = 10
 let BoneMealableBlock = Java.loadClass("net.minecraft.world.level.block.BonemealableBlock")
 let ForgeEventFactory = Java.loadClass("net.minecraftforge.event.ForgeEventFactory")
 BlockEvents.rightClicked(event => {
@@ -311,7 +311,7 @@ BlockEvents.rightClicked(event => {
 })
 
 
-Utils.getRegistryIds("entity_type").forEach(entityType => {
+/* Utils.getRegistryIds("entity_type").forEach(entityType => {
     EntityJSEvents.addGoalSelectors(entityType, event => {
         if (Client.player.offHandItem.id == "minecraft:totem_of_undying")
             event.removeAllGoals()
@@ -320,4 +320,47 @@ Utils.getRegistryIds("entity_type").forEach(entityType => {
         if (Client.player.offHandItem.id == "minecraft:totem_of_undying")
             event.removeAllGoals()
     })
+}) */
+
+ItemEvents.rightClicked("firework_star", event => {
+    let originX = event.player.x
+    let originY = -60
+    let originZ = event.player.z
+    if (event.player.offhandItem.id != "minecraft:diamond") return
+    let lootTables = [
+        "village_armorer",
+        "village_butcher",
+        "village_cartographer",
+        "village_desert_house",
+        "village_fisher",
+        "village_fletcher",
+        "village_mason",
+        "village_plains_house",
+        "village_savanna_house",
+        "village_shepherd",
+        "village_snowy_house",
+        "village_taiga_house",
+        "village_tannery",
+        "village_temple",
+        "village_toolsmith",
+        "village_weaponsmith"
+    ]
+
+    /*  lootTables.forEach((table, i) => {
+         let x = originX + i
+         let y = originY
+         let z = originZ
+         let readableName = table.replace("_", " ")
+         let nbtName = `{"text":"${readableName}"}`
+         let command = `setblock ${x.toFixed(0)} ${y.toFixed(0)} ${z.toFixed(0)} minecraft:chest{LootTable:"minecraft:chests/village/${table}",CustomName:'${nbtName}'} replace`
+         event.server.runCommandSilent(`execute as Liopyu run ${command}`)
+     }) */
+    let items = []
+    lootTables.forEach((table, i) => {
+        let name = table.replace(/_/g, " ")
+        items.push(`{Count:1b,Slot:${i}b,id:"minecraft:chest",tag:{BlockEntityTag:{LootTable:"minecraft:chests/village/${table}",id:"minecraft:chest"},display:{Lore:['"${name}"','"(+NBT)"']}}}`)
+    })
+
+    let tag = `{BlockEntityTag:{Items:[${items.join(",")}],id:"minecraft:shulker_box"},display:{Lore:['"(+NBT)"']}}`
+    event.player.give(Item.of('minecraft:brown_shulker_box', tag))
 })
