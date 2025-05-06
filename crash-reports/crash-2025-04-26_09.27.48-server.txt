@@ -1,0 +1,261 @@
+---- Minecraft Crash Report ----
+// Embeddium instance tainted by mods: [oculus]
+// Please do not reach out for Embeddium support without removing these mods first.
+// -------
+// There are four lights!
+
+Time: 2025-04-26 09:27:48
+Description: Ticking entity
+
+dev.latvian.mods.rhino.EcmaError: TypeError: Cannot read property "offHandItem" from null (startup_scripts:forge.js#26)
+	at dev.latvian.mods.rhino.ScriptRuntime.constructError(ScriptRuntime.java:3041) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.ScriptRuntime.constructError(ScriptRuntime.java:3028) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.ScriptRuntime.typeError(ScriptRuntime.java:3049) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.ScriptRuntime.typeError2(ScriptRuntime.java:3064) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.ScriptRuntime.undefReadError(ScriptRuntime.java:3073) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.ScriptRuntime.getObjectProp(ScriptRuntime.java:1248) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Interpreter.interpretLoop(Interpreter.java:775) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Interpreter.interpret(Interpreter.java:370) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.InterpretedFunction.call(InterpretedFunction.java:72) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1290) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.ArrowFunction.call(ArrowFunction.java:42) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Interpreter.interpretLoop(Interpreter.java:986) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Interpreter.interpret(Interpreter.java:370) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.InterpretedFunction.call(InterpretedFunction.java:72) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1290) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Context.doTopCall(Context.java:1307) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.InterpretedFunction.call(InterpretedFunction.java:70) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1290) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.ArrowFunction.call(ArrowFunction.java:42) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1290) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at jdk.proxy1.$Proxy95.apply(Unknown Source) ~[?:?] {}
+	at net.minecraft.world.entity.LivingEntity.handler$zjh000$entityjs$isImmobile(LivingEntity.java:6374) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:pehkui.mixins.json:LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat117plus.LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1194plus.LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1204minus.LivingEntityMixin,pl:mixin:APP:caelus.mixins.json:MixinLivingEntity,pl:mixin:APP:entityjs.mixins.json:LivingEntityMixin,pl:mixin:APP:curios.mixins.json:MixinLivingEntity,pl:mixin:APP:kubejs-common.mixins.json:LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat115plus.LivingEntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.LivingEntity.m_6107_(LivingEntity.java) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:pehkui.mixins.json:LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat117plus.LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1194plus.LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1204minus.LivingEntityMixin,pl:mixin:APP:caelus.mixins.json:MixinLivingEntity,pl:mixin:APP:entityjs.mixins.json:LivingEntityMixin,pl:mixin:APP:curios.mixins.json:MixinLivingEntity,pl:mixin:APP:kubejs-common.mixins.json:LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat115plus.LivingEntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.LivingEntity.m_8107_(LivingEntity.java:2542) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:pehkui.mixins.json:LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat117plus.LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1194plus.LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1204minus.LivingEntityMixin,pl:mixin:APP:caelus.mixins.json:MixinLivingEntity,pl:mixin:APP:entityjs.mixins.json:LivingEntityMixin,pl:mixin:APP:curios.mixins.json:MixinLivingEntity,pl:mixin:APP:kubejs-common.mixins.json:LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat115plus.LivingEntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.Mob.m_8107_(Mob.java:536) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:pehkui.mixins.json:MobEntityMixin,pl:mixin:APP:entityjs.mixins.json:MobMixin,pl:mixin:APP:pehkui.mixins.json:compat116plus.MobEntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.AgeableMob.m_8107_(AgeableMob.java:128) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,re:classloading}
+	at net.minecraft.world.entity.animal.Animal.m_8107_(Animal.java:54) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,re:classloading,pl:mixin:APP:pehkui.mixins.json:compat116plus.AnimalEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1201minus.EntityVehicleHeightOffsetMixin,pl:mixin:A}
+	at net.minecraft.world.entity.animal.Wolf.m_8107_(Wolf.java:175) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:classloading}
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2298) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:pehkui.mixins.json:LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat117plus.LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1194plus.LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1204minus.LivingEntityMixin,pl:mixin:APP:caelus.mixins.json:MixinLivingEntity,pl:mixin:APP:entityjs.mixins.json:LivingEntityMixin,pl:mixin:APP:curios.mixins.json:MixinLivingEntity,pl:mixin:APP:kubejs-common.mixins.json:LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat115plus.LivingEntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:pehkui.mixins.json:MobEntityMixin,pl:mixin:APP:entityjs.mixins.json:MobMixin,pl:mixin:APP:pehkui.mixins.json:compat116plus.MobEntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.animal.Wolf.m_8119_(Wolf.java:190) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:693) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:computing_frames,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,pl:mixin:APP:pehkui.mixins.json:compat117plus.ServerWorldMixin,pl:mixin:APP:kubejs-common.mixins.json:ServerLevelMixin,pl:mixin:A}
+	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs-common.mixins.json:LevelMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:computing_frames,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,pl:mixin:APP:pehkui.mixins.json:compat117plus.ServerWorldMixin,pl:mixin:APP:kubejs-common.mixins.json:ServerLevelMixin,pl:mixin:A}
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:computing_frames,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,pl:mixin:APP:pehkui.mixins.json:compat117plus.ServerWorldMixin,pl:mixin:APP:kubejs-common.mixins.json:ServerLevelMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at net.minecraft.client.server.IntegratedServer.m_5705_(IntegratedServer.java:89) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:833) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mods: 
+	EntityJS (entityjs), Version: 0.4.7-1.20.1
+		Issue tracker URL: https://github.com/liopyu/EntityJS/issues
+		Mixin class: net.liopyu.entityjs.mixin.LivingEntityMixin
+		Target: net.minecraft.world.entity.LivingEntity
+		at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.LivingEntity.handler$zjh000$entityjs$isImmobile(LivingEntity.java:6374)
+
+	Rhino (rhino), Version: 2001.2.3-build.6
+		Issue tracker URL: https://github.com/KubeJS-Mods/Rhino/issues
+		at TRANSFORMER/rhino@2001.2.3-build.6/dev.latvian.mods.rhino.ScriptRuntime.constructError(ScriptRuntime.java:3041)
+Stacktrace:
+	at dev.latvian.mods.rhino.ScriptRuntime.constructError(ScriptRuntime.java:3041) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.ScriptRuntime.constructError(ScriptRuntime.java:3028) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.ScriptRuntime.typeError(ScriptRuntime.java:3049) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.ScriptRuntime.typeError2(ScriptRuntime.java:3064) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.ScriptRuntime.undefReadError(ScriptRuntime.java:3073) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.ScriptRuntime.getObjectProp(ScriptRuntime.java:1248) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Interpreter.interpretLoop(Interpreter.java:775) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Interpreter.interpret(Interpreter.java:370) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.InterpretedFunction.call(InterpretedFunction.java:72) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1290) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.ArrowFunction.call(ArrowFunction.java:42) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Interpreter.interpretLoop(Interpreter.java:986) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Interpreter.interpret(Interpreter.java:370) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.InterpretedFunction.call(InterpretedFunction.java:72) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1290) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Context.doTopCall(Context.java:1307) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.InterpretedFunction.call(InterpretedFunction.java:70) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1290) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.ArrowFunction.call(ArrowFunction.java:42) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1290) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at dev.latvian.mods.rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74) ~[rhino-forge-2001.2.3-build.6.jar%23210!/:2001.2.3-build.6] {re:classloading}
+	at jdk.proxy1.$Proxy95.apply(Unknown Source) ~[?:?] {}
+	at net.minecraft.world.entity.LivingEntity.handler$zjh000$entityjs$isImmobile(LivingEntity.java:6374) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:pehkui.mixins.json:LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat117plus.LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1194plus.LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1204minus.LivingEntityMixin,pl:mixin:APP:caelus.mixins.json:MixinLivingEntity,pl:mixin:APP:entityjs.mixins.json:LivingEntityMixin,pl:mixin:APP:curios.mixins.json:MixinLivingEntity,pl:mixin:APP:kubejs-common.mixins.json:LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat115plus.LivingEntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.LivingEntity.m_6107_(LivingEntity.java) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:pehkui.mixins.json:LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat117plus.LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1194plus.LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1204minus.LivingEntityMixin,pl:mixin:APP:caelus.mixins.json:MixinLivingEntity,pl:mixin:APP:entityjs.mixins.json:LivingEntityMixin,pl:mixin:APP:curios.mixins.json:MixinLivingEntity,pl:mixin:APP:kubejs-common.mixins.json:LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat115plus.LivingEntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.LivingEntity.m_8107_(LivingEntity.java:2542) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:pehkui.mixins.json:LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat117plus.LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1194plus.LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1204minus.LivingEntityMixin,pl:mixin:APP:caelus.mixins.json:MixinLivingEntity,pl:mixin:APP:entityjs.mixins.json:LivingEntityMixin,pl:mixin:APP:curios.mixins.json:MixinLivingEntity,pl:mixin:APP:kubejs-common.mixins.json:LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat115plus.LivingEntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.Mob.m_8107_(Mob.java:536) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:pehkui.mixins.json:MobEntityMixin,pl:mixin:APP:entityjs.mixins.json:MobMixin,pl:mixin:APP:pehkui.mixins.json:compat116plus.MobEntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.AgeableMob.m_8107_(AgeableMob.java:128) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,re:classloading}
+	at net.minecraft.world.entity.animal.Animal.m_8107_(Animal.java:54) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,re:classloading,pl:mixin:APP:pehkui.mixins.json:compat116plus.AnimalEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1201minus.EntityVehicleHeightOffsetMixin,pl:mixin:A}
+	at net.minecraft.world.entity.animal.Wolf.m_8107_(Wolf.java:175) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:classloading}
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2298) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:pehkui.mixins.json:LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat117plus.LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1194plus.LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat1204minus.LivingEntityMixin,pl:mixin:APP:caelus.mixins.json:MixinLivingEntity,pl:mixin:APP:entityjs.mixins.json:LivingEntityMixin,pl:mixin:APP:curios.mixins.json:MixinLivingEntity,pl:mixin:APP:kubejs-common.mixins.json:LivingEntityMixin,pl:mixin:APP:pehkui.mixins.json:compat115plus.LivingEntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:pehkui.mixins.json:MobEntityMixin,pl:mixin:APP:entityjs.mixins.json:MobMixin,pl:mixin:APP:pehkui.mixins.json:compat116plus.MobEntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.animal.Wolf.m_8119_(Wolf.java:190) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:693) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:computing_frames,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,pl:mixin:APP:pehkui.mixins.json:compat117plus.ServerWorldMixin,pl:mixin:APP:kubejs-common.mixins.json:ServerLevelMixin,pl:mixin:A}
+	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs-common.mixins.json:LevelMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:computing_frames,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,pl:mixin:APP:pehkui.mixins.json:compat117plus.ServerWorldMixin,pl:mixin:APP:kubejs-common.mixins.json:ServerLevelMixin,pl:mixin:A}
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:computing_frames,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,pl:mixin:APP:pehkui.mixins.json:compat117plus.ServerWorldMixin,pl:mixin:APP:kubejs-common.mixins.json:ServerLevelMixin,pl:mixin:A}
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:wolf (net.minecraft.world.entity.animal.Wolf)
+	Entity ID: 1561
+	Entity Name: Wolf
+	Entity's Exact location: 118.54, 66.00, -120.56
+	Entity's Block location: World: (118,66,-121), Section: (at 6,2,7 in 7,4,-8; chunk contains blocks 112,-64,-128 to 127,319,-113), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+	Entity NBT: {AbsorptionAmount:0.0f,Age:0,Air:300s,AngerTime:0,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:4.0d,Name:"minecraft:generic.attack_damage"},{Base:16.0d,Modifiers:[{Amount:-0.058277819939245384d,Name:"Random spawn bonus",Operation:1,UUID:[I;-1873147655,-1799794895,-1399020944,1788431834]}],Name:"minecraft:generic.follow_range"},{Base:0.08d,Name:"forge:entity_gravity"},{Base:0.1d,Name:"caelus:fall_flying"},{Base:0.0d,Name:"forge:step_height_addition"},{Base:0.30000001192092896d,Name:"minecraft:generic.movement_speed"},{Base:8.0d,Name:"minecraft:generic.max_health"}],Brain:{memories:{}},CanPickUpLoot:0b,CanUpdate:1b,CollarColor:14b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:-1s,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]}},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:8.0f,HurtByTimestamp:0,HurtTime:0s,InLove:0,Invulnerable:0b,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:0b,PortalCooldown:0,Pos:[118.53591606215885d,66.0d,-120.56043404891543d],Rotation:[215.68335f,0.0f],Sitting:0b,UUID:[I;529450960,1891059541,-1986639796,1708780175],"forge:spawn_type":"CHUNK_GENERATION"}
+Stacktrace:
+	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs-common.mixins.json:LevelMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:computing_frames,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,pl:mixin:APP:pehkui.mixins.json:compat117plus.ServerWorldMixin,pl:mixin:APP:kubejs-common.mixins.json:ServerLevelMixin,pl:mixin:A}
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:computing_frames,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_serverlevel,pl:mixin:APP:pehkui.mixins.json:compat117plus.ServerWorldMixin,pl:mixin:APP:kubejs-common.mixins.json:ServerLevelMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at net.minecraft.client.server.IntegratedServer.m_5705_(IntegratedServer.java:89) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:833) ~[?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 0 total; []
+	Chunk stats: 2209
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (112,66,-128), Section: (at 0,2,0 in 7,4,-8; chunk contains blocks 112,-64,-128 to 127,319,-113), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)
+	Level time: 428834 game time, 1000 day time
+	Level name: New World
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+	Level weather: Rain time: 107103 (now: false), thunder time: 108745 (now: false)
+	Known server brands: forge
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at net.minecraft.client.server.IntegratedServer.m_5705_(IntegratedServer.java:89) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[client-1.20.1-20230612.114412-srg.jar%23214!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:833) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.8, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 1694482416 bytes (1615 MiB) / 3877634048 bytes (3698 MiB) up to 4194304000 bytes (4000 MiB)
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+	Identifier: Intel64 Family 6 Model 141 Stepping 1
+	Microarchitecture: unknown
+	Frequency (GHz): 2.69
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: Intel(R) UHD Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 2048.00
+	Graphics card #0 deviceId: 0x9a68
+	Graphics card #0 versionInfo: DriverVersion=32.0.101.6129
+	Graphics card #1 name: NVIDIA GeForce RTX 3050 Laptop GPU
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x25a2
+	Graphics card #1 versionInfo: DriverVersion=32.0.15.7602
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 32171.32
+	Virtual memory used (MB): 24184.54
+	Swap memory total (MB): 16085.66
+	Swap memory used (MB): 663.39
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx4000m -Xms256m
+	Loaded Shaderpack: (off)
+	Server Running: true
+	Player Count: 0 / 8; []
+	Data Packs: vanilla, mod:okzoomer (incompatible), mod:rhino (incompatible), mod:notenoughcrashes (incompatible), mod:mousetweaks, mod:lios_seafaring_dungeons (incompatible), mod:bettertags, mod:jade (incompatible), mod:jei, mod:pehkui (incompatible), mod:caelus (incompatible), mod:paxi, mod:curios (incompatible), mod:xaeroworldmap (incompatible), mod:yungsapi, mod:mixinextras (incompatible), mod:worldedit (incompatible), mod:lios_overhauled_villages (incompatible), mod:constructionwand, mod:architectury (incompatible), mod:kubejs (incompatible), mod:command_structures (incompatible), mod:jadeaddons (incompatible), mod:hugestructureblocks, mod:probejs (incompatible), mod:cloth_config (incompatible), mod:forge, mod:embeddium, mod:oculus, lov (incompatible), seafaring (incompatible), mod:geckolib, mod:entityjs (incompatible), mod:lightoverlay (incompatible), lios_outlandish_villages-1.18.2-1.21.4-v0.0.1 (incompatible)
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: forge-47.3.5
+	Client Crashes Since Restart: 0
+	Integrated Server Crashes Since Restart: 2
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.5.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.5.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.5.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.5.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.5.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		client-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		okzoomer-forge-1.20-3.0.1.jar                     |OkZoomer                      |okzoomer                      |3.0.1               |DONE      |Manifest: NOSIGNATURE
+		rhino-forge-2001.2.3-build.6.jar                  |Rhino                         |rhino                         |2001.2.3-build.6    |DONE      |Manifest: NOSIGNATURE
+		notenoughcrashes-4.4.7+1.20.1-forge.jar           |Not Enough Crashes            |notenoughcrashes              |4.4.7+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		MouseTweaks-forge-mc1.20.1-2.25.1.jar             |Mouse Tweaks                  |mousetweaks                   |2.25.1              |DONE      |Manifest: NOSIGNATURE
+		lios_seafaring_dungeons-1.18.2-1.21.4-v0.0.4.jar  |Lio's Seafaring Dungeons      |lios_seafaring_dungeons       |1.18.2-1.21.4-v0.0.4|DONE      |Manifest: NOSIGNATURE
+		BetterTags-1.20.1-1.1.jar                         |Better Tags                   |bettertags                    |1.20.1-1.1          |DONE      |Manifest: NOSIGNATURE
+		Jade-1.20.1-forge-11.11.1.jar                     |Jade                          |jade                          |11.11.1+forge       |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.20.1-4.7.jar                     |GeckoLib 4                    |geckolib                      |4.7                 |DONE      |Manifest: NOSIGNATURE
+		jei-1.20.1-forge-15.19.5.99.jar                   |Just Enough Items             |jei                           |15.19.5.99          |DONE      |Manifest: NOSIGNATURE
+		Pehkui-3.8.2+1.20.1-forge.jar                     |Pehkui                        |pehkui                        |3.8.2+1.20.1-forge  |DONE      |Manifest: NOSIGNATURE
+		caelus-forge-3.2.0+1.20.1.jar                     |Caelus API                    |caelus                        |3.2.0+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		Paxi-1.20-Forge-4.0.jar                           |Paxi                          |paxi                          |1.20-Forge-4.0      |DONE      |Manifest: NOSIGNATURE
+		entityjs-0.4.7-1.20.1.jar                         |EntityJS                      |entityjs                      |0.4.7-1.20.1        |DONE      |Manifest: NOSIGNATURE
+		curios-forge-5.10.0+1.20.1.jar                    |Curios API                    |curios                        |5.10.0+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		XaerosWorldMap_1.39.0_Forge_1.20.jar              |Xaero's World Map             |xaeroworldmap                 |1.39.0              |DONE      |Manifest: NOSIGNATURE
+		YungsApi-1.20-Forge-4.0.5.jar                     |YUNG's API                    |yungsapi                      |1.20-Forge-4.0.5    |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.3.6.jar                       |MixinExtras                   |mixinextras                   |0.3.6               |DONE      |Manifest: NOSIGNATURE
+		worldedit-mod-7.2.15.jar                          |WorldEdit                     |worldedit                     |7.2.15+6463-5ca4dff |DONE      |Manifest: NOSIGNATURE
+		lios_overhauled_villages-1.18.2-1.21.4-v0.0.6.jar |Lio's Overhauled Villages     |lios_overhauled_villages      |1.18.2-1.21.4-v0.0.6|DONE      |Manifest: NOSIGNATURE
+		constructionwand-1.20.1-2.11.jar                  |Construction Wand             |constructionwand              |1.20.1-2.11         |DONE      |Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |DONE      |Manifest: NOSIGNATURE
+		kubejs-forge-2001.6.5-build.16.jar                |KubeJS                        |kubejs                        |2001.6.5-build.16   |DONE      |Manifest: NOSIGNATURE
+		light-overlay-8.0.0-forge.jar                     |Light Overlay                 |lightoverlay                  |8.0.0               |DONE      |Manifest: NOSIGNATURE
+		command_structures_forge-4.1.0+1.20.1.jar         |Command Structure Mod         |command_structures            |4.1.0+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		JadeAddons-1.20.1-Forge-5.3.1.jar                 |Jade Addons                   |jadeaddons                    |5.3.1+forge         |DONE      |Manifest: NOSIGNATURE
+		huge-structure-blocks-1.0.9-forge.jar             |Huge Structure Blocks         |hugestructureblocks           |1.0.9               |DONE      |Manifest: NOSIGNATURE
+		probejs-6.0.1-forge.jar                           |ProbeJS                       |probejs                       |6.0.1               |DONE      |Manifest: NOSIGNATURE
+		cloth-config-11.1.136-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.136            |DONE      |Manifest: NOSIGNATURE
+		forge-1.20.1-47.3.5-universal.jar                 |Forge                         |forge                         |47.3.5              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		embeddium-0.3.31+mc1.20.1.jar                     |Embeddium                     |embeddium                     |0.3.31+mc1.20.1     |DONE      |Manifest: NOSIGNATURE
+		oculus-mc1.20.1-1.7.0.jar                         |Oculus                        |oculus                        |1.7.0               |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: ada93267-9af3-4da1-859c-13c1ddd86e39
+	FML: 47.3
+	Forge: net.minecraftforge:47.3.5
+	Suspected Mods: Rhino (rhino), Minecraft (minecraft), EntityJS (entityjs)

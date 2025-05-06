@@ -23,6 +23,7 @@ global.tick = e => {
     }
 }
 global.isImmobile = e => {
+    if (Client.player == null) return false
     if (e instanceof PathfinderMob && Client.player.offHandItem.id == "minecraft:totem_of_undying") {
         return true
     }

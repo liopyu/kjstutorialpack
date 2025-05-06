@@ -1,10 +1,10 @@
-[13:01:52] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[13:01:52] [INIT] Loaded plugins:
-[13:01:52] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[13:01:52] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[13:01:52] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[13:01:52] [INIT] - com.probejs.ProbeJSPlugin
-[13:01:52] [INFO] illusion_rendering_server (1).js#194: Loaded Java class 'net.minecraft.world.level.block.BonemealableBlock'
-[13:01:52] [INFO] illusion_rendering_server (1).js#195: Loaded Java class 'net.minecraftforge.event.ForgeEventFactory'
-[13:01:52] [INFO] Loaded script server_scripts:illusion_rendering_server (1).js in 0.004 s
-[13:01:52] [INFO] Loaded 1/1 KubeJS server scripts in 0.008 s with 0 errors and 0 warnings
+[10:21:12] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[10:21:12] [INIT] Loaded plugins:
+[10:21:12] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[10:21:12] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[10:21:12] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[10:21:12] [INIT] - com.probejs.ProbeJSPlugin
+[10:21:12] [INFO] illusion_rendering_server (1).js#169: Loaded Java class 'net.minecraft.world.level.block.BonemealableBlock'
+[10:21:12] [INFO] illusion_rendering_server (1).js#170: Loaded Java class 'net.minecraftforge.event.ForgeEventFactory'
+[10:21:12] [INFO] Loaded script server_scripts:illusion_rendering_server (1).js in 0.011 s
+[10:21:12] [INFO] Loaded 1/1 KubeJS server scripts in 0.022 s with 0 errors and 0 warnings

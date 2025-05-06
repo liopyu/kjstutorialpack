@@ -28,16 +28,10 @@ PlayerEvents.loggedIn(event => {
     server.runCommandSilent(`scale set pehkui:step_height 1.3 Liopyu`)
 })
 
-// Configurable chunk radius (adjust as needed)
-let chunkRadius = 9;
-
-// Array of block IDs to destroy
-let blocksToDestroy = ['minecraft:chest'];
 
 ItemEvents.rightClicked(event => {
     let { player, level, server } = event;
-    let chunkX = player.chunkPosition().x;
-    let chunkZ = player.chunkPosition().z;
+
 
     if (event.item.id == "minecraft:stick") {
         let villager = event.player.block.createEntity("minecraft:villager")
@@ -50,26 +44,7 @@ ItemEvents.rightClicked(event => {
             }
         })
     }
-    /* if (event.item.id != "minecraft:diamond_axe") return
-    for (let x = chunkX - chunkRadius; x <= chunkX + chunkRadius; x++) {
-        for (let z = chunkZ - chunkRadius; z <= chunkZ + chunkRadius; z++) {
-            let chunk = player.level.getChunk(x, z);
-            for (let blockEntityPos of chunk.blockEntitiesPos) {
-                let blockId = level.getBlock(blockEntityPos.x, blockEntityPos.y, blockEntityPos.z).id;
-                if (blocksToDestroy.indexOf(blockId) !== -1) {
-                    let blockEntity = level.getBlock(blockEntityPos)
-                    let nbtTag = `{CustomName:'{"text":"Chest"}'}`
-                    if (blockEntity.entityData.CustomName != undefined) {
-                        blockEntity.setEntityData(nbtTag)
-                        blockEntity.entity.updatePacket
-                    }
-                } else if (blockId == "minecraft:spawner") {
-                    let blockEntity = level.getBlock(blockEntityPos)
-                    console.log(blockEntity.entityData.SpawnPotentials, `tp ${blockEntity.pos.x} ${blockEntity.pos.y} ${blockEntity.pos.z}`)
-                }
-            }
-        }
-    } */
+
 });
 
 ItemEvents.entityInteracted("minecraft:wooden_axe", event => {
@@ -363,4 +338,43 @@ ItemEvents.rightClicked("firework_star", event => {
 
     let tag = `{BlockEntityTag:{Items:[${items.join(",")}],id:"minecraft:shulker_box"},display:{Lore:['"(+NBT)"']}}`
     event.player.give(Item.of('minecraft:brown_shulker_box', tag))
+})
+
+
+
+ItemEvents.rightClicked(event => {
+    let { player, level } = event
+    if (event.item.id !== "minecraft:diamond_axe") return
+
+    let chunkX = player.chunkPosition().x
+    let chunkZ = player.chunkPosition().z
+    let chunkRadius = 50
+    let blocksToRevise = ['minecraft:chest', "minecraft:barrel"]
+    let positions = []
+
+    for (let x = chunkX - chunkRadius; x <= chunkX + chunkRadius; x++) {
+        for (let z = chunkZ - chunkRadius; z <= chunkZ + chunkRadius; z++) {
+            let chunk = level.getChunk(x, z)
+            for (let pos of chunk.blockEntitiesPos) {
+                let blockId = level.getBlock(pos.x, pos.y, pos.z).id
+                if (blocksToRevise.includes(blockId)) {
+                    positions.push(pos)
+                }
+            }
+        }
+    }
+
+    let updated = 0
+    for (let pos of positions) {
+        let block = level.getBlock(pos)
+        let nbt = block.entityData
+        if (nbt && "LootTableSeed" in nbt) {
+            delete nbt.LootTableSeed
+            block.setEntityData(nbt)
+            let entity = block.entity
+            if (entity) entity.setChanged()
+            updated++
+        }
+    }
+    player.tell(`NBT reset for ${updated} chests`)
 })
