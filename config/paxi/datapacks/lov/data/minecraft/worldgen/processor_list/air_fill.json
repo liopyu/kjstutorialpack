@@ -1,8 +1,9 @@
 {
-    "processors": [
-        {
-            "processor_type": "minecraft:rule",
-            "rules": [
+	"processors": [
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				
                 {
                     "input_predicate": {
                         "block": "minecraft:air",
@@ -15,7 +16,7 @@
                         "Name": "minecraft:cave_air"
                     }
                 }
-            ]
-        }
-    ]
+			]
+		}
+	]
 }

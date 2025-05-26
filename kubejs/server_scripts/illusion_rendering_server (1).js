@@ -79,27 +79,36 @@ ItemEvents.rightClicked("minecraft:stick", event => {
 let litBlocks = [
     "minecraft:furnace",
     "minecraft:smoker",
-    "minecraft:blast_furnace"
+    "minecraft:blast_furnace",
+    "minecraft:campfire"
 ]
 BlockEvents.placed(event => {
     let { player, block, level, server } = event
     let item = player.offhandItem
-    if ((item.id != "minecraft:stick" || !litBlocks.includes(block.id))) return
-    server.scheduleInTicks(1, () => {
-        if (block.id == "minecraft:furnace") {
-            let facing = player.facing.opposite.toString().toLowerCase()
-            server.runCommandSilent(`execute as Liopyu at @s run setblock ${block.x.toFixed(0)} ${block.y.toFixed(0)} ${block.z.toFixed(0)} minecraft:furnace[facing=${facing},lit=true]`)
-        }
-        if (block.id == "minecraft:smoker") {
-            let facing = player.facing.opposite.toString().toLowerCase()
-            server.runCommandSilent(`execute as Liopyu at @s run setblock ${block.x.toFixed(0)} ${block.y.toFixed(0)} ${block.z.toFixed(0)} minecraft:smoker[facing=${facing},lit=true]`)
-        }
-        if (block.id == "minecraft:blast_furnace") {
-            let facing = player.facing.opposite.toString().toLowerCase()
-            server.runCommandSilent(`execute as Liopyu at @s run setblock ${block.x.toFixed(0)} ${block.y.toFixed(0)} ${block.z.toFixed(0)} minecraft:blast_furnace[facing=${facing},lit=true]`)
-        }
-    })
-    event.cancel()
+    if (player.headArmorItem.id != "minecraft:turtle_helmet") {
+        if (item.id != "minecraft:stick") return
+    }
+    if (litBlocks.includes(block.id)) {
+        server.scheduleInTicks(1, () => {
+            if (block.id == "minecraft:furnace") {
+                let facing = player.facing.opposite.toString().toLowerCase()
+                server.runCommandSilent(`execute as Liopyu at @s run setblock ${block.x.toFixed(0)} ${block.y.toFixed(0)} ${block.z.toFixed(0)} minecraft:furnace[facing=${facing},lit=true]`)
+            }
+            if (block.id == "minecraft:smoker") {
+                let facing = player.facing.opposite.toString().toLowerCase()
+                server.runCommandSilent(`execute as Liopyu at @s run setblock ${block.x.toFixed(0)} ${block.y.toFixed(0)} ${block.z.toFixed(0)} minecraft:smoker[facing=${facing},lit=true]`)
+            }
+            if (block.id == "minecraft:blast_furnace") {
+                let facing = player.facing.opposite.toString().toLowerCase()
+                server.runCommandSilent(`execute as Liopyu at @s run setblock ${block.x.toFixed(0)} ${block.y.toFixed(0)} ${block.z.toFixed(0)} minecraft:blast_furnace[facing=${facing},lit=true]`)
+            }
+            if (block.id == "minecraft:campfire") {
+                let facing = player.facing.opposite.toString().toLowerCase()
+                server.runCommandSilent(`execute as Liopyu at @s run setblock ${block.x.toFixed(0)} ${block.y.toFixed(0)} ${block.z.toFixed(0)} minecraft:campfire[facing=${facing},lit=false]`)
+            }
+        })
+        event.cancel()
+    }
 })
 /* ItemEvents.rightClicked("minecraft:diamond", event => {
     let { player, target, level, hand } = event
@@ -378,3 +387,4 @@ ItemEvents.rightClicked(event => {
     }
     player.tell(`NBT reset for ${updated} chests`)
 })
+

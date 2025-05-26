@@ -17,7 +17,7 @@ EntityJSEvents.modifyEntity(event => {
  * @param {Internal.PathfinderMob} e 
  */
 global.tick = e => {
-    if (e instanceof PathfinderMob) {
+    if (e instanceof PathfinderMob && Client.player.offHandItem.id != "minecraft:shulker_shell") {
         e.getNavigation().stop()
         //e.getNavigation().moveTo(e.getX(), e.getY(), e.getZ(), 0.0)
     }
