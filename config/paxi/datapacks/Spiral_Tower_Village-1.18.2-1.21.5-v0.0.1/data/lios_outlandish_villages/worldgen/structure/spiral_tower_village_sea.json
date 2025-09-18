@@ -6,7 +6,7 @@
   "spawn_overrides": {},
   "start_pool": "lios_outlandish_villages:spiral_tower_village/base/anchor",
   "start_jigsaw_name": "minecraft:anchor",
-  "size": 5,
+  "size": 3,
   "start_height": {
     "type": "minecraft:uniform",
     "min_inclusive": {
@@ -16,6 +16,6 @@
       "absolute": 44
     }
   },
-  "max_distance_from_center": 99,
+  "max_distance_from_center": 90,
   "use_expansion_hack": false
 }

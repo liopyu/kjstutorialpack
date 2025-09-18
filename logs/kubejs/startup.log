@@ -1,19 +1,13 @@
-[13:12:15] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[13:12:15] [INIT] Loaded plugins:
-[13:12:15] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[13:12:15] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[13:12:15] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[13:12:15] [INIT] - com.probejs.ProbeJSPlugin
-[13:12:16] [INFO] Loaded script startup_scripts:@libs/uniui.js in 0.129 s
-[13:12:17] [INFO] forge.js#1: Loaded Java class 'net.minecraft.world.entity.item.ItemEntity'
-[13:12:17] [INFO] forge.js#2: Loaded Java class 'net.minecraft.world.entity.PathfinderMob'
-[13:12:17] [INFO] forge.js#3: Loaded Java class 'net.minecraft.world.entity.npc.Villager'
-[13:12:17] [INFO] forge.js#4: Loaded Java class 'net.liopyu.entityjs.builders.modification.ModifyLivingEntityBuilder'
-[13:12:17] [INFO] Loaded script startup_scripts:forge.js in 0.132 s
-[13:12:17] [INFO] Loaded 2/2 KubeJS startup scripts in 1.267 s with 0 errors and 0 warnings
-[14:07:23] [ERROR] ! forge.js#20: [EntityJS]: Error in entity.minecraft.horsebuilder for field: tick.: TypeError: Cannot read property "offHandItem" from null
-[14:07:23] [ERROR] ! forge.js#20: [EntityJS]: Error in entity.minecraft.chickenbuilder for field: tick.: TypeError: Cannot read property "offHandItem" from null
-[14:07:23] [ERROR] ! forge.js#20: [EntityJS]: Error in entity.minecraft.cowbuilder for field: tick.: TypeError: Cannot read property "offHandItem" from null
-[14:07:23] [ERROR] ! forge.js#20: [EntityJS]: Error in entity.minecraft.sheepbuilder for field: tick.: TypeError: Cannot read property "offHandItem" from null
-[14:07:23] [ERROR] ! forge.js#20: [EntityJS]: Error in entity.minecraft.pigbuilder for field: tick.: TypeError: Cannot read property "offHandItem" from null
-[14:07:23] [ERROR] ! forge.js#20: [EntityJS]: Error in entity.minecraft.villagerbuilder for field: tick.: TypeError: Cannot read property "offHandItem" from null
+[11:46:42] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[11:46:42] [INIT] Loaded plugins:
+[11:46:42] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[11:46:42] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[11:46:42] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[11:46:42] [INIT] - com.probejs.ProbeJSPlugin
+[11:46:43] [INFO] Loaded script startup_scripts:@libs/uniui.js in 0.07 s
+[11:46:43] [INFO] forge.js#1: Loaded Java class 'net.minecraft.world.entity.item.ItemEntity'
+[11:46:43] [INFO] forge.js#2: Loaded Java class 'net.minecraft.world.entity.PathfinderMob'
+[11:46:43] [INFO] forge.js#3: Loaded Java class 'net.minecraft.world.entity.npc.Villager'
+[11:46:43] [INFO] forge.js#4: Loaded Java class 'net.liopyu.entityjs.builders.modification.ModifyLivingEntityBuilder'
+[11:46:43] [INFO] Loaded script startup_scripts:forge.js in 0.081 s
+[11:46:43] [INFO] Loaded 2/2 KubeJS startup scripts in 0.7 s with 0 errors and 0 warnings

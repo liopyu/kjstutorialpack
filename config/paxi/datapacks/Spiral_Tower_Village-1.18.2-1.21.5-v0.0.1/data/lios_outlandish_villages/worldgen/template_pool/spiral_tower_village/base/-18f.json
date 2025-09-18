@@ -57,7 +57,7 @@
       }
     },
     {
-      "weight": 70,
+      "weight": 5,
       "element": {
         "location": "lios_outlandish_villages:spiral_tower_village/bridge/b1",
         "processors": "lios_outlandish_villages:replace_water_with_sand",

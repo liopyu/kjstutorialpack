@@ -21,11 +21,15 @@
       "minecraft:lukewarm_ocean": "2025-05-26 12:13:08 -0400",
       "minecraft:stony_shore": "2025-05-26 12:13:00 -0400",
       "minecraft:snowy_plains": "2025-05-28 14:22:03 -0400",
+      "minecraft:snowy_taiga": "2025-05-31 10:11:26 -0400",
+      "minecraft:cold_ocean": "2025-05-31 10:11:30 -0400",
       "minecraft:forest": "2025-05-26 12:15:07 -0400",
+      "minecraft:deep_cold_ocean": "2025-05-31 10:08:47 -0400",
       "minecraft:frozen_ocean": "2025-05-28 14:22:49 -0400",
       "minecraft:desert": "2025-05-28 15:32:01 -0400",
       "minecraft:ocean": "2025-05-28 14:25:55 -0400",
       "minecraft:jungle": "2025-05-28 15:06:00 -0400",
+      "minecraft:snowy_beach": "2025-05-31 10:10:59 -0400",
       "minecraft:warm_ocean": "2025-05-28 15:32:19 -0400",
       "minecraft:deep_lukewarm_ocean": "2025-05-28 15:00:10 -0400",
       "minecraft:old_growth_birch_forest": "2025-05-28 14:46:07 -0400",
@@ -146,6 +150,12 @@
   "minecraft:recipes/decorations/shulker_box": {
     "criteria": {
       "has_shulker_shell": "2025-05-28 17:14:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2025-05-31 14:31:13 -0400"
     },
     "done": true
   },

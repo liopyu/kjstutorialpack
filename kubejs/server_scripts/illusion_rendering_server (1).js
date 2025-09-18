@@ -388,3 +388,53 @@ ItemEvents.rightClicked(event => {
     player.tell(`NBT reset for ${updated} chests`)
 })
 
+ItemEvents.rightClicked("dragon_egg", event => {
+    let { player, level } = event
+    let entities = level.getEntities()
+    let counts = {}
+    let total = 0
+
+    for (let i = 0; i < entities.size(); i++) {
+        let entity = entities.get(i)
+        let type = entity.type
+        counts[type] = (counts[type] || 0) + 1
+        total++
+    }
+
+    for (let type in counts) {
+        player.tell(`${type}: ${counts[type]}`)
+    }
+
+    player.tell(`Total entities: ${total}`)
+})
+BlockEvents.rightClicked("dirt", event => {
+    let { player, block } = event
+    if (player.mainHandItem.id != "minecraft:wooden_pickaxe") return
+    if (block.up.id != "minecraft:air") return
+    let radius = 20
+    let ok = false
+    for (let i = 1; i <= radius && !ok; i++) {
+        let b = block.offset(i, 0, 0)
+        if (b.id == "minecraft:dirt" && b.down.id == "minecraft:dirt") ok = true
+    }
+    for (let i = 1; i <= radius && !ok; i++) {
+        let b = block.offset(-i, 0, 0)
+        if (b.id == "minecraft:dirt" && b.down.id == "minecraft:dirt") ok = true
+    }
+    for (let i = 1; i <= radius && !ok; i++) {
+        let b = block.offset(0, 0, i)
+        if (b.id == "minecraft:dirt" && b.down.id == "minecraft:dirt") ok = true
+    }
+    for (let i = 1; i <= radius && !ok; i++) {
+        let b = block.offset(0, 0, -i)
+        if (b.id == "minecraft:dirt" && b.down.id == "minecraft:dirt") ok = true
+    }
+    if (!ok) return
+
+    for (let dx = -2; dx <= 2; dx++) {
+        for (let dz = -2; dz <= 2; dz++) {
+            let t = block.offset(dx, 0, dz)
+            if (t.id == "minecraft:air") t.set("minecraft:dirt")
+        }
+    }
+})

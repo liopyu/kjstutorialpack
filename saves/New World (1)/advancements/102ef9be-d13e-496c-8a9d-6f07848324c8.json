@@ -3398,5 +3398,71 @@
     },
     "done": true
   },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-05-31 06:27:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-05-31 06:27:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-05-31 09:34:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2025-05-31 09:38:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2025-06-03 09:49:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_exposed_copper": "2025-06-03 12:24:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_exposed_copper": "2025-06-03 12:24:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_exposed_cut_copper": {
+    "criteria": {
+      "has_waxed_exposed_copper": "2025-06-03 12:24:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_exposed_copper": "2025-06-03 12:24:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-06-03 12:48:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-06-03 12:48:53 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

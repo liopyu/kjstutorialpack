@@ -17,6 +17,7 @@ EntityJSEvents.modifyEntity(event => {
  * @param {Internal.PathfinderMob} e 
  */
 global.tick = e => {
+    e.persistentData.remove("HardMode")
     if (e instanceof PathfinderMob && Client.player.offHandItem.id != "minecraft:shulker_shell") {
         e.getNavigation().stop()
         //e.getNavigation().moveTo(e.getX(), e.getY(), e.getZ(), 0.0)
@@ -29,3 +30,4 @@ global.isImmobile = e => {
     }
     return (e instanceof Villager && Client.player.offHandItem.id != "minecraft:shulker_shell")
 }
+
