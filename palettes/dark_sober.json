@@ -1,0 +1,109 @@
+{
+  "Palette": {
+    "CLEAR": {
+      "Name": "minecraft:barrier"
+    },
+    "FLOOR": {
+      "Name": "minecraft:deepslate_tiles"
+    },
+    "HEAVY_POST": {
+      "Name": "minecraft:spruce_stairs",
+      "Properties": {
+        "facing": "north",
+        "half": "bottom",
+        "shape": "straight",
+        "waterlogged": "false"
+      }
+    },
+    "HEAVY_PRIMARY": {
+      "Name": "minecraft:stripped_spruce_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "HEAVY_SECONDARY": {
+      "Name": "minecraft:polished_andesite"
+    },
+    "HEAVY_WINDOW": {
+      "Name": "minecraft:light_gray_stained_glass_pane",
+      "Properties": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "false"
+      }
+    },
+    "INNER_DETAIL": {
+      "Name": "minecraft:smooth_basalt"
+    },
+    "INNER_PRIMARY": {
+      "Name": "minecraft:andesite"
+    },
+    "INNER_SECONDARY": {
+      "Name": "minecraft:deepslate_bricks"
+    },
+    "Name": "dark sober",
+    "OUTER_FLAT": {
+      "Name": "minecraft:oak_trapdoor",
+      "Properties": {
+        "facing": "south",
+        "half": "bottom",
+        "open": "true",
+        "powered": "false",
+        "waterlogged": "false"
+      }
+    },
+    "OUTER_SLAB": {
+      "Name": "minecraft:polished_deepslate_slab",
+      "Properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      }
+    },
+    "OUTER_THICK": {
+      "Name": "minecraft:deepslate_brick_wall",
+      "Properties": {
+        "east": "none",
+        "north": "none",
+        "south": "none",
+        "up": "true",
+        "waterlogged": "false",
+        "west": "none"
+      }
+    },
+    "OUTER_THIN": {
+      "Name": "minecraft:dark_oak_fence",
+      "Properties": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "false"
+      }
+    },
+    "ROOF_DETAIL": {
+      "Name": "minecraft:stone_bricks"
+    },
+    "ROOF_PRIMARY": {
+      "Name": "minecraft:spruce_planks"
+    },
+    "ROOF_SLAB": {
+      "Name": "minecraft:stone_brick_slab",
+      "Properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      }
+    },
+    "WINDOW": {
+      "Name": "minecraft:light_gray_stained_glass_pane",
+      "Properties": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "false"
+      }
+    }
+  }
+}

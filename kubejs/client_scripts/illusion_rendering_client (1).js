@@ -65,3 +65,9 @@ let blocksToDestroy = ['minecraft:chest'];
     }
 }); */
 
+PlayerEvents.tick(event => {
+    let { player } = event
+    if (!player.persistentData.getInt("pathRadius")) player.persistentData.putInt("pathRadius", 3)
+    player.sendData("pathRadius", { pr: player.persistentData.getInt("pathRadius") })
+})
+

@@ -23,30 +23,25 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getHand |  |  | InteractionHand | ✘ |
 | getTarget |  |  | Entity | ✘ |
 | getItem |  |  | ItemStack | ✘ |
-| getEntity |  |  | Player | ✘ |
+| getEntity |  |  | Entity | ✘ |
+| getHand |  |  | InteractionHand | ✘ |
 | getPlayer |  |  | Player | ✘ |
-| addGameStage | String |  | void | ✘ |
 | removeGameStage | String |  | void | ✘ |
+| addGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
 
 
 ### Documented members:
-
-- `InteractionHand getHand()`
-```
-The hand that was used to interact with the entity.
-```
 
 - `Entity getTarget()`
 ```
@@ -58,18 +53,14 @@ The entity that was interacted with.
 The item that was used to interact with the entity.
 ```
 
-- `Player getEntity()`
+- `Entity getEntity()`
 ```
 The player that interacted with the entity.
 ```
 
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `InteractionHand getHand()`
 ```
-Adds the specified game stage to the player
+The hand that was used to interact with the entity.
 ```
 
 - `void removeGameStage(String var0)`
@@ -79,6 +70,15 @@ Adds the specified game stage to the player
 
 ```
 Removes the specified game stage from the player
+```
+
+- `void addGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Adds the specified game stage to the player
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -108,13 +108,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `exit` denotes a `default` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -122,6 +115,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

@@ -438,3 +438,74 @@ BlockEvents.rightClicked("dirt", event => {
         }
     }
 })
+BlockEvents.rightClicked(event => {
+    let player = event.player
+    let block = event.block
+    let level = event.level
+    if (player.mainHandItem.id != "minecraft:wooden_shovel") return
+    if (event.hand != "MAIN_HAND") return
+
+    function k(x, y, z) { return x + "," + y + "," + z + "," + String(level.dimension) }
+    function load() { let s = player.persistentData.getString("shovelHistory"); if (!s) return []; try { return JSON.parse(s) } catch (e) { return [] } }
+    function save(h) { player.persistentData.putString("shovelHistory", JSON.stringify(h)) }
+
+    let history = load()
+    let clickKey = k(block.x, block.y, block.z)
+    let undoIndex = -1
+    for (let i = history.length - 1; i >= 0; i--) { if (history[i].keys && history[i].keys.indexOf(clickKey) != -1) { undoIndex = i; break } }
+    if (undoIndex != -1 && player.isShiftKeyDown()) {
+        let sec = history.splice(undoIndex, 1)[0]
+        for (let it of sec.changed) { let b = level.getBlock(it.x, it.y, it.z); if (b.id != it.prev) b.set(it.prev) }
+        save(history)
+        return event.cancel()
+    } else if (player.isShiftKeyDown()) return event.cancel()
+
+    let r = player.persistentData.getInt("pathRadius"); if (!r && r !== 0) r = 3
+    if (r < 0) r = 0
+    if (r > 10) r = 10
+    let chance = 0.6
+    let changed = []
+    let keys = []
+
+    for (let dx = -r; dx <= r; dx++) {
+        for (let dz = -r; dz <= r; dz++) {
+            if (dx * dx + dz * dz > r * r) continue
+            let x = block.x + dx, y = block.y, z = block.z + dz
+            let b = level.getBlock(x, y, z)
+            if (b.id == "minecraft:stone") { changed.push({ x: x, y: y, z: z, prev: "minecraft:stone" }); b.set("minecraft:smooth_stone"); keys.push(k(x, y, z)); continue }
+            if (b.id == "minecraft:grass_block" && Math.random() < chance) { changed.push({ x: x, y: y, z: z, prev: "minecraft:grass_block" }); b.set("minecraft:smooth_stone"); keys.push(k(x, y, z)) }
+        }
+    }
+
+    let R = r + 1
+    for (let dx = -R; dx <= R; dx++) {
+        for (let dz = -R; dz <= R; dz++) {
+            if (dx * dx + dz * dz > R * R) continue
+            let x = block.x + dx, y = block.y, z = block.z + dz
+            let b = level.getBlock(x, y, z)
+            if (b.id == "minecraft:smooth_stone") continue
+            if (b.id != "minecraft:grass_block") continue
+            let n1 = level.getBlock(x + 1, y, z).id == "minecraft:smooth_stone"
+            let n2 = level.getBlock(x - 1, y, z).id == "minecraft:smooth_stone"
+            let n3 = level.getBlock(x, y, z + 1).id == "minecraft:smooth_stone"
+            let n4 = level.getBlock(x, y, z - 1).id == "minecraft:smooth_stone"
+            if (n1 || n2 || n3 || n4) { changed.push({ x: x, y: y, z: z, prev: "minecraft:grass_block" }); b.set("minecraft:stone"); keys.push(k(x, y, z)) }
+        }
+    }
+
+    if (changed.length > 0) {
+        history.push({ keys: keys, changed: changed })
+        while (history.length > 10) history.shift()
+        save(history)
+    }
+    event.cancel()
+})
+
+
+NetworkEvents.dataReceived("pathRadius", event => {
+    let { data, player } = event
+    let pathRadius = data.pr
+    if (pathRadius) {
+        player.persistentData.putInt("pathRadius", pathRadius)
+    }
+})

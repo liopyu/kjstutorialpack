@@ -25,30 +25,25 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getHand |  |  | InteractionHand | ✘ |
 | getTarget |  |  | RayTraceResultJS | ✘ |
 | getItem |  |  | ItemStack | ✘ |
-| getEntity |  |  | Entity | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
+| getHand |  |  | InteractionHand | ✘ |
 | getPlayer |  |  | Player | ✘ |
-| addGameStage | String |  | void | ✘ |
 | removeGameStage | String |  | void | ✘ |
+| addGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
 
 
 ### Documented members:
-
-- `InteractionHand getHand()`
-```
-The hand that the item was clicked with.
-```
 
 - `RayTraceResultJS getTarget()`
 ```
@@ -60,18 +55,14 @@ The ray trace result of the click.
 The item that was clicked with.
 ```
 
-- `Entity getEntity()`
+- `LivingEntity getEntity()`
 ```
 The player that clicked with the item.
 ```
 
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `InteractionHand getHand()`
 ```
-Adds the specified game stage to the player
+The hand that the item was clicked with.
 ```
 
 - `void removeGameStage(String var0)`
@@ -81,6 +72,15 @@ Adds the specified game stage to the player
 
 ```
 Removes the specified game stage from the player
+```
+
+- `void addGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Adds the specified game stage to the player
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -110,13 +110,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `exit` denotes a `default` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -124,6 +117,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```
