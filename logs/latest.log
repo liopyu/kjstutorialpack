@@ -1,48 +1,1649 @@
-[00:00:18] [Render thread/INFO]: [System] [CHAT] Set the time to 5990
-[00:00:18] [Server thread/INFO]: [Liopyu: Set the time to 5990]
-[00:01:50] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
-[00:01:50] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
-[00:05:43] [Server thread/INFO]: [Liopyu: Gamerule doDaylightCycle is now set to: false]
-[00:05:43] [Render thread/INFO]: [System] [CHAT] Gamerule doDaylightCycle is now set to: false
-[00:05:46] [Server thread/INFO]: [Liopyu: Set the time to 1000]
-[00:05:46] [Render thread/INFO]: [System] [CHAT] Set the time to 1000
-[00:05:49] [Server thread/INFO]: [Liopyu: Set own game mode to Survival Mode]
-[00:05:49] [Render thread/INFO]: [System] [CHAT] Set own game mode to Survival Mode
-[00:05:50] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
-[00:05:50] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
-[00:05:51] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
-[00:05:51] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
-[00:05:52] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
-[00:05:52] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
-[00:07:45] [Server thread/INFO]: Saving and pausing game...
-[00:07:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
-[00:07:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
-[00:07:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
-[00:07:46] [Server thread/INFO]: Saving and pausing game...
-[00:07:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
-[00:07:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
-[00:07:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
-[00:07:46] [Render thread/INFO]: Finalizing world map session...
-[00:07:46] [Thread-7/INFO]: World map cleaned normally!
-[00:07:46] [Render thread/INFO]: World map session finalized.
-[00:07:46] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
-[00:07:46] [Render thread/INFO]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
-[00:07:46] [Render thread/INFO]: Stopping JEI
-[00:07:46] [Render thread/INFO]: Sending Runtime Unavailable...
-[00:07:46] [Render thread/INFO]: Stopping JEI GUI
-[00:07:46] [Render thread/INFO]: Sending Runtime Unavailable took 2.861 ms
-[00:07:46] [Server thread/INFO]: Liopyu lost connection: Disconnected
-[00:07:46] [Server thread/INFO]: Liopyu left the game
-[00:07:46] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[00:07:46] [Server thread/INFO]: Stopping server
-[00:07:46] [Server thread/INFO]: Saving players
-[00:07:46] [Server thread/INFO]: Saving worlds
-[00:07:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
-[00:07:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
-[00:07:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
-[00:07:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (Other structures): All chunks are saved
-[00:07:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:07:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:07:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:07:47] [Render thread/INFO]: Stopping worker threads
-[00:07:48] [Render thread/INFO]: Stopping!
+[10:32:10] [main/INFO]: ModLauncher running: args [--username, Liopyu, --version, forge-47.3.5, --gameDir, D:\minecraft\Instances\1.20kjstutorial, --assetsDir, D:\minecraft\Install\assets, --assetIndex, 5, --uuid, 102ef9bed13e496c8a9d6f07848324c8, --accessToken, ????????, --clientId, OTY5MDI5ZjUtZWI3MC00NTYxLThmMjQtNDM5YTQzMDI2YWNj, --xuid, 2535415536405880, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, D:\minecraft\Install\quickPlay\java\1758551528834.json, --launchTarget, forgeclient, --fml.forgeVersion, 47.3.5, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[10:32:10] [main/INFO]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Microsoft; OS Windows 11 arch amd64 version 10.0
+[10:32:12] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[10:32:12] [main/INFO]: Trying GL version 4.6
+[10:32:12] [main/INFO]: Requested GL version 4.6 got version 4.6
+[10:32:13] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/minecraft/Install/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23100!/ Service=ModLauncher Env=CLIENT
+[10:32:13] [pool-2-thread-1/INFO]: GL info: NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2 GL version 4.6.0 NVIDIA 576.02, NVIDIA Corporation
+[10:32:13] [main/INFO]: Found mod file architectury-9.2.14-forge.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file BetterTags-1.20.1-1.1.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file caelus-forge-3.2.0+1.20.1.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file cloth-config-11.1.136-forge.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file command_structures_forge-4.1.0+1.20.1.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file constructionwand-1.20.1-2.11.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file Corgilib-Forge-1.20.1-4.0.3.3.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file curios-forge-5.10.0+1.20.1.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file embeddium-0.3.31+mc1.20.1.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file entityjs-0.4.7-1.20.1.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file geckolib-forge-1.20.1-4.7.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file huge-structure-blocks-1.0.9-forge.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file Jade-1.20.1-forge-11.11.1.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file JadeAddons-1.20.1-Forge-5.3.1.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file jei-1.20.1-forge-15.20.0.112.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file kubejs-forge-2001.6.5-build.16.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file light-overlay-8.0.0-forge.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file lios_overhauled_villages-1.18.2-1.21.5-v0.0.7.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file mightyarchitect-0.9.0-FORGE.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file MouseTweaks-forge-mc1.20.1-2.25.1.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file notenoughcrashes-4.4.7+1.20.1-forge.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file oculus-mc1.20.1-1.7.0.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file okzoomer-forge-1.20-3.0.1.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file Paxi-1.20-Forge-4.0.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file Pehkui-3.8.2+1.20.1-forge.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file probejs-6.0.1-forge.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file reforgedplaymod-1.20.1-0.3.1.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file rhino-forge-2001.2.3-build.6.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file worldedit-mod-7.2.15.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file XaerosWorldMap_1.39.0_Forge_1.20.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/INFO]: Found mod file YungsApi-1.20-Forge-4.0.5.jar of type MOD with provider {mods folder locator at D:\minecraft\Instances\1.20kjstutorial\mods}
+[10:32:13] [main/WARN]: Mod file D:\minecraft\Install\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.5\fmlcore-1.20.1-47.3.5.jar is missing mods.toml file
+[10:32:14] [main/WARN]: Mod file D:\minecraft\Install\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.5\javafmllanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[10:32:14] [main/WARN]: Mod file D:\minecraft\Install\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.5\lowcodelanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[10:32:14] [main/WARN]: Mod file D:\minecraft\Install\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.5\mclanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[10:32:14] [main/INFO]: Found mod file fmlcore-1.20.1-47.3.5.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@398474a2
+[10:32:14] [main/INFO]: Found mod file javafmllanguage-1.20.1-47.3.5.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@398474a2
+[10:32:14] [main/INFO]: Found mod file lowcodelanguage-1.20.1-47.3.5.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@398474a2
+[10:32:14] [main/INFO]: Found mod file mclanguage-1.20.1-47.3.5.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@398474a2
+[10:32:14] [main/INFO]: Found mod file client-1.20.1-20230612.114412-srg.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@398474a2
+[10:32:14] [main/INFO]: Found mod file forge-1.20.1-47.3.5-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@398474a2
+[10:32:14] [main/INFO]: Found 19 dependencies adding them to mods collection
+[10:32:14] [main/INFO]: Found mod file opennbt-0a02214.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file MixinExtras-0.3.6.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file mixinextras-forge-0.3.6.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file aspectjrt-1.8.2.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file javaparser-symbol-solver-core-3.25.8.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file commons-exec-1.3.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file google-api-client-java6-1.20.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file 2.79.0-a0696f8.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file mclib-20.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file google-api-client-gson-1.20.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file google-oauth-client-jetty-1.20.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file google-api-services-youtube-v3-rev178-1.22.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file isoparser-1.1.7.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file Java-WebSocket-1.5.6.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file jgltf-model-3af6de4.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file vineflower-1.9.3.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file lwjgl-tinyexr-3.3.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file lwjgl-utils-27dcd66.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:14] [main/INFO]: Found mod file jcpp-1.4.14.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56078cea
+[10:32:16] [main/INFO]: Compatibility level set to JAVA_17
+[10:32:16] [main/ERROR]: Mixin config okzoomer.mixins.json does not specify "minVersion" property
+[10:32:16] [main/INFO]: Launching target 'forgeclient' with arguments [--version, forge-47.3.5, --gameDir, D:\minecraft\Instances\1.20kjstutorial, --assetsDir, D:\minecraft\Install\assets, --uuid, 102ef9bed13e496c8a9d6f07848324c8, --username, Liopyu, --assetIndex, 5, --accessToken, ????????, --clientId, OTY5MDI5ZjUtZWI3MC00NTYxLThmMjQtNDM5YTQzMDI2YWNj, --xuid, 2535415536405880, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, D:\minecraft\Install\quickPlay\java\1758551528834.json]
+[10:32:16] [main/INFO]: Loaded configuration file for Embeddium: 80 options available, 3 override(s) found
+[10:32:16] [main/INFO]: Searching for graphics cards...
+[10:32:16] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=INTEL, name=Intel(R) UHD Graphics, version=DriverVersion=32.0.101.6987]
+[10:32:16] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=NVIDIA GeForce RTX 3050 Laptop GPU, version=DriverVersion=32.0.15.7602]
+[10:32:16] [main/WARN]: Embeddium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
+[10:32:16] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[10:32:16] [main/WARN]: Reference map 'probejs-forge-refmap.json' for probejs.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:32:18] [main/WARN]: Error loading class: net/optifine/render/ChunkVisibility (java.lang.ClassNotFoundException: net.optifine.render.ChunkVisibility)
+[10:32:18] [main/WARN]: Error loading class: shadersmod/client/ShadersRender (java.lang.ClassNotFoundException: shadersmod.client.ShadersRender)
+[10:32:18] [main/WARN]: Error loading class: net/optifine/shaders/ShadersRender (java.lang.ClassNotFoundException: net.optifine.shaders.ShadersRender)
+[10:32:18] [main/WARN]: Error loading class: net/coderbot/iris/pipeline/HandRenderer (java.lang.ClassNotFoundException: net.coderbot.iris.pipeline.HandRenderer)
+[10:32:18] [main/WARN]: Error loading class: mezz/modnametooltip/TooltipEventHandler (java.lang.ClassNotFoundException: mezz.modnametooltip.TooltipEventHandler)
+[10:32:18] [main/WARN]: Error loading class: me/shedaniel/rei/impl/client/ClientHelperImpl (java.lang.ClassNotFoundException: me.shedaniel.rei.impl.client.ClientHelperImpl)
+[10:32:18] [main/WARN]: Error loading class: com/simibubi/create/content/equipment/armor/BacktankBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.equipment.armor.BacktankBlockEntity)
+[10:32:18] [main/WARN]: @Mixin target com.simibubi.create.content.equipment.armor.BacktankBlockEntity was not found jadeaddons.mixins.json:create.BacktankBlockEntityAccess
+[10:32:18] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[10:32:18] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[10:32:18] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[10:32:18] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [oculus]) disables it and children
+[10:32:18] [main/WARN]: Force-disabling mixin 'features.render.gui.font.FontSetMixin' as rule 'mixin.features.render.gui.font' (added by mods [oculus]) disables it and children
+[10:32:18] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[10:32:18] [main/WARN]: Force-disabling mixin 'features.render.entity.remove_streams.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[10:32:18] [main/WARN]: Force-disabling mixin 'features.render.entity.remove_streams.HierarchicalModelMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[10:32:18] [main/WARN]: Force-disabling mixin 'features.render.entity.fast_render.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[10:32:18] [main/WARN]: Force-disabling mixin 'features.render.entity.fast_render.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[10:32:18] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[10:32:18] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[10:32:24] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 159 milliseconds
+[10:32:26] [Render thread/WARN]: Assets URL 'union:/D:/minecraft/Install/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23218!/assets/.mcassetsroot' uses unexpected schema
+[10:32:26] [Render thread/WARN]: Assets URL 'union:/D:/minecraft/Install/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23218!/data/.mcassetsroot' uses unexpected schema
+[10:32:26] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:32:26] [Render thread/INFO]: Setting user: Liopyu
+[10:32:26] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 build 7
+[10:32:26] [Render thread/INFO]: Loaded client.properties
+[10:32:26] [Render thread/WARN]: Applying workaround: Prevent the NVIDIA OpenGL driver from using broken optimizations (NVIDIA_THREADED_OPTIMIZATIONS)
+[10:32:26] [Render thread/ERROR]: Mod mixin into Embeddium internals detected. This instance is now tainted. The Embeddium team does not provide any guarantee of support for issues encountered while such mods are installed.
+[10:32:26] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gui.SodiumGameOptions, which may cause instability.
+[10:32:26] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
+[10:32:26] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2
+[10:32:26] [Render thread/INFO]: OpenGL Version: 4.6.0 NVIDIA 576.02
+[10:32:26] [Render thread/WARN]: Enabling secondary workaround for NVIDIA threaded optimizations
+[10:32:27] [Render thread/INFO]: Debug functionality is disabled.
+[10:32:27] [Render thread/INFO]: OpenGL 4.5 detected, enabling DSA.
+[10:32:27] [Render thread/INFO]: Shaders are disabled because enableShaders is set to false in iris.properties
+[10:32:27] [Render thread/INFO]: Shaders are disabled
+[10:32:27] [modloading-worker-0/INFO]: Forge mod loading, version 47.3.5, for MC 1.20.1 with MCP 20230612.114412
+[10:32:27] [modloading-worker-0/INFO]: MinecraftForge v47.3.5 Initialized
+[10:32:27] [modloading-worker-0/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI, which may cause instability.
+[10:32:27] [modloading-worker-0/INFO]: Loading EntityJS-Liopyu
+[10:32:27] [modloading-worker-0/INFO]: Loaded common.properties
+[10:32:27] [modloading-worker-0/INFO]: Loaded dev.properties
+[10:32:27] [modloading-worker-0/INFO]: Looking for KubeJS plugins...
+[10:32:27] [modloading-worker-0/INFO]: Found plugin source kubejs
+[10:32:27] [modloading-worker-0/WARN]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[10:32:27] [modloading-worker-0/INFO]: Found plugin source entityjs
+[10:32:27] [modloading-worker-0/INFO]: Found plugin source probejs
+[10:32:27] [modloading-worker-0/INFO]: Done in 37.86 ms
+[10:32:28] [modloading-worker-0/INFO]: Sending ConfigManager...
+[10:32:28] [modloading-worker-0/INFO]: Sending ConfigManager took 2.756 ms
+[10:32:28] [modloading-worker-0/INFO]: Registering S2C receiver with id architectury:sync_ids
+[10:32:28] [modloading-worker-0/INFO]: Registering C2S receiver with id architectury:sync_ids
+[10:32:28] [modloading-worker-0/INFO]: Loading Rhino Minecraft remapper...
+[10:32:28] [modloading-worker-0/INFO]: Rhino properties loaded.
+[10:32:28] [modloading-worker-0/INFO]: Loading mappings for 1.20.1
+[10:32:28] [modloading-worker-0/INFO]: Done in 0.147 s
+[10:32:29] [modloading-worker-0/INFO]: Loaded script startup_scripts:@libs/uniui.js in 0.085 s
+[10:32:29] [modloading-worker-0/INFO]: forge.js#1: Loaded Java class 'net.minecraft.world.entity.item.ItemEntity'
+[10:32:29] [modloading-worker-0/INFO]: forge.js#2: Loaded Java class 'net.minecraft.world.entity.PathfinderMob'
+[10:32:29] [modloading-worker-0/INFO]: forge.js#3: Loaded Java class 'net.minecraft.world.entity.npc.Villager'
+[10:32:29] [modloading-worker-0/INFO]: forge.js#4: Loaded Java class 'net.liopyu.entityjs.builders.modification.ModifyLivingEntityBuilder'
+[10:32:29] [modloading-worker-0/INFO]: forge.js#34: Loaded Java class 'net.minecraftforge.client.event.InputEvent$MouseScrollingEvent'
+[10:32:29] [modloading-worker-0/INFO]: Loaded script startup_scripts:forge.js in 0.096 s
+[10:32:29] [modloading-worker-0/INFO]: Loaded 2/2 KubeJS startup scripts in 0.899 s with 0 errors and 0 warnings
+[10:32:29] [modloading-worker-0/INFO]: Loaded script client_scripts:example.js in 0.0 s
+[10:32:29] [modloading-worker-0/INFO]: Loaded script client_scripts:illusion_rendering_client (1).js in 0.003 s
+[10:32:29] [modloading-worker-0/INFO]: Loaded 2/2 KubeJS client scripts in 0.021 s with 0 errors and 0 warnings
+[10:32:30] [modloading-worker-0/INFO]: Registering C2S receiver with id kubejs:send_data_from_client
+[10:32:30] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:send_data_from_server
+[10:32:30] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:paint
+[10:32:30] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:add_stage
+[10:32:30] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:remove_stage
+[10:32:30] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:sync_stages
+[10:32:30] [modloading-worker-0/INFO]: Registering C2S receiver with id kubejs:first_click
+[10:32:30] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:toast
+[10:32:30] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:reload_startup_scripts
+[10:32:30] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:display_server_errors
+[10:32:30] [modloading-worker-0/INFO]: Registering S2C receiver with id kubejs:display_client_errors
+[10:32:30] [Render thread/INFO]: Hardware information:
+[10:32:30] [Render thread/INFO]: CPU: 12x 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+[10:32:30] [Render thread/INFO]: GPU: NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2 (Supports OpenGL 4.6.0 NVIDIA 576.02)
+[10:32:30] [Render thread/INFO]: OS: Windows 11 (10.0)
+[10:32:30] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.vertex.VertexFormatDescriptionImpl, which may cause instability.
+[10:32:30] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.vertex.buffer.SodiumBufferBuilder, which may cause instability.
+[10:32:31] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.SodiumWorldRenderer, which may cause instability.
+[10:32:31] [Render thread/INFO]: Reloading ResourceManager: vanilla, mod_resources, replaymod_lang, KubeJS Resource Pack [assets]
+[10:32:31] [Render thread/INFO]: Client resource reload complete!
+[10:32:31] [Worker-Main-5/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[10:32:31] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10:32:31] [Worker-Main-7/INFO]: Initializing network...
+[10:32:31] [Worker-Main-10/INFO]: ConstructionWand says hello - may the odds be ever in your favor.
+[10:32:32] [Worker-Main-7/INFO]: Initialized network!
+[10:32:32] [Worker-Main-3/INFO]: Registering C2S receiver with id mightyarchitect:simple_channel/548d6c5121a23eebb012138a1aac4b37
+[10:32:32] [Worker-Main-3/INFO]: Registering S2C receiver with id mightyarchitect:simple_channel/548d6c5121a23eebb012138a1aac4b37
+[10:32:32] [Worker-Main-7/INFO]: Huge Structure Blocks is now making your structure blocks even bigger!
+[10:32:32] [Worker-Main-7/INFO]: New structure size = 512
+[10:32:32] [Worker-Main-3/INFO]: Registering C2S receiver with id mightyarchitect:simple_channel/753ce815316235f7a29689e6fa881326
+[10:32:32] [Worker-Main-3/INFO]: Registering S2C receiver with id mightyarchitect:simple_channel/753ce815316235f7a29689e6fa881326
+[10:32:32] [Worker-Main-3/INFO]: Registering C2S receiver with id mightyarchitect:simple_channel/f98a4eeccaa6342e887fb1965fd71baf
+[10:32:32] [Worker-Main-3/INFO]: Registering S2C receiver with id mightyarchitect:simple_channel/f98a4eeccaa6342e887fb1965fd71baf
+[10:32:32] [Worker-Main-7/WARN]: Texture kubejs:item/sword_of_legend with size 43x43 limits mip level from 4 to 0
+[10:32:32] [Forge Version Check/INFO]: [forge] Found status: OUTDATED Current: 47.3.5 Target: 47.4.0
+[10:32:32] [Worker-Main-4/INFO]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2673cdbb]
+[10:32:32] [Worker-Main-4/INFO]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
+[10:32:33] [Worker-Main-8/INFO]: Loading Xaero's World Map - Stage 1/2
+[10:32:33] [Worker-Main-6/WARN]: Key mapping key.mightyclient.compose registered after event
+java.lang.RuntimeException: null
+	at dev.architectury.registry.client.keymappings.forge.KeyMappingRegistryImpl.register(KeyMappingRegistryImpl.java:47) ~[architectury-9.2.14-forge.jar%23187!/:?]
+	at dev.architectury.registry.client.keymappings.KeyMappingRegistry.register(KeyMappingRegistry.java) ~[architectury-9.2.14-forge.jar%23187!/:?]
+	at com.timmie.mightyarchitect.MightyClient.init(MightyClient.java:34) ~[mightyarchitect-0.9.0-FORGE.jar%23205!/:?]
+	at com.timmie.mightyarchitect.TheMightyArchitect.lambda$Init$0(TheMightyArchitect.java:36) ~[mightyarchitect-0.9.0-FORGE.jar%23205!/:?]
+	at dev.architectury.event.forge.EventHandlerImplClient$ModBasedEventHandler.event(EventHandlerImplClient.java:342) ~[architectury-9.2.14-forge.jar%23187!/:?]
+	at dev.architectury.event.forge.__ModBasedEventHandler_event_FMLClientSetupEvent.invoke(.dynamic) ~[architectury-9.2.14-forge.jar%23187!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2387!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2387!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2387!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:114) ~[javafmllanguage-1.20.1-47.3.5.jar%23220!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:125) ~[fmlcore-1.20.1-47.3.5.jar%23219!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[10:32:33] [Worker-Main-6/WARN]: Key mapping key.mightyclient.toolmenu registered after event
+java.lang.RuntimeException: null
+	at dev.architectury.registry.client.keymappings.forge.KeyMappingRegistryImpl.register(KeyMappingRegistryImpl.java:47) ~[architectury-9.2.14-forge.jar%23187!/:?]
+	at dev.architectury.registry.client.keymappings.KeyMappingRegistry.register(KeyMappingRegistry.java) ~[architectury-9.2.14-forge.jar%23187!/:?]
+	at com.timmie.mightyarchitect.MightyClient.init(MightyClient.java:35) ~[mightyarchitect-0.9.0-FORGE.jar%23205!/:?]
+	at com.timmie.mightyarchitect.TheMightyArchitect.lambda$Init$0(TheMightyArchitect.java:36) ~[mightyarchitect-0.9.0-FORGE.jar%23205!/:?]
+	at dev.architectury.event.forge.EventHandlerImplClient$ModBasedEventHandler.event(EventHandlerImplClient.java:342) ~[architectury-9.2.14-forge.jar%23187!/:?]
+	at dev.architectury.event.forge.__ModBasedEventHandler_event_FMLClientSetupEvent.invoke(.dynamic) ~[architectury-9.2.14-forge.jar%23187!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2387!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2387!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2387!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:114) ~[javafmllanguage-1.20.1-47.3.5.jar%23220!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:125) ~[fmlcore-1.20.1-47.3.5.jar%23219!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[10:32:33] [Worker-Main-8/ERROR]: io exception while checking patreon: Online mod data expired! Date: Sun Sep 21 04:23:57 EDT 2025
+[10:32:34] [Worker-Main-8/ERROR]: io exception while checking versions: Online mod data expired! Date: Sun Sep 21 04:23:57 EDT 2025
+[10:32:34] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[10:32:34] [Render thread/INFO]: New world map region cache hash code: 747283566
+[10:32:34] [Render thread/INFO]: Registered player tracker system: map_synced
+[10:32:34] [Render thread/INFO]: No Optifine!
+[10:32:34] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[10:32:34] [Render thread/INFO]: Xaero's World Map: Iris found!
+[10:32:34] [Worker-Main-2/INFO]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[10:32:34] [Worker-Main-2/INFO]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[10:32:34] [Worker-Main-2/INFO]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[10:32:34] [Worker-Main-2/INFO]: Start loading plugin at snownee.jade.addon.JadeAddonsBase
+[10:32:35] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[10:32:35] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[10:32:35] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (Realtek(R) Audio)
+[10:32:35] [Render thread/INFO]: Sound engine started
+[10:32:35] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[10:32:35] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[10:32:35] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[10:32:35] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[10:32:35] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[10:32:35] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[10:32:35] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[10:32:35] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[10:32:35] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10:32:36] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[10:32:36] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[10:32:36] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[10:32:36] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10:32:36] [Render thread/INFO]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[10:32:36] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[10:32:36] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[10:32:36] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gl.device.GLRenderDevice$ImmediateDrawCommandList, which may cause instability.
+[10:32:36] [Worker-Main-5/ERROR]: GET request failed. Response Code: 301
+[10:34:18] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
+[10:34:18] [Render thread/INFO]: illusion_rendering_server (1).js#178: Loaded Java class 'net.minecraft.world.level.block.BonemealableBlock'
+[10:34:18] [Render thread/INFO]: illusion_rendering_server (1).js#179: Loaded Java class 'net.minecraftforge.event.ForgeEventFactory'
+[10:34:18] [Render thread/INFO]: Loaded script server_scripts:illusion_rendering_server (1).js in 0.03 s
+[10:34:18] [Render thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.044 s with 0 errors and 0 warnings
+[10:34:18] [Render thread/INFO]: Scripts loaded
+[10:34:20] [Render thread/INFO]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[10:34:21] [Render thread/INFO]: Loaded 7 recipes
+[10:34:21] [Render thread/INFO]: Loaded 1277 advancements
+[10:34:21] [Render thread/INFO]: Loaded 10 curio slots
+[10:34:21] [Render thread/INFO]: Loaded 1 curio entities
+[10:34:21] [Server thread/INFO]: Starting integrated minecraft server version 1.20.1
+[10:34:21] [Server thread/INFO]: Generating keypair
+[10:34:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:34:22] [Server thread/INFO]: Server resource reload complete!
+[10:34:23] [Render thread/INFO]: Preparing spawn area: 0%
+[10:34:23] [Render thread/INFO]: Preparing spawn area: 0%
+[10:34:23] [Render thread/INFO]: Preparing spawn area: 0%
+[10:34:23] [Render thread/INFO]: Preparing spawn area: 0%
+[10:34:24] [Render thread/INFO]: Preparing spawn area: 29%
+[10:34:24] [Render thread/INFO]: Time elapsed: 2259 ms
+[10:34:24] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
+[10:34:25] [Server thread/INFO]: Changing view distance to 19, from 10
+[10:34:25] [Server thread/INFO]: Changing simulation distance to 15, from 0
+[10:34:25] [Netty Local Client IO #0/INFO]: Singleplayer Recording is disabled
+[10:34:25] [Netty Local Client IO #0/INFO]: Connected to a modded server.
+[10:34:26] [Server thread/INFO]: Liopyu[local:E:a3ce3cef] logged in with entity id 1 at (-162.21510698395392, -20.5, 887.31156264759)
+[10:34:26] [Server thread/INFO]: Liopyu joined the game
+[10:34:26] [Render thread/INFO]: New world map session initialized!
+[10:34:26] [Render thread/INFO]: Reloading pipeline on dimension change: NamespacedId{namespace='minecraft', name='overworld'} => NamespacedId{namespace='minecraft', name='overworld'}
+[10:34:26] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[10:34:26] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[10:34:26] [Server thread/INFO]: Syncing config to Liopyu (102ef9be-d13e-496c-8a9d-6f07848324c8)
+[10:34:26] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.RenderSectionManager, which may cause instability.
+[10:34:26] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.compile.tasks.ChunkBuilderMeshingTask, which may cause instability.
+[10:34:26] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.vertex.format.ChunkMeshFormats, which may cause instability.
+[10:34:26] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.vertex.format.ChunkMeshAttribute, which may cause instability.
+[10:34:26] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gl.attribute.GlVertexFormat$Builder, which may cause instability.
+[10:34:26] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gl.attribute.GlVertexAttributeFormat, which may cause instability.
+[10:34:26] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.DefaultChunkRenderer, which may cause instability.
+[10:34:26] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.ShaderChunkRenderer, which may cause instability.
+[10:34:26] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildBuffers, which may cause instability.
+[10:34:26] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.vertex.builder.ChunkMeshBufferBuilder, which may cause instability.
+[10:34:26] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.compile.buffers.BakedChunkModelBuilder, which may cause instability.
+[10:34:26] [Render thread/WARN]: Error loading class: net/fabricmc/fabric/api/blockview/v2/FabricBlockView (java.lang.ClassNotFoundException: net.fabricmc.fabric.api.blockview.v2.FabricBlockView)
+[10:34:26] [Render thread/WARN]: Error loading class: net/fabricmc/fabric/api/rendering/data/v1/RenderAttachedBlockView (java.lang.ClassNotFoundException: net.fabricmc.fabric.api.rendering.data.v1.RenderAttachedBlockView)
+[10:34:26] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.model.light.smooth.SmoothLightPipeline, which may cause instability.
+[10:34:26] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.model.light.flat.FlatLightPipeline, which may cause instability.
+[10:34:26] [Render thread/INFO]: Started 6 worker threads
+[10:34:26] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
+[10:34:26] [Render thread/INFO]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[10:34:26] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[10:34:26] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[10:34:26] [Render thread/INFO]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[10:34:26] [Render thread/INFO]: Starting JEI...
+[10:34:26] [Render thread/INFO]: Registering item subtypes...
+[10:34:26] [Render thread/INFO]: Registering item subtypes took 4.651 ms
+[10:34:26] [Render thread/INFO]: Registering fluid subtypes...
+[10:34:26] [Render thread/INFO]: Registering fluid subtypes took 2.008 ms
+[10:34:26] [Render thread/INFO]: Registering ingredients...
+[10:34:26] [Render thread/WARN]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. Operator Utilities
+[10:34:26] [Render thread/INFO]: Registering ingredients: jei:minecraft took 66.27 milliseconds
+[10:34:26] [Render thread/INFO]: Registering ingredients took 67.11 ms
+[10:34:26] [Render thread/INFO]: Registering extra ingredients...
+[10:34:26] [Render thread/INFO]: Registering extra ingredients took 379.7 ?s
+[10:34:26] [Render thread/INFO]: Registering search ingredient aliases...
+[10:34:26] [Render thread/INFO]: Registering search ingredient aliases took 572.7 ?s
+[10:34:26] [Render thread/INFO]: Registering categories...
+[10:34:26] [Render thread/INFO]: Registering categories: jei:minecraft took 16.15 milliseconds
+[10:34:26] [Render thread/INFO]: Registering categories took 17.75 ms
+[10:34:26] [Render thread/INFO]: Registering vanilla category extensions...
+[10:34:26] [Render thread/INFO]: Registering vanilla category extensions took 3.203 ms
+[10:34:26] [Render thread/INFO]: Registering recipe catalysts...
+[10:34:26] [Render thread/INFO]: Registering recipe catalysts took 975.2 ?s
+[10:34:26] [Render thread/INFO]: Building recipe registry...
+[10:34:26] [Render thread/INFO]: Building recipe registry took 20.98 ms
+[10:34:26] [Render thread/INFO]: Registering advanced plugins...
+[10:34:26] [Render thread/INFO]: Registering advanced plugins took 315.5 ?s
+[10:34:26] [Render thread/INFO]: Registering recipes...
+[10:34:27] [Render thread/INFO]: Registering recipes: jei:minecraft took 271.4 milliseconds
+[10:34:27] [Render thread/INFO]: Registering recipes took 276.7 ms
+[10:34:27] [Render thread/INFO]: Registering recipes transfer handlers...
+[10:34:27] [Render thread/INFO]: Registering recipes transfer handlers took 4.035 ms
+[10:34:27] [Render thread/INFO]: Building runtime...
+[10:34:27] [Render thread/INFO]: Registering gui handlers...
+[10:34:27] [Render thread/INFO]: Registering gui handlers took 10.42 ms
+[10:34:27] [Render thread/INFO]: Registering Runtime...
+[10:34:27] [Render thread/INFO]: Starting JEI GUI
+[10:34:27] [Render thread/INFO]: Building ingredient list...
+[10:34:27] [Render thread/INFO]: Building ingredient list took 34.14 ms
+[10:34:27] [Render thread/INFO]: Building ingredient filter...
+[10:34:27] [Render thread/INFO]: Adding 1566 ingredients
+[10:34:27] [Render thread/INFO]: Added 1566 ingredients
+[10:34:27] [Render thread/INFO]: Building ingredient filter took 354.1 ms
+[10:34:27] [Render thread/INFO]: Registering Runtime: jei:forge_gui took 491.6 milliseconds
+[10:34:27] [Render thread/INFO]: Registering Runtime took 492.4 ms
+[10:34:27] [Render thread/INFO]: Building runtime took 511.2 ms
+[10:34:27] [Render thread/INFO]: Sending Runtime...
+[10:34:27] [Render thread/INFO]: Sending Runtime took 311.3 ?s
+[10:34:27] [Render thread/INFO]: Starting JEI took 970.4 ms
+[10:34:27] [Render thread/INFO]: [System] [CHAT] ProbeJS Websocket Server started.
+[10:34:27] [Render thread/INFO]: This server acknowledges the mod and establishes no restrictions
+[10:34:27] [Render thread/INFO]: Received config from the server: 
+[10:34:27] [Render thread/INFO]: Loaded 463 advancements
+[10:34:28] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gl.shader.ShaderType, which may cause instability.
+[10:34:28] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.gl.shader.GlProgram, which may cause instability.
+[10:34:28] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.immediate.CloudRenderer, which may cause instability.
+[10:34:28] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.immediate.model.BakedModelEncoder, which may cause instability.
+[10:34:28] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.chunk.region.RenderRegion$DeviceResources, which may cause instability.
+[10:34:33] [Render thread/WARN]: Mod(s) [oculus] are modifying Embeddium class me.jellysquid.mods.sodium.client.render.vertex.serializers.VertexSerializerRegistryImpl, which may cause instability.
+[10:35:23] [Server thread/INFO]: Saving and pausing game...
+[10:35:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[10:35:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[10:35:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[10:35:43] [Server thread/INFO]: [Liopyu: Set own game mode to Survival Mode]
+[10:35:43] [Render thread/INFO]: [System] [CHAT] Set own game mode to Survival Mode
+[10:35:48] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[10:35:48] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[10:35:55] [Server thread/INFO]: [Liopyu: Set own game mode to Survival Mode]
+[10:35:55] [Render thread/INFO]: [System] [CHAT] Set own game mode to Survival Mode
+[10:36:17] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.tropical_fish.ambient
+[10:36:59] [Server thread/INFO]: [Liopyu: Set the time to 5990]
+[10:36:59] [Render thread/INFO]: [System] [CHAT] Set the time to 5990
+[10:37:03] [Server thread/INFO]: [Liopyu: Gamerule doDaylightCycle is now set to: true]
+[10:37:03] [Render thread/INFO]: [System] [CHAT] Gamerule doDaylightCycle is now set to: true
+[10:37:23] [Server thread/INFO]: Saving and pausing game...
+[10:37:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[10:37:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[10:37:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[10:47:57] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[10:47:57] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[10:49:22] [Server thread/INFO]: [Liopyu: Set the time to 5990]
+[10:49:22] [Render thread/INFO]: [System] [CHAT] Set the time to 5990
+[10:50:02] [Server thread/INFO]: [Liopyu: Set own game mode to Survival Mode]
+[10:50:02] [Render thread/INFO]: [System] [CHAT] Set own game mode to Survival Mode
+[10:50:13] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[10:50:13] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[10:50:16] [Server thread/INFO]: [Liopyu: Set own game mode to Survival Mode]
+[10:50:16] [Render thread/INFO]: [System] [CHAT] Set own game mode to Survival Mode
+[10:50:41] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[10:50:41] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[10:51:04] [Server thread/INFO]: [Liopyu: Set own game mode to Survival Mode]
+[10:51:04] [Render thread/INFO]: [System] [CHAT] Set own game mode to Survival Mode
+[10:51:21] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[10:51:21] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[10:53:50] [Render thread/INFO]: [System] [CHAT] First position set to (-94, -22, 950).
+[10:53:52] [Render thread/INFO]: [System] [CHAT] Second position set to (-114, -22, 942) (189).
+[10:54:41] [Render thread/INFO]: [System] [CHAT] Operation completed (189 blocks affected).
+[10:54:49] [Server thread/INFO]: [Liopyu: Set the time to 1000]
+[10:54:49] [Render thread/INFO]: [System] [CHAT] Set the time to 1000
+[10:54:56] [Server thread/INFO]: [Liopyu: Gamerule doDaylightCycle is now set to: false]
+[10:54:56] [Render thread/INFO]: [System] [CHAT] Gamerule doDaylightCycle is now set to: false
+[10:55:05] [Render thread/INFO]: [System] [CHAT] First position set to (-119, -22, 939) (24).
+[10:55:08] [Render thread/INFO]: [System] [CHAT] Second position set to (-108, -22, 936) (48).
+[10:55:10] [Render thread/INFO]: [System] [CHAT] Operation completed (48 blocks affected).
+[10:55:10] [Render thread/INFO]: [System] [CHAT] First position set to (-108, -22, 936) (1).
+[10:55:12] [Render thread/INFO]: [System] [CHAT] Second position set to (-113, -22, 933) (24).
+[10:55:13] [Render thread/INFO]: [System] [CHAT] Operation completed (24 blocks affected).
+[10:55:15] [Render thread/INFO]: [System] [CHAT] First position set to (-116, -22, 935) (12).
+[10:55:16] [Render thread/INFO]: [System] [CHAT] Second position set to (-116, -22, 936) (2).
+[10:55:17] [Render thread/INFO]: [System] [CHAT] Operation completed (2 blocks affected).
+[10:56:12] [Server thread/INFO]: Saving and pausing game...
+[10:56:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[10:56:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[10:56:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[11:01:43] [Render thread/INFO]: Audio device was lost!
+[11:01:43] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[11:01:43] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[11:01:43] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[11:01:43] [Render thread/INFO]: Sound engine started
+[11:01:43] [IO-Worker-27/INFO]: System default audio device has changed!
+[11:01:43] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[11:01:43] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[11:01:43] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[11:01:43] [Render thread/INFO]: Sound engine started
+[11:03:40] [IO-Worker-27/INFO]: System default audio device has changed!
+[11:03:40] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[11:03:40] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[11:03:41] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (Realtek(R) Audio)
+[11:03:41] [Render thread/INFO]: Sound engine started
+[11:16:18] [Server thread/INFO]: [Liopyu: Applied effect Glowing to 10 targets]
+[11:16:18] [Render thread/INFO]: [System] [CHAT] Applied effect Glowing to 10 targets
+[11:16:31] [Server thread/INFO]: Saving and pausing game...
+[11:16:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[11:16:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[11:16:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[11:19:05] [Render thread/INFO]: [System] [CHAT] Item in hand:
+[11:19:05] [Render thread/INFO]: [System] [CHAT] - Item.of('minecraft:paper', 64, '{HideFlags:1,Quest:{Id:"ss_pigstep"},display:{Lore:[\'["",{"text":"Recover a Pigstep music disc from a Bastion Remnant.","italic":false,"color":"green"}]\',\'""\',\'["",{"text":"Reward: 1 jukebox, 24 emerald","italic":false,"color":"green"}]\'],Name:\'["",{"text":"Request Rank: SS","italic":false,"color":"dark_red"}]\'}}').enchant('minecraft:unbreaking', 1)
+[11:19:05] [Render thread/INFO]: [System] [CHAT] - '@minecraft'
+[11:20:26] [Server thread/INFO]: Saving and pausing game...
+[11:20:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[11:20:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[11:20:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[11:20:35] [Render thread/INFO]: Audio device was lost!
+[11:20:35] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[11:20:35] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[11:20:35] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[11:20:35] [Render thread/INFO]: Sound engine started
+[11:20:35] [IO-Worker-50/INFO]: System default audio device has changed!
+[11:20:35] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[11:20:35] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[11:20:35] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[11:20:35] [Render thread/INFO]: Sound engine started
+[11:46:43] [IO-Worker-50/INFO]: System default audio device has changed!
+[11:46:43] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[11:46:43] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[11:46:43] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (Realtek(R) Audio)
+[11:46:43] [Render thread/INFO]: Sound engine started
+[11:58:51] [Server thread/INFO]: Saving and pausing game...
+[11:58:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[11:58:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[11:58:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:11:52] [Server thread/INFO]: Saving and pausing game...
+[12:11:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[12:11:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[12:11:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:12:47] [Server thread/INFO]: illusion_rendering_server (1).js#178: Loaded Java class 'net.minecraft.world.level.block.BonemealableBlock'
+[12:12:47] [Server thread/INFO]: illusion_rendering_server (1).js#179: Loaded Java class 'net.minecraftforge.event.ForgeEventFactory'
+[12:12:47] [Server thread/INFO]: Loaded script server_scripts:illusion_rendering_server (1).js in 0.017 s
+[12:12:47] [Server thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.041 s with 0 errors and 0 warnings
+[12:12:47] [Render thread/INFO]: [System] [CHAT] Done! To reload recipes, tags, loot tables and other datapack things, run '/reload'
+[12:12:53] [Server thread/INFO]: Saving and pausing game...
+[12:12:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[12:12:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[12:12:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:13:12] [Render thread/INFO]: [System] [CHAT] Item in hand:
+[12:13:12] [Render thread/INFO]: [System] [CHAT] - Item.of('minecraft:stone_hoe', '{Damage:0}')
+[12:13:12] [Render thread/INFO]: [System] [CHAT] - '#minecraft:tools'
+[12:13:12] [Render thread/INFO]: [System] [CHAT] - '#forge:tools'
+[12:13:12] [Render thread/INFO]: [System] [CHAT] - '#minecraft:breaks_decorated_pots'
+[12:13:12] [Render thread/INFO]: [System] [CHAT] - '#minecraft:hoes'
+[12:13:12] [Render thread/INFO]: [System] [CHAT] - '@minecraft'
+[12:14:36] [Server thread/INFO]: illusion_rendering_server (1).js#178: Loaded Java class 'net.minecraft.world.level.block.BonemealableBlock'
+[12:14:36] [Server thread/INFO]: illusion_rendering_server (1).js#179: Loaded Java class 'net.minecraftforge.event.ForgeEventFactory'
+[12:14:36] [Server thread/INFO]: Loaded script server_scripts:illusion_rendering_server (1).js in 0.008 s
+[12:14:36] [Server thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.012 s with 0 errors and 0 warnings
+[12:14:36] [Render thread/INFO]: [System] [CHAT] Done! To reload recipes, tags, loot tables and other datapack things, run '/reload'
+[12:14:38] [Server thread/INFO]: Loaded script client_scripts:example.js in 0.0 s
+[12:14:38] [Server thread/INFO]: Loaded script client_scripts:illusion_rendering_client (1).js in 0.003 s
+[12:14:38] [Server thread/INFO]: Loaded 2/2 KubeJS client scripts in 0.008 s with 0 errors and 0 warnings
+[12:14:38] [Render thread/INFO]: [System] [CHAT] Done! To reload textures, models and other assets, press F3 + T
+[12:14:53] [Server thread/INFO]: Saving and pausing game...
+[12:14:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[12:14:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[12:14:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:15:09] [Server thread/INFO]: Loaded script client_scripts:example.js in 0.0 s
+[12:15:09] [Server thread/INFO]: Loaded script client_scripts:illusion_rendering_client (1).js in 0.004 s
+[12:15:09] [Server thread/INFO]: Loaded 2/2 KubeJS client scripts in 0.007 s with 0 errors and 0 warnings
+[12:15:09] [Render thread/INFO]: [System] [CHAT] Done! To reload textures, models and other assets, press F3 + T
+[12:15:10] [Server thread/INFO]: illusion_rendering_server (1).js#178: Loaded Java class 'net.minecraft.world.level.block.BonemealableBlock'
+[12:15:10] [Server thread/INFO]: illusion_rendering_server (1).js#179: Loaded Java class 'net.minecraftforge.event.ForgeEventFactory'
+[12:15:10] [Server thread/INFO]: Loaded script server_scripts:illusion_rendering_server (1).js in 0.005 s
+[12:15:10] [Server thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.009 s with 0 errors and 0 warnings
+[12:15:10] [Render thread/INFO]: [System] [CHAT] Done! To reload recipes, tags, loot tables and other datapack things, run '/reload'
+[12:15:38] [Render thread/ERROR]: 1).js#80: Error in 'BlockEvents.leftClicked': ReferenceError: "Json" is not defined. (client_scripts:illusion_rendering_client
+[12:15:38] [Server thread/ERROR]: 1).js#523: Error in 'BlockEvents.leftClicked': ReferenceError: "Json" is not defined. (server_scripts:illusion_rendering_server
+[12:15:40] [Render thread/ERROR]: 1).js#80: Error in 'BlockEvents.leftClicked': ReferenceError: "Json" is not defined. (client_scripts:illusion_rendering_client
+[12:15:40] [Server thread/ERROR]: 1).js#523: Error in 'BlockEvents.leftClicked': ReferenceError: "Json" is not defined. (server_scripts:illusion_rendering_server
+[12:15:40] [Server thread/INFO]: Saving and pausing game...
+[12:15:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[12:15:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[12:15:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:16:10] [Server thread/INFO]: illusion_rendering_server (1).js#178: Loaded Java class 'net.minecraft.world.level.block.BonemealableBlock'
+[12:16:10] [Server thread/INFO]: illusion_rendering_server (1).js#179: Loaded Java class 'net.minecraftforge.event.ForgeEventFactory'
+[12:16:10] [Server thread/INFO]: Loaded script server_scripts:illusion_rendering_server (1).js in 0.005 s
+[12:16:10] [Server thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.008 s with 0 errors and 0 warnings
+[12:16:10] [Render thread/INFO]: [System] [CHAT] Done! To reload recipes, tags, loot tables and other datapack things, run '/reload'
+[12:16:11] [Server thread/INFO]: Loaded script client_scripts:example.js in 0.0 s
+[12:16:11] [Server thread/INFO]: Loaded script client_scripts:illusion_rendering_client (1).js in 0.001 s
+[12:16:11] [Server thread/INFO]: Loaded 2/2 KubeJS client scripts in 0.004 s with 0 errors and 0 warnings
+[12:16:11] [Render thread/INFO]: [System] [CHAT] Done! To reload textures, models and other assets, press F3 + T
+[12:16:12] [Render thread/ERROR]: 1).js#80: Error in 'BlockEvents.leftClicked': SyntaxError: Unexpected token in object literal (client_scripts:illusion_rendering_client
+[12:16:12] [Server thread/ERROR]: 1).js#523: Error in 'BlockEvents.leftClicked': SyntaxError: Unexpected token in object literal (server_scripts:illusion_rendering_server
+[12:16:13] [Server thread/INFO]: Saving and pausing game...
+[12:16:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[12:16:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[12:16:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:16:45] [Server thread/INFO]: Loaded script client_scripts:example.js in 0.0 s
+[12:16:45] [Server thread/INFO]: Loaded script client_scripts:illusion_rendering_client (1).js in 0.0 s
+[12:16:45] [Server thread/INFO]: Loaded 2/2 KubeJS client scripts in 0.003 s with 0 errors and 0 warnings
+[12:16:45] [Render thread/INFO]: [System] [CHAT] Done! To reload textures, models and other assets, press F3 + T
+[12:16:46] [Server thread/ERROR]: 1).js#523: Error in 'BlockEvents.leftClicked': SyntaxError: Unexpected token in object literal (server_scripts:illusion_rendering_server
+[12:16:47] [Server thread/INFO]: Saving and pausing game...
+[12:16:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[12:16:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[12:16:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:17:11] [Render thread/INFO]: [System] [CHAT] Item in hand:
+[12:17:11] [Render thread/INFO]: [System] [CHAT] - Item.of('minecraft:wooden_hoe', "{Damage:0,stored_entity:'{AbsorptionAmount:0.0f,Age:0,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:0.5d,Name:\"minecraft:generic.movement_speed\"},{Base:0.0d,Name:\"forge:step_height_addition\"},{Base:0.08d,Name:\"forge:entity_gravity\"},{Base:0.1d,Name:\"caelus:fall_flying\"}],Brain:{memories:{}},CanPickUpLoot:1b,CanUpdate:1b,CustomName:\\'{\"text\":\"Guild Client\"}\\',CustomNameVisible:1b,DeathTime:0s,FallDistance:0.0f,FallFlying:0b,Fire:-1s,FoodLevel:0b,ForcedAge:0,ForgeCaps:{\"curios:inventory\":{Curios:[]}},Gossips:[],HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:20.0f,HurtByTimestamp:0,HurtTime:0s,Inventory:[],Invulnerable:0b,LastGossipDecay:1952573L,LastRestock:0L,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:1b,PortalCooldown:0,Pos:[-126.26965884779136d,-16.0d,905.1085944467558d],RestocksToday:0,Rotation:[161.12814f,0.0f],Tags:[\"quest_giver\"],UUID:[I;-1942133254,1102398734,-1391825906,-1953524414],VillagerData:{level:1,profession:\"minecraft:nitwit\",type:\"minecraft:plains\"},Xp:0}'}")
+[12:17:11] [Render thread/INFO]: [System] [CHAT] - '#minecraft:tools'
+[12:17:11] [Render thread/INFO]: [System] [CHAT] - '#forge:tools'
+[12:17:11] [Render thread/INFO]: [System] [CHAT] - '#minecraft:breaks_decorated_pots'
+[12:17:11] [Render thread/INFO]: [System] [CHAT] - '#minecraft:hoes'
+[12:17:11] [Render thread/INFO]: [System] [CHAT] - '@minecraft'
+[12:20:22] [Server thread/INFO]: Loaded script client_scripts:example.js in 0.0 s
+[12:20:22] [Server thread/INFO]: Loaded script client_scripts:illusion_rendering_client (1).js in 0.0 s
+[12:20:22] [Server thread/INFO]: Loaded 2/2 KubeJS client scripts in 0.004 s with 0 errors and 0 warnings
+[12:20:22] [Render thread/INFO]: [System] [CHAT] Done! To reload textures, models and other assets, press F3 + T
+[12:20:24] [Server thread/INFO]: illusion_rendering_server (1).js#178: Loaded Java class 'net.minecraft.world.level.block.BonemealableBlock'
+[12:20:24] [Server thread/INFO]: illusion_rendering_server (1).js#179: Loaded Java class 'net.minecraftforge.event.ForgeEventFactory'
+[12:20:24] [Server thread/INFO]: Loaded script server_scripts:illusion_rendering_server (1).js in 0.006 s
+[12:20:24] [Server thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.01 s with 0 errors and 0 warnings
+[12:20:24] [Render thread/INFO]: [System] [CHAT] Done! To reload recipes, tags, loot tables and other datapack things, run '/reload'
+[12:20:28] [Server thread/WARN]: UUID of added entity already exists: Villager['Guild Client'/90, l='ServerLevel[Other structures]', x=-118.50, y=-21.00, z=903.50]
+[12:20:30] [Server thread/INFO]: Saving and pausing game...
+[12:20:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[12:20:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[12:20:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:21:18] [Server thread/INFO]: illusion_rendering_server (1).js#178: Loaded Java class 'net.minecraft.world.level.block.BonemealableBlock'
+[12:21:18] [Server thread/INFO]: illusion_rendering_server (1).js#179: Loaded Java class 'net.minecraftforge.event.ForgeEventFactory'
+[12:21:18] [Server thread/INFO]: Loaded script server_scripts:illusion_rendering_server (1).js in 0.005 s
+[12:21:18] [Server thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.012 s with 0 errors and 0 warnings
+[12:21:18] [Render thread/INFO]: [System] [CHAT] Done! To reload recipes, tags, loot tables and other datapack things, run '/reload'
+[12:21:24] [Server thread/INFO]: Saving and pausing game...
+[12:21:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[12:21:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[12:21:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:21:31] [Server thread/INFO]: Saving and pausing game...
+[12:21:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[12:21:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[12:21:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:23:20] [Server thread/INFO]: illusion_rendering_server (1).js#178: Loaded Java class 'net.minecraft.world.level.block.BonemealableBlock'
+[12:23:20] [Server thread/INFO]: illusion_rendering_server (1).js#179: Loaded Java class 'net.minecraftforge.event.ForgeEventFactory'
+[12:23:20] [Server thread/INFO]: Loaded script server_scripts:illusion_rendering_server (1).js in 0.003 s
+[12:23:20] [Server thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.006 s with 0 errors and 0 warnings
+[12:23:20] [Render thread/INFO]: [System] [CHAT] Done! To reload recipes, tags, loot tables and other datapack things, run '/reload'
+[12:23:32] [Server thread/INFO]: Saving and pausing game...
+[12:23:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[12:23:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[12:23:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:24:04] [Server thread/INFO]: illusion_rendering_server (1).js#178: Loaded Java class 'net.minecraft.world.level.block.BonemealableBlock'
+[12:24:04] [Server thread/INFO]: illusion_rendering_server (1).js#179: Loaded Java class 'net.minecraftforge.event.ForgeEventFactory'
+[12:24:04] [Server thread/INFO]: Loaded script server_scripts:illusion_rendering_server (1).js in 0.002 s
+[12:24:04] [Server thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.005 s with 0 errors and 0 warnings
+[12:24:04] [Render thread/INFO]: [System] [CHAT] Done! To reload recipes, tags, loot tables and other datapack things, run '/reload'
+[12:24:18] [Server thread/INFO]: Saving and pausing game...
+[12:24:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[12:24:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[12:24:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:24:27] [Server thread/INFO]: illusion_rendering_server (1).js#178: Loaded Java class 'net.minecraft.world.level.block.BonemealableBlock'
+[12:24:27] [Server thread/INFO]: illusion_rendering_server (1).js#179: Loaded Java class 'net.minecraftforge.event.ForgeEventFactory'
+[12:24:27] [Server thread/INFO]: Loaded script server_scripts:illusion_rendering_server (1).js in 0.003 s
+[12:24:27] [Server thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.005 s with 0 errors and 0 warnings
+[12:24:27] [Render thread/INFO]: [System] [CHAT] Done! To reload recipes, tags, loot tables and other datapack things, run '/reload'
+[12:25:00] [Server thread/INFO]: Saving and pausing game...
+[12:25:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[12:25:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[12:25:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:25:17] [Server thread/INFO]: illusion_rendering_server (1).js#178: Loaded Java class 'net.minecraft.world.level.block.BonemealableBlock'
+[12:25:17] [Server thread/INFO]: illusion_rendering_server (1).js#179: Loaded Java class 'net.minecraftforge.event.ForgeEventFactory'
+[12:25:17] [Server thread/INFO]: Loaded script server_scripts:illusion_rendering_server (1).js in 0.003 s
+[12:25:17] [Server thread/INFO]: Loaded 1/1 KubeJS server scripts in 0.005 s with 0 errors and 0 warnings
+[12:25:17] [Render thread/INFO]: [System] [CHAT] Done! To reload recipes, tags, loot tables and other datapack things, run '/reload'
+[12:26:18] [Server thread/INFO]: [Liopyu: Applied effect Glowing to 10 targets]
+[12:26:18] [Render thread/INFO]: [System] [CHAT] Applied effect Glowing to 10 targets
+[12:27:02] [Server thread/INFO]: Saving and pausing game...
+[12:27:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[12:27:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[12:27:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:27:06] [Server thread/INFO]: Saving and pausing game...
+[12:27:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[12:27:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[12:27:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:42:45] [Server thread/INFO]: Saving and pausing game...
+[12:42:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[12:42:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[12:42:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:42:49] [Render thread/INFO]: Audio device was lost!
+[12:42:49] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[12:42:49] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[12:42:49] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[12:42:49] [Render thread/INFO]: Sound engine started
+[12:42:52] [IO-Worker-88/INFO]: System default audio device has changed!
+[12:42:53] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[12:42:53] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[12:42:53] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[12:42:53] [Render thread/INFO]: Sound engine started
+[12:43:56] [IO-Worker-88/INFO]: System default audio device has changed!
+[12:43:56] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[12:43:56] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[12:43:56] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (Realtek(R) Audio)
+[12:43:56] [Render thread/INFO]: Sound engine started
+[12:48:11] [Render thread/INFO]: [System] [CHAT] First position set to (-75, -19, 978) (7224).
+[12:48:11] [Render thread/INFO]: [System] [CHAT] Second position set to (-75, -20, 974) (10).
+[12:48:16] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[12:48:18] [Render thread/INFO]: [System] [CHAT] First position set to (-75, -19, 964) (22).
+[12:48:18] [Render thread/INFO]: [System] [CHAT] Second position set to (-75, -21, 967) (12).
+[12:48:19] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[12:48:21] [Render thread/INFO]: [System] [CHAT] First position set to (-76, -19, 958) (60).
+[12:48:21] [Render thread/INFO]: [System] [CHAT] Second position set to (-76, -21, 962) (15).
+[12:48:22] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[12:48:24] [Render thread/INFO]: [System] [CHAT] Second position set to (-80, -21, 958) (15).
+[12:48:25] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[12:48:26] [Render thread/INFO]: [System] [CHAT] First position set to (-84, -19, 960) (45).
+[12:48:26] [Render thread/INFO]: [System] [CHAT] Second position set to (-82, -21, 960) (9).
+[12:48:27] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[12:48:29] [Render thread/INFO]: [System] [CHAT] Second position set to (-84, -21, 962) (9).
+[12:48:30] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[12:48:31] [Render thread/INFO]: [System] [CHAT] First position set to (-89, -20, 963) (24).
+[12:48:31] [Render thread/INFO]: [System] [CHAT] Second position set to (-85, -18, 963) (15).
+[12:48:32] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[12:48:33] [Render thread/INFO]: [System] [CHAT] First position set to (-90, -18, 965) (18).
+[12:48:34] [Render thread/INFO]: [System] [CHAT] Second position set to (-93, -21, 965) (16).
+[12:48:35] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[12:48:36] [Render thread/INFO]: [System] [CHAT] First position set to (-94, -21, 966) (4).
+[12:48:37] [Render thread/INFO]: [System] [CHAT] Second position set to (-94, -18, 969) (16).
+[12:48:37] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[12:48:58] [Render thread/INFO]: [System] [CHAT] First position set to (-77, -18, 979) (198).
+[12:48:59] [Render thread/INFO]: [System] [CHAT] Second position set to (-79, -21, 979) (12).
+[12:49:00] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[12:50:49] [Render thread/INFO]: [System] [CHAT] First position set to (-112, -22, 970) (680).
+[12:50:51] [Render thread/INFO]: [System] [CHAT] Second position set to (-110, -22, 980) (33).
+[12:50:59] [Render thread/INFO]: [System] [CHAT] Operation completed (33 blocks affected).
+[12:51:01] [Render thread/INFO]: [System] [CHAT] First position set to (-114, -22, 975) (30).
+[12:51:02] [Render thread/INFO]: [System] [CHAT] Second position set to (-112, -22, 978) (12).
+[12:51:02] [Render thread/INFO]: [System] [CHAT] Operation completed (12 blocks affected).
+[12:51:04] [Render thread/INFO]: [System] [CHAT] First position set to (-108, -22, 983) (30).
+[12:51:07] [Render thread/INFO]: [System] [CHAT] Second position set to (-109, -22, 975) (18).
+[12:51:07] [Render thread/INFO]: [System] [CHAT] Operation completed (18 blocks affected).
+[12:51:09] [Render thread/INFO]: [System] [CHAT] First position set to (-107, -22, 983) (27).
+[12:51:13] [Render thread/INFO]: [System] [CHAT] Second position set to (-83, -22, 975) (225).
+[12:51:14] [Render thread/INFO]: [System] [CHAT] Operation completed (225 blocks affected).
+[12:51:16] [Render thread/INFO]: [System] [CHAT] First position set to (-82, -22, 979) (10).
+[12:51:18] [Render thread/INFO]: [System] [CHAT] Second position set to (-77, -22, 964) (96).
+[12:51:19] [Render thread/INFO]: [System] [CHAT] Operation completed (96 blocks affected).
+[12:51:20] [Render thread/INFO]: [System] [CHAT] First position set to (-76, -22, 964) (2).
+[12:51:22] [Render thread/INFO]: [System] [CHAT] Second position set to (-76, -22, 978) (15).
+[12:51:23] [Render thread/INFO]: [System] [CHAT] Operation completed (15 blocks affected).
+[12:51:24] [Render thread/INFO]: [System] [CHAT] First position set to (-82, -22, 980) (21).
+[12:51:27] [Render thread/INFO]: [System] [CHAT] Second position set to (-100, -22, 984) (95).
+[12:51:28] [Render thread/INFO]: [System] [CHAT] Operation completed (95 blocks affected).
+[12:51:28] [Render thread/INFO]: [System] [CHAT] First position set to (-100, -22, 985) (2).
+[12:51:31] [Render thread/INFO]: [System] [CHAT] Second position set to (-83, -22, 985) (18).
+[12:51:31] [Render thread/INFO]: [System] [CHAT] Operation completed (18 blocks affected).
+[12:51:32] [Render thread/INFO]: [System] [CHAT] First position set to (-83, -22, 986) (2).
+[12:51:34] [Render thread/INFO]: [System] [CHAT] Second position set to (-95, -22, 988) (39).
+[12:51:35] [Render thread/INFO]: [System] [CHAT] Operation completed (39 blocks affected).
+[12:51:36] [Render thread/INFO]: [System] [CHAT] First position set to (-95, -22, 988) (1).
+[12:51:37] [Render thread/INFO]: [System] [CHAT] Second position set to (-88, -22, 990) (24).
+[12:51:38] [Render thread/INFO]: [System] [CHAT] Operation completed (24 blocks affected).
+[12:51:39] [Render thread/INFO]: [System] [CHAT] First position set to (-88, -22, 989) (2).
+[12:51:40] [Render thread/INFO]: [System] [CHAT] Second position set to (-83, -22, 989) (6).
+[12:51:41] [Render thread/INFO]: [System] [CHAT] Operation completed (6 blocks affected).
+[12:51:42] [Render thread/INFO]: [System] [CHAT] First position set to (-89, -22, 991) (21).
+[12:51:43] [Render thread/INFO]: [System] [CHAT] Second position set to (-95, -22, 991) (7).
+[12:51:44] [Render thread/INFO]: [System] [CHAT] Operation completed (7 blocks affected).
+[12:51:51] [Render thread/INFO]: [System] [CHAT] First position set to (-83, -22, 974) (234).
+[12:51:53] [Render thread/INFO]: [System] [CHAT] Second position set to (-100, -22, 973) (36).
+[12:51:54] [Render thread/INFO]: [System] [CHAT] Operation completed (36 blocks affected).
+[12:51:55] [Render thread/INFO]: [System] [CHAT] First position set to (-95, -22, 971) (18).
+[12:51:57] [Render thread/INFO]: [System] [CHAT] Second position set to (-82, -22, 972) (28).
+[12:51:57] [Render thread/INFO]: [System] [CHAT] Operation completed (28 blocks affected).
+[12:51:58] [Render thread/INFO]: [System] [CHAT] First position set to (-82, -22, 970) (3).
+[12:52:00] [Render thread/INFO]: [System] [CHAT] Second position set to (-93, -22, 966) (60).
+[12:52:01] [Render thread/INFO]: [System] [CHAT] Operation completed (60 blocks affected).
+[12:52:02] [Render thread/INFO]: [System] [CHAT] First position set to (-88, -22, 966) (6).
+[12:52:03] [Render thread/INFO]: [System] [CHAT] Second position set to (-82, -22, 964) (21).
+[12:52:04] [Render thread/INFO]: [System] [CHAT] Operation completed (21 blocks affected).
+[12:52:06] [Render thread/INFO]: [System] [CHAT] First position set to (-83, -22, 964) (2).
+[12:52:07] [Render thread/INFO]: [System] [CHAT] Second position set to (-77, -22, 962) (21).
+[12:52:08] [Render thread/INFO]: [System] [CHAT] Operation completed (21 blocks affected).
+[12:52:08] [Render thread/INFO]: [System] [CHAT] First position set to (-77, -22, 962) (1).
+[12:52:10] [Render thread/INFO]: [System] [CHAT] Second position set to (-80, -22, 959) (16).
+[12:52:10] [Render thread/INFO]: [System] [CHAT] Operation completed (16 blocks affected).
+[12:54:11] [Render thread/INFO]: [System] [CHAT] First position set to (-94, -18, 990) (2400).
+[12:54:12] [Render thread/INFO]: [System] [CHAT] First position set to (-94, -18, 991) (2475).
+[12:54:14] [Render thread/INFO]: [System] [CHAT] Second position set to (-94, -18, 971) (21).
+[12:54:17] [Render thread/INFO]: [System] [CHAT] Operation completed (21 blocks affected).
+[12:54:17] [Server thread/INFO]: Saving and pausing game...
+[12:54:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[12:54:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[12:54:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[12:55:28] [Render thread/INFO]: [System] [CHAT] First position set to (-94, -18, 966) (6).
+[12:55:29] [Render thread/INFO]: [System] [CHAT] Second position set to (-87, -18, 969) (32).
+[12:55:35] [Render thread/INFO]: [System] [CHAT] 23 blocks have been replaced.
+[12:55:36] [Render thread/INFO]: [System] [CHAT] First position set to (-88, -18, 970) (4).
+[12:55:47] [Render thread/INFO]: [System] [CHAT] 0 blocks have been replaced.
+[12:55:49] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[12:56:29] [Render thread/INFO]: [System] [CHAT] First position set to (-76, -18, 959) (132).
+[12:56:30] [Render thread/INFO]: [System] [CHAT] Second position set to (-81, -18, 963) (30).
+[12:56:32] [Render thread/INFO]: [System] [CHAT] 16 blocks have been replaced.
+[12:56:33] [Render thread/INFO]: [System] [CHAT] First position set to (-81, -18, 961) (3).
+[12:56:34] [Render thread/INFO]: [System] [CHAT] Second position set to (-84, -18, 962) (8).
+[12:56:35] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[12:56:39] [Render thread/INFO]: [System] [CHAT] First position set to (-89, -18, 964) (18).
+[12:56:41] [Render thread/INFO]: [System] [CHAT] Second position set to (-80, -18, 978) (150).
+[12:56:41] [Render thread/INFO]: [System] [CHAT] Second position set to (-80, -18, 979) (160).
+[12:56:42] [Render thread/INFO]: [System] [CHAT] 123 blocks have been replaced.
+[12:56:43] [Render thread/INFO]: [System] [CHAT] First position set to (-80, -18, 978) (2).
+[12:56:44] [Render thread/INFO]: [System] [CHAT] Second position set to (-76, -18, 963) (80).
+[12:56:46] [Render thread/INFO]: [System] [CHAT] 52 blocks have been replaced.
+[12:56:47] [Render thread/INFO]: [System] [CHAT] First position set to (-76, -18, 967) (5).
+[12:56:48] [Render thread/INFO]: [System] [CHAT] Second position set to (-74, -18, 973) (21).
+[12:56:49] [Render thread/INFO]: [System] [CHAT] 7 blocks have been replaced.
+[12:56:54] [Render thread/INFO]: [System] [CHAT] First position set to (-94, -18, 966) (168).
+[12:56:54] [Render thread/INFO]: [System] [CHAT] Second position set to (-89, -18, 971) (36).
+[12:56:55] [Render thread/INFO]: [System] [CHAT] 21 blocks have been replaced.
+[12:56:56] [Render thread/INFO]: [System] [CHAT] First position set to (-96, -18, 971) (8).
+[12:56:58] [Render thread/INFO]: [System] [CHAT] Second position set to (-87, -18, 990) (200).
+[12:56:59] [Render thread/INFO]: [System] [CHAT] 129 blocks have been replaced.
+[12:57:01] [Render thread/INFO]: [System] [CHAT] First position set to (-88, -18, 990) (2).
+[12:57:02] [Render thread/INFO]: [System] [CHAT] Second position set to (-95, -18, 992) (24).
+[12:57:03] [Render thread/INFO]: [System] [CHAT] 9 blocks have been replaced.
+[12:57:06] [Render thread/INFO]: [System] [CHAT] First position set to (-82, -18, 980) (182).
+[12:57:06] [Render thread/INFO]: [System] [CHAT] Second position set to (-87, -18, 985) (36).
+[12:57:07] [Render thread/INFO]: [System] [CHAT] 20 blocks have been replaced.
+[12:57:08] [Render thread/INFO]: [System] [CHAT] First position set to (-86, -18, 985) (2).
+[12:57:08] [Render thread/INFO]: [System] [CHAT] Second position set to (-82, -18, 989) (25).
+[12:57:09] [Render thread/INFO]: [System] [CHAT] 16 blocks have been replaced.
+[12:57:13] [Render thread/INFO]: [System] [CHAT] First position set to (-96, -18, 973) (255).
+[12:57:15] [Render thread/INFO]: [System] [CHAT] Second position set to (-101, -18, 985) (78).
+[12:57:16] [Render thread/INFO]: [System] [CHAT] 52 blocks have been replaced.
+[12:57:17] [Render thread/INFO]: [System] [CHAT] First position set to (-101, -18, 983) (3).
+[12:57:18] [Render thread/INFO]: [System] [CHAT] Second position set to (-109, -18, 975) (81).
+[12:57:19] [Render thread/INFO]: [System] [CHAT] 63 blocks have been replaced.
+[12:57:20] [Render thread/INFO]: [System] [CHAT] First position set to (-109, -18, 975) (1).
+[12:57:21] [Render thread/INFO]: [System] [CHAT] Second position set to (-113, -18, 980) (30).
+[12:57:22] [Render thread/INFO]: [System] [CHAT] 18 blocks have been replaced.
+[12:57:23] [Render thread/INFO]: [System] [CHAT] First position set to (-113, -18, 978) (3).
+[12:57:24] [Render thread/INFO]: [System] [CHAT] Second position set to (-115, -18, 975) (12).
+[12:57:25] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[13:10:29] [Render thread/INFO]: [System] [CHAT] First position set to (-84, -14, 965) (1760).
+[13:10:30] [Render thread/INFO]: [System] [CHAT] Second position set to (-79, -14, 970) (36).
+[13:10:32] [Render thread/INFO]: [System] [CHAT] 26 blocks have been replaced.
+[13:10:34] [Render thread/INFO]: [System] [CHAT] First position set to (-81, -14, 970) (3).
+[13:10:39] [Render thread/INFO]: [System] [CHAT] First position set to (-87, -14, 970) (9).
+[13:10:39] [Render thread/INFO]: [System] [CHAT] Second position set to (-80, -14, 972) (24).
+[13:10:40] [Render thread/INFO]: [System] [CHAT] Second position set to (-80, -14, 973) (32).
+[13:10:41] [Render thread/INFO]: [System] [CHAT] 19 blocks have been replaced.
+[13:10:42] [Render thread/INFO]: [System] [CHAT] First position set to (-81, -14, 973) (2).
+[13:10:43] [Render thread/INFO]: [System] [CHAT] Second position set to (-92, -14, 974) (24).
+[13:10:44] [Render thread/INFO]: [System] [CHAT] 14 blocks have been replaced.
+[13:10:47] [Render thread/INFO]: [System] [CHAT] First position set to (-96, -14, 974) (5).
+[13:10:49] [Render thread/INFO]: [System] [CHAT] Second position set to (-81, -14, 976) (48).
+[13:10:51] [Render thread/INFO]: [System] [CHAT] 31 blocks have been replaced.
+[13:10:52] [Render thread/INFO]: [System] [CHAT] First position set to (-81, -14, 979) (4).
+[13:10:55] [Render thread/INFO]: [System] [CHAT] Second position set to (-113, -14, 975) (165).
+[13:10:56] [Render thread/INFO]: [System] [CHAT] 115 blocks have been replaced.
+[13:10:57] [Render thread/INFO]: [System] [CHAT] First position set to (-109, -14, 975) (5).
+[13:10:58] [Render thread/INFO]: [System] [CHAT] Second position set to (-113, -14, 974) (10).
+[13:10:59] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[13:11:01] [Render thread/INFO]: [System] [CHAT] First position set to (-109, -14, 980) (35).
+[13:11:03] [Render thread/INFO]: [System] [CHAT] Second position set to (-82, -14, 980) (28).
+[13:11:04] [Render thread/INFO]: [System] [CHAT] 26 blocks have been replaced.
+[13:11:06] [Render thread/INFO]: [System] [CHAT] First position set to (-82, -14, 983) (4).
+[13:11:07] [Render thread/INFO]: [System] [CHAT] Second position set to (-104, -14, 981) (69).
+[13:11:08] [Render thread/INFO]: [System] [CHAT] 49 blocks have been replaced.
+[13:11:09] [Render thread/INFO]: [System] [CHAT] First position set to (-101, -14, 983) (12).
+[13:11:10] [Render thread/INFO]: [System] [CHAT] Second position set to (-96, -14, 984) (12).
+[13:11:11] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[13:11:12] [Render thread/INFO]: [System] [CHAT] First position set to (-91, -14, 984) (6).
+[13:11:13] [Render thread/INFO]: [System] [CHAT] Second position set to (-88, -14, 986) (12).
+[13:11:14] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:11:34] [Render thread/INFO]: [System] [CHAT] First position set to (-104, -14, 974) (221).
+[13:11:35] [Render thread/INFO]: [System] [CHAT] Second position set to (-107, -17, 974) (16).
+[13:11:53] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[13:11:55] [Render thread/INFO]: [System] [CHAT] First position set to (-109, -15, 973) (18).
+[13:11:56] [Render thread/INFO]: [System] [CHAT] Second position set to (-111, -17, 973) (9).
+[13:11:57] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[13:11:58] [Render thread/INFO]: [System] [CHAT] First position set to (-113, -16, 974) (12).
+[13:11:59] [Render thread/INFO]: [System] [CHAT] Second position set to (-113, -15, 979) (12).
+[13:12:00] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[13:12:01] [Render thread/INFO]: [System] [CHAT] First position set to (-109, -15, 979) (5).
+[13:12:02] [Render thread/INFO]: [System] [CHAT] Second position set to (-113, -16, 979) (10).
+[13:12:03] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:12:05] [Render thread/INFO]: [System] [CHAT] First position set to (-109, -16, 979) (5).
+[13:12:05] [Render thread/INFO]: [System] [CHAT] Second position set to (-109, -15, 979) (2).
+[13:12:06] [Render thread/INFO]: [System] [CHAT] 0 blocks have been replaced.
+[13:12:08] [Render thread/INFO]: [System] [CHAT] First position set to (-109, -15, 979) (1).
+[13:12:08] [Render thread/INFO]: [System] [CHAT] Second position set to (-109, -16, 981) (6).
+[13:12:09] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[13:12:10] [Render thread/INFO]: [System] [CHAT] First position set to (-109, -16, 981) (1).
+[13:12:10] [Render thread/INFO]: [System] [CHAT] Second position set to (-104, -15, 981) (12).
+[13:12:11] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[13:12:12] [Render thread/INFO]: [System] [CHAT] First position set to (-105, -15, 981) (2).
+[13:12:13] [Render thread/INFO]: [System] [CHAT] First position set to (-104, -15, 981) (1).
+[13:12:13] [Render thread/INFO]: [System] [CHAT] Second position set to (-104, -17, 982) (6).
+[13:12:14] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[13:12:15] [Render thread/INFO]: [System] [CHAT] First position set to (-101, -16, 983) (16).
+[13:12:16] [Render thread/INFO]: [System] [CHAT] Second position set to (-104, -15, 983) (8).
+[13:12:17] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[13:12:18] [Render thread/INFO]: [System] [CHAT] Second position set to (-101, -15, 985) (6).
+[13:12:19] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[13:12:20] [Render thread/INFO]: [System] [CHAT] First position set to (-96, -16, 985) (12).
+[13:12:22] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[13:12:24] [Render thread/INFO]: [System] [CHAT] First position set to (-96, -15, 983) (18).
+[13:12:24] [Render thread/INFO]: [System] [CHAT] Second position set to (-96, -16, 985) (6).
+[13:12:25] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[13:12:26] [Render thread/INFO]: [System] [CHAT] First position set to (-96, -16, 983) (3).
+[13:12:26] [Render thread/INFO]: [System] [CHAT] Second position set to (-91, -15, 983) (12).
+[13:12:27] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[13:12:28] [Render thread/INFO]: [System] [CHAT] First position set to (-91, -15, 983) (1).
+[13:12:29] [Render thread/INFO]: [System] [CHAT] Second position set to (-91, -16, 986) (8).
+[13:12:30] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[13:12:31] [Render thread/INFO]: [System] [CHAT] First position set to (-87, -16, 986) (5).
+[13:12:32] [Render thread/INFO]: [System] [CHAT] Second position set to (-91, -15, 986) (10).
+[13:12:32] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:12:34] [Render thread/INFO]: [System] [CHAT] First position set to (-87, -16, 983) (40).
+[13:12:34] [Render thread/INFO]: [System] [CHAT] Second position set to (-87, -15, 986) (8).
+[13:12:35] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[13:12:37] [Render thread/INFO]: [System] [CHAT] Second position set to (-82, -15, 983) (12).
+[13:12:38] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[13:12:39] [Render thread/INFO]: [System] [CHAT] First position set to (-82, -16, 980) (8).
+[13:12:40] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[13:12:42] [Render thread/INFO]: [System] [CHAT] First position set to (-81, -15, 979) (10).
+[13:12:43] [Render thread/INFO]: [System] [CHAT] Second position set to (-81, -16, 976) (8).
+[13:12:43] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[13:12:44] [Render thread/INFO]: [System] [CHAT] First position set to (-80, -15, 975) (8).
+[13:12:45] [Render thread/INFO]: [System] [CHAT] Second position set to (-80, -16, 971) (10).
+[13:12:46] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:12:47] [Render thread/INFO]: [System] [CHAT] First position set to (-79, -15, 970) (8).
+[13:12:47] [Render thread/INFO]: [System] [CHAT] Second position set to (-79, -17, 967) (12).
+[13:12:48] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:12:49] [Render thread/INFO]: [System] [CHAT] First position set to (-83, -17, 965) (15).
+[13:12:49] [Render thread/INFO]: [System] [CHAT] Second position set to (-80, -15, 965) (12).
+[13:12:50] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:12:53] [Render thread/INFO]: [System] [CHAT] First position set to (-85, -15, 966) (12).
+[13:12:54] [Render thread/INFO]: [System] [CHAT] Second position set to (-85, -17, 969) (12).
+[13:12:56] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:12:58] [Render thread/INFO]: [System] [CHAT] First position set to (-85, -15, 970) (6).
+[13:12:59] [Render thread/INFO]: [System] [CHAT] Second position set to (-86, -17, 970) (6).
+[13:12:59] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[13:13:01] [Render thread/INFO]: [System] [CHAT] First position set to (-87, -16, 972) (12).
+[13:13:01] [Render thread/INFO]: [System] [CHAT] Second position set to (-87, -15, 970) (6).
+[13:13:02] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[13:13:03] [Render thread/INFO]: [System] [CHAT] First position set to (-87, -15, 972) (3).
+[13:13:03] [Render thread/INFO]: [System] [CHAT] Second position set to (-90, -17, 972) (12).
+[13:13:04] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:13:05] [Render thread/INFO]: [System] [CHAT] First position set to (-91, -16, 974) (12).
+[13:13:06] [Render thread/INFO]: [System] [CHAT] Second position set to (-91, -15, 972) (6).
+[13:13:06] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[13:13:08] [Render thread/INFO]: [System] [CHAT] First position set to (-91, -15, 974) (3).
+[13:13:08] [Render thread/INFO]: [System] [CHAT] Second position set to (-94, -17, 974) (12).
+[13:13:08] [Render thread/INFO]: [System] [CHAT] Second position set to (-95, -17, 974) (15).
+[13:13:09] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[13:13:10] [Render thread/INFO]: [System] [CHAT] First position set to (-97, -15, 975) (18).
+[13:13:11] [Render thread/INFO]: [System] [CHAT] Second position set to (-102, -16, 975) (12).
+[13:13:11] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[13:13:25] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[13:13:25] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[13:13:28] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[13:13:28] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[13:13:47] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[13:13:47] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[13:13:51] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[13:13:51] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[13:13:55] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[13:13:55] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[13:13:56] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[13:13:56] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[13:19:41] [Render thread/INFO]: [System] [CHAT] First position set to (-75, -17, 979) (280).
+[13:19:42] [Render thread/INFO]: [System] [CHAT] Second position set to (-81, -17, 976) (28).
+[13:19:50] [Render thread/INFO]: [System] [CHAT] 23 blocks have been replaced.
+[13:19:52] [Render thread/INFO]: [System] [CHAT] First position set to (-79, -17, 976) (3).
+[13:19:54] [Render thread/INFO]: [System] [CHAT] Second position set to (-75, -17, 963) (70).
+[13:19:55] [Render thread/INFO]: [System] [CHAT] 59 blocks have been replaced.
+[13:19:59] [Render thread/INFO]: [System] [CHAT] First position set to (-76, -17, 964) (4).
+[13:20:00] [Render thread/INFO]: [System] [CHAT] Second position set to (-82, -17, 958) (49).
+[13:20:01] [Render thread/INFO]: [System] [CHAT] 39 blocks have been replaced.
+[13:20:02] [Render thread/INFO]: [System] [CHAT] First position set to (-85, -17, 960) (12).
+[13:20:03] [Render thread/INFO]: [System] [CHAT] Second position set to (-82, -17, 964) (20).
+[13:20:04] [Render thread/INFO]: [System] [CHAT] 12 blocks have been replaced.
+[13:20:06] [Render thread/INFO]: [System] [CHAT] First position set to (-85, -17, 963) (8).
+[13:20:08] [Render thread/INFO]: [System] [CHAT] Second position set to (-90, -18, 965) (36).
+[13:20:09] [Render thread/INFO]: [System] [CHAT] 16 blocks have been replaced.
+[13:20:11] [Render thread/INFO]: [System] [CHAT] First position set to (-95, -17, 965) (12).
+[13:20:12] [Render thread/INFO]: [System] [CHAT] Second position set to (-86, -17, 970) (60).
+[13:20:13] [Render thread/INFO]: [System] [CHAT] 48 blocks have been replaced.
+[13:20:14] [Render thread/INFO]: [System] [CHAT] First position set to (-88, -17, 972) (9).
+[13:20:15] [Render thread/INFO]: [System] [CHAT] Second position set to (-95, -17, 970) (24).
+[13:20:16] [Render thread/INFO]: [System] [CHAT] Second position set to (-97, -17, 970) (30).
+[13:20:17] [Render thread/INFO]: [System] [CHAT] 16 blocks have been replaced.
+[13:20:18] [Render thread/INFO]: [System] [CHAT] First position set to (-92, -17, 974) (30).
+[13:20:19] [Render thread/INFO]: [System] [CHAT] Second position set to (-102, -17, 972) (33).
+[13:20:20] [Render thread/INFO]: [System] [CHAT] 20 blocks have been replaced.
+[13:20:24] [Render thread/INFO]: [System] [CHAT] First position set to (-114, -17, 972) (13).
+[13:20:25] [Render thread/INFO]: [System] [CHAT] Second position set to (-108, -17, 970) (21).
+[13:20:25] [Render thread/INFO]: [System] [CHAT] 15 blocks have been replaced.
+[13:20:31] [Render thread/INFO]: [System] [CHAT] First position set to (-114, -17, 980) (77).
+[13:20:31] [Render thread/INFO]: [System] [CHAT] Second position set to (-115, -17, 973) (16).
+[13:20:32] [Render thread/INFO]: [System] [CHAT] 12 blocks have been replaced.
+[13:20:35] [Render thread/INFO]: [System] [CHAT] First position set to (-110, -17, 982) (60).
+[13:20:35] [Render thread/INFO]: [System] [CHAT] Second position set to (-114, -17, 980) (15).
+[13:20:36] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[13:20:38] [Render thread/INFO]: [System] [CHAT] First position set to (-105, -17, 985) (60).
+[13:20:39] [Render thread/INFO]: [System] [CHAT] Second position set to (-110, -17, 982) (24).
+[13:20:40] [Render thread/INFO]: [System] [CHAT] 15 blocks have been replaced.
+[13:20:48] [Render thread/INFO]: [System] [CHAT] First position set to (-102, -17, 986) (45).
+[13:20:49] [Render thread/INFO]: [System] [CHAT] Second position set to (-91, -17, 986) (12).
+[13:20:50] [Render thread/INFO]: [System] [CHAT] 10 blocks have been replaced.
+[13:20:51] [Render thread/INFO]: [System] [CHAT] First position set to (-91, -17, 984) (3).
+[13:20:52] [Render thread/INFO]: [System] [CHAT] Second position set to (-95, -17, 986) (15).
+[13:20:52] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[13:20:54] [Render thread/INFO]: [System] [CHAT] First position set to (-96, -17, 986) (2).
+[13:20:55] [Render thread/INFO]: [System] [CHAT] Second position set to (-91, -17, 993) (48).
+[13:20:56] [Render thread/INFO]: [System] [CHAT] 36 blocks have been replaced.
+[13:20:59] [Render thread/INFO]: [System] [CHAT] First position set to (-86, -17, 987) (42).
+[13:21:00] [Render thread/INFO]: [System] [CHAT] Second position set to (-91, -17, 991) (30).
+[13:21:02] [Render thread/INFO]: [System] [CHAT] 19 blocks have been replaced.
+[13:21:11] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[13:21:11] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[13:21:12] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[13:21:12] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[13:21:18] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[13:21:18] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[13:21:20] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[13:21:20] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[13:38:31] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[13:38:31] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[13:38:34] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[13:38:34] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[13:39:15] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[13:39:15] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[13:39:17] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[13:39:17] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[13:40:09] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[13:40:09] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[13:40:12] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[13:40:12] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[13:40:14] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[13:40:14] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[13:40:16] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[13:40:16] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[13:41:07] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[13:41:07] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[13:41:08] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[13:41:08] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[13:41:25] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[13:41:25] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[13:41:26] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[13:41:26] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[13:41:36] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[13:41:36] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[13:41:37] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[13:41:37] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[13:43:27] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[13:43:27] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[13:43:30] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[13:43:30] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[13:43:33] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[13:43:33] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[13:43:41] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[13:43:41] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[13:43:45] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[13:43:45] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[13:43:54] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[13:43:54] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[13:44:01] [Render thread/INFO]: [System] [CHAT] First position set to (-122, -22, 958) (6528).
+[13:44:08] [Render thread/INFO]: [System] [CHAT] Second position set to (-71, 0, 997) (47840).
+[13:44:29] [Render thread/INFO]: [System] [CHAT] 256 blocks have been replaced.
+[13:44:58] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[13:44:58] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[13:45:06] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[13:45:06] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[13:54:21] [Render thread/INFO]: [System] [CHAT] First position set to (-119, -20, 962) (37044).
+[13:54:22] [Render thread/INFO]: [System] [CHAT] Second position set to (-119, -19, 954) (18).
+[13:54:27] [Render thread/INFO]: [System] [CHAT] 14 blocks have been replaced.
+[13:54:30] [Render thread/INFO]: [System] [CHAT] First position set to (-128, -19, 961) (80).
+[13:54:31] [Render thread/INFO]: [System] [CHAT] Second position set to (-124, -20, 961) (10).
+[13:54:32] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:54:34] [Render thread/INFO]: [System] [CHAT] First position set to (-131, -19, 962) (32).
+[13:54:35] [Render thread/INFO]: [System] [CHAT] Second position set to (-129, -20, 962) (6).
+[13:54:35] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[13:54:39] [Render thread/INFO]: [System] [CHAT] First position set to (-137, -19, 965) (72).
+[13:54:40] [Render thread/INFO]: [System] [CHAT] Second position set to (-133, -21, 965) (15).
+[13:54:40] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[13:54:45] [Render thread/INFO]: [System] [CHAT] Second position set to (-142, -19, 968) (24).
+[13:54:45] [Render thread/INFO]: [System] [CHAT] First position set to (-142, -19, 968) (1).
+[13:54:46] [Render thread/INFO]: [System] [CHAT] Second position set to (-138, -21, 968) (15).
+[13:54:47] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:54:48] [Render thread/INFO]: [System] [CHAT] First position set to (-147, -19, 971) (120).
+[13:54:49] [Render thread/INFO]: [System] [CHAT] Second position set to (-144, -21, 971) (12).
+[13:54:49] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:54:51] [Render thread/INFO]: [System] [CHAT] First position set to (-148, -19, 972) (30).
+[13:54:52] [Render thread/INFO]: [System] [CHAT] Second position set to (-154, -21, 972) (21).
+[13:54:53] [Render thread/INFO]: [System] [CHAT] 12 blocks have been replaced.
+[13:54:55] [Render thread/INFO]: [System] [CHAT] First position set to (-156, -18, 969) (48).
+[13:54:56] [Render thread/INFO]: [System] [CHAT] First position set to (-156, -19, 967) (54).
+[13:54:56] [Render thread/INFO]: [System] [CHAT] Second position set to (-156, -21, 970) (12).
+[13:54:57] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:55:03] [Render thread/INFO]: [System] [CHAT] Second position set to (-150, -19, 964) (28).
+[13:55:04] [Render thread/INFO]: [System] [CHAT] First position set to (-153, -21, 964) (12).
+[13:55:05] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:55:06] [Render thread/INFO]: [System] [CHAT] First position set to (-147, -19, 962) (12).
+[13:55:06] [Render thread/INFO]: [System] [CHAT] Second position set to (-149, -21, 962) (9).
+[13:55:07] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[13:55:08] [Render thread/INFO]: [System] [CHAT] First position set to (-143, -19, 961) (42).
+[13:55:08] [Render thread/INFO]: [System] [CHAT] Second position set to (-145, -21, 961) (9).
+[13:55:09] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[13:55:15] [Render thread/INFO]: [System] [CHAT] First position set to (-129, -19, 955) (357).
+[13:55:15] [Render thread/INFO]: [System] [CHAT] Second position set to (-132, -21, 955) (12).
+[13:55:18] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:55:19] [Render thread/INFO]: [System] [CHAT] First position set to (-125, -19, 954) (48).
+[13:55:19] [Render thread/INFO]: [System] [CHAT] Second position set to (-127, -21, 954) (9).
+[13:55:20] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[13:55:22] [Render thread/INFO]: [System] [CHAT] Second position set to (-125, -21, 952) (9).
+[13:55:22] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[13:56:54] [Render thread/INFO]: [System] [CHAT] First position set to (-121, -18, 951) (40).
+[13:56:56] [Render thread/INFO]: [System] [CHAT] Second position set to (-125, -18, 954) (20).
+[13:57:02] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:57:04] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[13:57:10] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:57:12] [Render thread/INFO]: [System] [CHAT] First position set to (-119, -18, 961) (56).
+[13:57:13] [Render thread/INFO]: [System] [CHAT] Second position set to (-124, -18, 954) (48).
+[13:57:13] [Render thread/INFO]: [System] [CHAT] 28 blocks have been replaced.
+[13:57:15] [Render thread/INFO]: [System] [CHAT] First position set to (-124, -18, 960) (7).
+[13:57:16] [Render thread/INFO]: [System] [CHAT] Second position set to (-129, -18, 955) (36).
+[13:57:17] [Render thread/INFO]: [System] [CHAT] 24 blocks have been replaced.
+[13:57:18] [Render thread/INFO]: [System] [CHAT] First position set to (-134, -18, 956) (12).
+[13:57:19] [Render thread/INFO]: [System] [CHAT] Second position set to (-129, -18, 961) (36).
+[13:57:19] [Render thread/INFO]: [System] [CHAT] 24 blocks have been replaced.
+[13:57:21] [Render thread/INFO]: [System] [CHAT] First position set to (-133, -18, 965) (25).
+[13:57:21] [Render thread/INFO]: [System] [CHAT] Second position set to (-132, -18, 961) (10).
+[13:57:22] [Render thread/INFO]: [System] [CHAT] 3 blocks have been replaced.
+[13:57:23] [Render thread/INFO]: [System] [CHAT] First position set to (-137, -18, 959) (18).
+[13:57:24] [Render thread/INFO]: [System] [CHAT] Second position set to (-134, -18, 965) (28).
+[13:57:25] [Render thread/INFO]: [System] [CHAT] 17 blocks have been replaced.
+[13:57:26] [Render thread/INFO]: [System] [CHAT] First position set to (-137, -18, 962) (16).
+[13:57:27] [Render thread/INFO]: [System] [CHAT] Second position set to (-139, -18, 968) (21).
+[13:57:28] [Render thread/INFO]: [System] [CHAT] 13 blocks have been replaced.
+[13:57:33] [Render thread/INFO]: [System] [CHAT] First position set to (-142, -18, 963) (24).
+[13:57:34] [Render thread/INFO]: [System] [CHAT] Second position set to (-139, -18, 967) (20).
+[13:57:35] [Render thread/INFO]: [System] [CHAT] 10 blocks have been replaced.
+[13:57:36] [Render thread/INFO]: [System] [CHAT] First position set to (-147, -18, 968) (18).
+[13:57:38] [Render thread/INFO]: [System] [CHAT] Second position set to (-142, -18, 962) (42).
+[13:57:38] [Render thread/INFO]: [System] [CHAT] 28 blocks have been replaced.
+[13:57:40] [Render thread/INFO]: [System] [CHAT] First position set to (-146, -18, 971) (50).
+[13:57:40] [Render thread/INFO]: [System] [CHAT] Second position set to (-144, -18, 968) (12).
+[13:57:41] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:57:42] [Render thread/INFO]: [System] [CHAT] First position set to (-150, -18, 971) (28).
+[13:57:43] [Render thread/INFO]: [System] [CHAT] Second position set to (-147, -18, 963) (36).
+[13:57:44] [Render thread/INFO]: [System] [CHAT] 18 blocks have been replaced.
+[13:57:45] [Render thread/INFO]: [System] [CHAT] First position set to (-150, -18, 965) (12).
+[13:57:46] [Render thread/INFO]: [System] [CHAT] Second position set to (-153, -18, 967) (12).
+[13:57:47] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[13:57:48] [Render thread/INFO]: [System] [CHAT] First position set to (-155, -18, 967) (3).
+[13:57:48] [Render thread/INFO]: [System] [CHAT] Second position set to (-150, -18, 971) (30).
+[13:57:49] [Render thread/INFO]: [System] [CHAT] 20 blocks have been replaced.
+[13:58:00] [Render thread/INFO]: [System] [CHAT] First position set to (-120, -22, 962) (1550).
+[13:58:02] [Render thread/INFO]: [System] [CHAT] Second position set to (-123, -22, 955) (32).
+[13:58:18] [Render thread/INFO]: [System] [CHAT] Operation completed (32 blocks affected).
+[13:58:23] [Render thread/INFO]: [System] [CHAT] First position set to (-122, -22, 951) (10).
+[13:58:25] [Render thread/INFO]: [System] [CHAT] Second position set to (-124, -22, 960) (30).
+[13:58:26] [Render thread/INFO]: [System] [CHAT] Operation completed (30 blocks affected).
+[13:58:27] [Render thread/INFO]: [System] [CHAT] First position set to (-124, -22, 960) (1).
+[13:58:28] [Render thread/INFO]: [System] [CHAT] First position set to (-125, -22, 960) (2).
+[13:58:29] [Render thread/INFO]: [System] [CHAT] Second position set to (-128, -22, 955) (24).
+[13:58:30] [Render thread/INFO]: [System] [CHAT] Operation completed (24 blocks affected).
+[13:58:30] [Render thread/INFO]: [System] [CHAT] First position set to (-128, -22, 956) (2).
+[13:58:32] [Render thread/INFO]: [System] [CHAT] Second position set to (-133, -22, 960) (30).
+[13:58:33] [Render thread/INFO]: [System] [CHAT] Operation completed (30 blocks affected).
+[13:58:34] [Render thread/INFO]: [System] [CHAT] First position set to (-129, -22, 961) (10).
+[13:58:35] [Render thread/INFO]: [System] [CHAT] Second position set to (-136, -22, 959) (24).
+[13:58:35] [Render thread/INFO]: [System] [CHAT] Operation completed (24 blocks affected).
+[13:58:37] [Render thread/INFO]: [System] [CHAT] First position set to (-132, -22, 962) (20).
+[13:58:39] [Render thread/INFO]: [System] [CHAT] Second position set to (-134, -22, 962) (3).
+[13:58:40] [Render thread/INFO]: [System] [CHAT] Operation completed (3 blocks affected).
+[13:58:41] [Render thread/INFO]: [System] [CHAT] First position set to (-133, -22, 964) (6).
+[13:58:42] [Render thread/INFO]: [System] [CHAT] Second position set to (-137, -22, 960) (25).
+[13:58:42] [Render thread/INFO]: [System] [CHAT] Operation completed (25 blocks affected).
+[13:58:43] [Render thread/INFO]: [System] [CHAT] First position set to (-138, -22, 961) (4).
+[13:58:44] [Render thread/INFO]: [System] [CHAT] Second position set to (-138, -22, 965) (5).
+[13:58:45] [Render thread/INFO]: [System] [CHAT] Operation completed (5 blocks affected).
+[13:58:46] [Render thread/INFO]: [System] [CHAT] First position set to (-139, -22, 962) (8).
+[13:58:48] [Render thread/INFO]: [System] [CHAT] Second position set to (-139, -22, 967) (6).
+[13:58:48] [Render thread/INFO]: [System] [CHAT] Operation completed (6 blocks affected).
+[13:58:50] [Render thread/INFO]: [System] [CHAT] First position set to (-140, -22, 967) (2).
+[13:58:52] [Render thread/INFO]: [System] [CHAT] Second position set to (-149, -22, 963) (50).
+[13:58:53] [Render thread/INFO]: [System] [CHAT] Operation completed (50 blocks affected).
+[13:58:54] [Render thread/INFO]: [System] [CHAT] First position set to (-146, -22, 962) (8).
+[13:58:54] [Render thread/INFO]: [System] [CHAT] Second position set to (-143, -21, 961) (16).
+[13:58:54] [Render thread/INFO]: [System] [CHAT] Second position set to (-143, -22, 962) (4).
+[13:58:55] [Render thread/INFO]: [System] [CHAT] Operation completed (4 blocks affected).
+[13:58:57] [Render thread/INFO]: [System] [CHAT] First position set to (-143, -22, 968) (7).
+[13:58:58] [Render thread/INFO]: [System] [CHAT] Second position set to (-145, -22, 968) (3).
+[13:58:58] [Render thread/INFO]: [System] [CHAT] Operation completed (3 blocks affected).
+[13:58:59] [Render thread/INFO]: [System] [CHAT] First position set to (-144, -22, 970) (6).
+[13:59:01] [Render thread/INFO]: [System] [CHAT] Second position set to (-153, -22, 965) (60).
+[13:59:01] [Render thread/INFO]: [System] [CHAT] Operation completed (60 blocks affected).
+[13:59:03] [Render thread/INFO]: [System] [CHAT] First position set to (-155, -22, 968) (12).
+[13:59:04] [Render thread/INFO]: [System] [CHAT] Second position set to (-148, -22, 971) (32).
+[13:59:05] [Render thread/INFO]: [System] [CHAT] Operation completed (32 blocks affected).
+[14:24:06] [Render thread/INFO]: [System] [CHAT] First position set to (-125, -15, 955) (3264).
+[14:24:07] [Render thread/INFO]: [System] [CHAT] Second position set to (-125, -16, 952) (8).
+[14:24:13] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[14:24:15] [Render thread/INFO]: [System] [CHAT] Second position set to (-127, -17, 955) (9).
+[14:24:16] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[14:24:17] [Render thread/INFO]: [System] [CHAT] First position set to (-129, -15, 956) (18).
+[14:24:18] [Render thread/INFO]: [System] [CHAT] Second position set to (-131, -17, 956) (9).
+[14:24:18] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[14:24:20] [Render thread/INFO]: [System] [CHAT] First position set to (-136, -15, 958) (54).
+[14:24:21] [Render thread/INFO]: [System] [CHAT] Second position set to (-135, -17, 958) (6).
+[14:24:21] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[14:24:23] [Render thread/INFO]: [System] [CHAT] First position set to (-136, -15, 960) (18).
+[14:24:24] [Render thread/INFO]: [System] [CHAT] Second position set to (-136, -16, 960) (2).
+[14:24:25] [Render thread/INFO]: [System] [CHAT] First position set to (-136, -17, 959) (4).
+[14:24:26] [Render thread/INFO]: [System] [CHAT] Second position set to (-136, -15, 960) (6).
+[14:24:27] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[14:24:28] [Render thread/INFO]: [System] [CHAT] First position set to (-137, -14, 960) (4).
+[14:24:28] [Render thread/INFO]: [System] [CHAT] Second position set to (-137, -17, 960) (4).
+[14:24:29] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[14:24:31] [Render thread/INFO]: [System] [CHAT] First position set to (-141, -14, 962) (60).
+[14:24:31] [Render thread/INFO]: [System] [CHAT] Second position set to (-141, -17, 962) (4).
+[14:24:32] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[14:24:33] [Render thread/INFO]: [System] [CHAT] First position set to (-145, -14, 962) (20).
+[14:24:34] [Render thread/INFO]: [System] [CHAT] Second position set to (-143, -17, 962) (12).
+[14:24:34] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[14:24:36] [Render thread/INFO]: [System] [CHAT] First position set to (-150, -15, 963) (48).
+[14:24:36] [Render thread/INFO]: [System] [CHAT] Second position set to (-148, -17, 963) (9).
+[14:24:37] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[14:24:39] [Render thread/INFO]: [System] [CHAT] First position set to (-151, -15, 967) (60).
+[14:24:39] [Render thread/INFO]: [System] [CHAT] Second position set to (-151, -17, 965) (9).
+[14:24:40] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[14:24:41] [Render thread/INFO]: [System] [CHAT] Second position set to (-153, -17, 967) (9).
+[14:24:42] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[14:24:45] [Render thread/INFO]: [System] [CHAT] First position set to (-155, -15, 971) (45).
+[14:24:45] [Render thread/INFO]: [System] [CHAT] Second position set to (-155, -17, 969) (9).
+[14:24:46] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[14:24:47] [Render thread/INFO]: [System] [CHAT] First position set to (-151, -15, 971) (45).
+[14:24:48] [Render thread/INFO]: [System] [CHAT] Second position set to (-154, -17, 971) (12).
+[14:24:49] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[14:24:50] [Render thread/INFO]: [System] [CHAT] First position set to (-148, -15, 971) (21).
+[14:24:50] [Render thread/INFO]: [System] [CHAT] Second position set to (-150, -17, 971) (9).
+[14:24:51] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[14:24:52] [Render thread/INFO]: [System] [CHAT] First position set to (-144, -15, 970) (42).
+[14:24:52] [Render thread/INFO]: [System] [CHAT] Second position set to (-146, -17, 970) (9).
+[14:24:53] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[14:24:55] [Render thread/INFO]: [System] [CHAT] First position set to (-144, -15, 967) (36).
+[14:24:55] [Render thread/INFO]: [System] [CHAT] Second position set to (-144, -17, 969) (9).
+[14:24:56] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[14:24:57] [Render thread/INFO]: [System] [CHAT] First position set to (-144, -16, 968) (4).
+[14:24:58] [Render thread/INFO]: [System] [CHAT] First position set to (-144, -15, 967) (9).
+[14:24:58] [Render thread/INFO]: [System] [CHAT] Second position set to (-141, -17, 967) (12).
+[14:24:59] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[14:25:01] [Render thread/INFO]: [System] [CHAT] First position set to (-132, -15, 964) (120).
+[14:25:01] [Render thread/INFO]: [System] [CHAT] Second position set to (-136, -17, 964) (15).
+[14:25:02] [Render thread/INFO]: [System] [CHAT] 8 blocks have been replaced.
+[14:25:03] [Render thread/INFO]: [System] [CHAT] First position set to (-132, -15, 962) (45).
+[14:25:04] [Render thread/INFO]: [System] [CHAT] Second position set to (-132, -17, 963) (6).
+[14:25:05] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[14:25:06] [Render thread/INFO]: [System] [CHAT] First position set to (-129, -15, 961) (36).
+[14:25:06] [Render thread/INFO]: [System] [CHAT] Second position set to (-130, -17, 956) (36).
+[14:25:07] [Render thread/INFO]: [System] [CHAT] Second position set to (-131, -16, 961) (6).
+[14:25:07] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[14:25:09] [Render thread/INFO]: [System] [CHAT] First position set to (-128, -15, 960) (16).
+[14:25:09] [Render thread/INFO]: [System] [CHAT] Second position set to (-125, -17, 960) (12).
+[14:25:10] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[14:25:12] [Render thread/INFO]: [System] [CHAT] First position set to (-120, -15, 959) (36).
+[14:25:12] [Render thread/INFO]: [System] [CHAT] Second position set to (-122, -17, 959) (9).
+[14:25:13] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[14:25:14] [Render thread/INFO]: [System] [CHAT] First position set to (-120, -15, 955) (45).
+[14:25:14] [Render thread/INFO]: [System] [CHAT] Second position set to (-120, -17, 958) (12).
+[14:25:15] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[14:25:17] [Render thread/INFO]: [System] [CHAT] First position set to (-122, -15, 955) (36).
+[14:25:17] [Render thread/INFO]: [System] [CHAT] Second position set to (-121, -17, 955) (6).
+[14:25:18] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[14:25:19] [Render thread/INFO]: [System] [CHAT] Second position set to (-121, -18, 953) (24).
+[14:25:20] [Render thread/INFO]: [System] [CHAT] Second position set to (-122, -17, 953) (9).
+[14:25:21] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[14:25:22] [Render thread/INFO]: [System] [CHAT] First position set to (-125, -15, 952) (24).
+[14:25:22] [Render thread/INFO]: [System] [CHAT] Second position set to (-123, -17, 952) (9).
+[14:25:23] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[14:33:12] [Server thread/INFO]: Saving and pausing game...
+[14:33:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[14:33:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[14:33:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[14:35:09] [Render thread/INFO]: [System] [CHAT] First position set to (-155, -14, 971) (2640).
+[14:35:10] [Render thread/INFO]: [System] [CHAT] Second position set to (-151, -14, 967) (25).
+[14:35:20] [Render thread/INFO]: [System] [CHAT] 15 blocks have been replaced.
+[14:35:33] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[14:35:38] [Render thread/INFO]: [System] [CHAT] 10 blocks have been replaced.
+[14:35:40] [Render thread/INFO]: [System] [CHAT] First position set to (-151, -14, 970) (4).
+[14:35:41] [Render thread/INFO]: [System] [CHAT] Second position set to (-147, -14, 964) (35).
+[14:35:42] [Render thread/INFO]: [System] [CHAT] 21 blocks have been replaced.
+[14:35:45] [Render thread/INFO]: [System] [CHAT] First position set to (-144, -14, 963) (8).
+[14:35:46] [Render thread/INFO]: [System] [CHAT] Second position set to (-147, -14, 969) (28).
+[14:35:46] [Render thread/INFO]: [System] [CHAT] 14 blocks have been replaced.
+[14:35:48] [Render thread/INFO]: [System] [CHAT] First position set to (-144, -14, 967) (12).
+[14:35:48] [Render thread/INFO]: [System] [CHAT] Second position set to (-140, -14, 963) (25).
+[14:35:49] [Render thread/INFO]: [System] [CHAT] 12 blocks have been replaced.
+[14:35:52] [Render thread/INFO]: [System] [CHAT] First position set to (-137, -14, 960) (16).
+[14:35:52] [Render thread/INFO]: [System] [CHAT] Second position set to (-140, -14, 966) (28).
+[14:35:53] [Render thread/INFO]: [System] [CHAT] 13 blocks have been replaced.
+[14:35:55] [Render thread/INFO]: [System] [CHAT] First position set to (-132, -14, 958) (81).
+[14:35:56] [Render thread/INFO]: [System] [CHAT] Second position set to (-136, -14, 963) (30).
+[14:35:57] [Render thread/INFO]: [System] [CHAT] 13 blocks have been replaced.
+[14:35:59] [Render thread/INFO]: [System] [CHAT] First position set to (-128, -14, 957) (63).
+[14:35:59] [Render thread/INFO]: [System] [CHAT] Second position set to (-132, -14, 960) (20).
+[14:36:00] [Render thread/INFO]: [System] [CHAT] 12 blocks have been replaced.
+[14:36:02] [Render thread/INFO]: [System] [CHAT] First position set to (-128, -14, 959) (10).
+[14:36:02] [Render thread/INFO]: [System] [CHAT] Second position set to (-123, -14, 956) (24).
+[14:36:04] [Render thread/INFO]: [System] [CHAT] 16 blocks have been replaced.
+[14:36:05] [Render thread/INFO]: [System] [CHAT] First position set to (-120, -14, 956) (4).
+[14:36:05] [Render thread/INFO]: [System] [CHAT] Second position set to (-123, -14, 958) (12).
+[14:36:06] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[14:36:07] [Render thread/INFO]: [System] [CHAT] First position set to (-122, -14, 953) (12).
+[14:36:07] [Render thread/INFO]: [System] [CHAT] Second position set to (-125, -14, 955) (12).
+[14:36:08] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[14:36:14] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[14:36:14] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[14:36:15] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[14:36:15] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[14:36:23] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[14:36:23] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[14:36:27] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[14:36:27] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[14:37:33] [Server thread/INFO]: Saving and pausing game...
+[14:37:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[14:37:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[14:37:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[14:37:39] [Render thread/INFO]: Audio device was lost!
+[14:37:39] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[14:37:39] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[14:37:39] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[14:37:39] [Render thread/INFO]: Sound engine started
+[14:37:40] [IO-Worker-115/INFO]: System default audio device has changed!
+[14:37:40] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[14:37:40] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[14:37:40] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[14:37:40] [Render thread/INFO]: Sound engine started
+[14:39:29] [IO-Worker-115/INFO]: System default audio device has changed!
+[14:39:29] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[14:39:29] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[14:39:29] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (Realtek(R) Audio)
+[14:39:29] [Render thread/INFO]: Sound engine started
+[14:46:40] [Server thread/INFO]: Saving and pausing game...
+[14:46:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[14:46:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[14:46:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[14:46:52] [Render thread/INFO]: [System] [CHAT] First position set to (-160, -23, 976) (7920).
+[14:47:00] [Render thread/INFO]: [System] [CHAT] Second position set to (-117, -1, 946) (31372).
+[14:47:09] [Render thread/INFO]: [System] [CHAT] 149 blocks have been replaced.
+[14:48:42] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[14:48:42] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[14:49:52] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[14:49:52] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[14:49:59] [Render thread/INFO]: [System] [CHAT] First position set to (-502, -61, 855) (2166232).
+[14:50:11] [Render thread/INFO]: [System] [CHAT] Second position set to (-517, -42, 840) (5120).
+[14:50:17] [Render thread/INFO]: [System] [CHAT] 5120 blocks affected
+[14:50:17] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[14:50:17] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[14:50:21] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[14:50:21] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[14:50:29] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[14:50:29] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[14:50:45] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (-189, -21, 922)
+[14:50:45] [Render thread/INFO]: [System] [CHAT] 5120 blocks affected
+[14:50:45] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[14:50:45] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[15:05:42] [Server thread/INFO]: Saving and pausing game...
+[15:05:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[15:05:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[15:05:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[15:08:18] [Render thread/INFO]: [System] [CHAT] First position set to (-135, -19, 948) (1001928).
+[15:08:18] [Render thread/INFO]: [System] [CHAT] Second position set to (-135, -21, 950) (9).
+[15:08:28] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[15:08:31] [Render thread/INFO]: [System] [CHAT] First position set to (-130, -20, 945) (72).
+[15:08:32] [Render thread/INFO]: [System] [CHAT] Second position set to (-130, -19, 947) (6).
+[15:08:33] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[15:08:34] [Render thread/INFO]: [System] [CHAT] First position set to (-130, -19, 945) (3).
+[15:08:35] [Render thread/INFO]: [System] [CHAT] Second position set to (-126, -20, 945) (10).
+[15:08:36] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[15:08:38] [Render thread/INFO]: [System] [CHAT] First position set to (-128, -19, 941) (30).
+[15:08:39] [Render thread/INFO]: [System] [CHAT] Second position set to (-126, -20, 941) (6).
+[15:08:40] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[15:08:42] [Render thread/INFO]: [System] [CHAT] Second position set to (-128, -21, 939) (9).
+[15:08:42] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[15:08:44] [Render thread/INFO]: [System] [CHAT] First position set to (-130, -19, 938) (18).
+[15:08:44] [Render thread/INFO]: [System] [CHAT] Second position set to (-128, -21, 938) (9).
+[15:08:45] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[15:08:47] [Render thread/INFO]: [System] [CHAT] First position set to (-140, -19, 938) (39).
+[15:08:47] [Render thread/INFO]: [System] [CHAT] Second position set to (-136, -20, 938) (10).
+[15:08:48] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[15:08:50] [Render thread/INFO]: [System] [CHAT] First position set to (-141, -19, 941) (48).
+[15:08:50] [Render thread/INFO]: [System] [CHAT] Second position set to (-141, -21, 940) (6).
+[15:08:51] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[15:08:52] [Render thread/INFO]: [System] [CHAT] First position set to (-142, -21, 941) (4).
+[15:08:52] [Render thread/INFO]: [System] [CHAT] Second position set to (-141, -19, 941) (6).
+[15:08:53] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[15:08:54] [Render thread/INFO]: [System] [CHAT] First position set to (-144, -19, 942) (8).
+[15:08:55] [Render thread/INFO]: [System] [CHAT] Second position set to (-147, -21, 941) (24).
+[15:08:55] [Render thread/INFO]: [System] [CHAT] Second position set to (-147, -21, 942) (12).
+[15:08:56] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[15:08:58] [Render thread/INFO]: [System] [CHAT] First position set to (-149, -19, 946) (45).
+[15:08:58] [Render thread/INFO]: [System] [CHAT] Second position set to (-150, -21, 944) (18).
+[15:08:58] [Render thread/INFO]: [System] [CHAT] Second position set to (-149, -21, 944) (9).
+[15:08:59] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[15:09:00] [Render thread/INFO]: [System] [CHAT] First position set to (-151, -21, 946) (9).
+[15:09:01] [Render thread/INFO]: [System] [CHAT] Second position set to (-149, -19, 946) (9).
+[15:09:02] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[15:09:04] [Render thread/INFO]: [System] [CHAT] First position set to (-153, -19, 949) (20).
+[15:09:04] [Render thread/INFO]: [System] [CHAT] Second position set to (-153, -20, 947) (6).
+[15:09:05] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[15:09:06] [Render thread/INFO]: [System] [CHAT] Second position set to (-156, -21, 949) (12).
+[15:09:07] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[15:09:09] [Render thread/INFO]: [System] [CHAT] First position set to (-157, -19, 952) (24).
+[15:09:09] [Render thread/INFO]: [System] [CHAT] Second position set to (-157, -21, 950) (9).
+[15:09:10] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[15:09:11] [Render thread/INFO]: [System] [CHAT] Second position set to (-158, -21, 952) (6).
+[15:09:12] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[15:09:14] [Render thread/INFO]: [System] [CHAT] First position set to (-165, -19, 958) (168).
+[15:09:15] [Render thread/INFO]: [System] [CHAT] Second position set to (-165, -21, 955) (12).
+[15:09:16] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[15:09:17] [Render thread/INFO]: [System] [CHAT] First position set to (-164, -19, 959) (30).
+[15:09:17] [Render thread/INFO]: [System] [CHAT] Second position set to (-162, -20, 959) (6).
+[15:09:18] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[15:09:19] [Render thread/INFO]: [System] [CHAT] First position set to (-162, -19, 963) (10).
+[15:09:20] [Render thread/INFO]: [System] [CHAT] Second position set to (-160, -20, 963) (6).
+[15:09:20] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[15:09:22] [Render thread/INFO]: [System] [CHAT] Second position set to (-162, -21, 960) (12).
+[15:09:24] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[15:09:25] [Render thread/INFO]: [System] [CHAT] First position set to (-159, -19, 962) (36).
+[15:09:26] [Render thread/INFO]: [System] [CHAT] Second position set to (-159, -21, 960) (9).
+[15:09:27] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[15:09:28] [Render thread/INFO]: [System] [CHAT] First position set to (-155, -19, 958) (45).
+[15:09:29] [Render thread/INFO]: [System] [CHAT] Second position set to (-155, -20, 956) (6).
+[15:09:29] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[15:09:30] [Render thread/INFO]: [System] [CHAT] First position set to (-156, -19, 959) (16).
+[15:09:31] [Render thread/INFO]: [System] [CHAT] Second position set to (-159, -20, 959) (8).
+[15:09:32] [Render thread/INFO]: [System] [CHAT] 4 blocks have been replaced.
+[15:09:33] [Render thread/INFO]: [System] [CHAT] First position set to (-153, -19, 956) (56).
+[15:09:33] [Render thread/INFO]: [System] [CHAT] Second position set to (-154, -21, 956) (6).
+[15:09:34] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[15:09:36] [Render thread/INFO]: [System] [CHAT] First position set to (-143, -19, 954) (108).
+[15:09:36] [Render thread/INFO]: [System] [CHAT] Second position set to (-146, -21, 954) (12).
+[15:09:37] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[15:09:38] [Render thread/INFO]: [System] [CHAT] Second position set to (-143, -20, 952) (6).
+[15:09:39] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[15:09:40] [Render thread/INFO]: [System] [CHAT] First position set to (-141, -19, 952) (6).
+[15:09:41] [Render thread/INFO]: [System] [CHAT] Second position set to (-142, -21, 952) (6).
+[15:09:41] [Render thread/INFO]: [System] [CHAT] 2 blocks have been replaced.
+[15:09:43] [Render thread/INFO]: [System] [CHAT] First position set to (-136, -19, 951) (42).
+[15:09:43] [Render thread/INFO]: [System] [CHAT] Second position set to (-139, -21, 951) (12).
+[15:09:44] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[15:11:27] [Render thread/INFO]: [System] [CHAT] First position set to (-132, -22, 948) (64).
+[15:11:28] [Render thread/INFO]: [System] [CHAT] Second position set to (-135, -22, 945) (16).
+[15:11:33] [Render thread/INFO]: [System] [CHAT] Operation completed (16 blocks affected).
+[15:11:36] [Render thread/INFO]: [System] [CHAT] First position set to (-131, -22, 947) (15).
+[15:11:36] [Render thread/INFO]: [System] [CHAT] Second position set to (-131, -22, 944) (4).
+[15:11:37] [Render thread/INFO]: [System] [CHAT] Operation completed (4 blocks affected).
+[15:11:39] [Render thread/INFO]: [System] [CHAT] First position set to (-126, -22, 944) (6).
+[15:11:41] [Render thread/INFO]: [System] [CHAT] Second position set to (-131, -22, 942) (18).
+[15:11:42] [Render thread/INFO]: [System] [CHAT] Operation completed (18 blocks affected).
+[15:11:43] [Render thread/INFO]: [System] [CHAT] First position set to (-129, -22, 939) (12).
+[15:11:47] [Render thread/INFO]: [System] [CHAT] Operation completed (12 blocks affected).
+[15:11:49] [Render thread/INFO]: [System] [CHAT] First position set to (-132, -22, 937) (12).
+[15:11:51] [Render thread/INFO]: [System] [CHAT] Second position set to (-134, -22, 946) (30).
+[15:11:51] [Render thread/INFO]: [System] [CHAT] Operation completed (30 blocks affected).
+[15:11:53] [Render thread/INFO]: [System] [CHAT] First position set to (-131, -22, 938) (36).
+[15:11:54] [Render thread/INFO]: [System] [CHAT] Second position set to (-135, -22, 938) (5).
+[15:11:55] [Render thread/INFO]: [System] [CHAT] Operation completed (5 blocks affected).
+[15:11:56] [Render thread/INFO]: [System] [CHAT] First position set to (-140, -22, 939) (12).
+[15:11:57] [Render thread/INFO]: [System] [CHAT] Second position set to (-132, -22, 942) (36).
+[15:12:00] [Render thread/INFO]: [System] [CHAT] Second position set to (-135, -22, 947) (54).
+[15:12:01] [Render thread/INFO]: [System] [CHAT] Operation completed (54 blocks affected).
+[15:12:02] [Render thread/INFO]: [System] [CHAT] First position set to (-136, -22, 950) (8).
+[15:12:04] [Render thread/INFO]: [System] [CHAT] Second position set to (-143, -22, 942) (72).
+[15:12:06] [Render thread/INFO]: [System] [CHAT] Operation completed (72 blocks affected).
+[15:12:07] [Render thread/INFO]: [System] [CHAT] First position set to (-141, -22, 951) (30).
+[15:12:09] [Render thread/INFO]: [System] [CHAT] Second position set to (-147, -22, 943) (63).
+[15:12:09] [Render thread/INFO]: [System] [CHAT] Second position set to (-148, -22, 944) (64).
+[15:12:09] [Render thread/INFO]: [System] [CHAT] Second position set to (-148, -22, 943) (72).
+[15:12:10] [Render thread/INFO]: [System] [CHAT] Operation completed (72 blocks affected).
+[15:12:12] [Render thread/INFO]: [System] [CHAT] First position set to (-144, -22, 953) (55).
+[15:12:13] [Render thread/INFO]: [System] [CHAT] Second position set to (-152, -22, 947) (63).
+[15:12:14] [Render thread/INFO]: [System] [CHAT] Operation completed (63 blocks affected).
+[15:12:16] [Render thread/INFO]: [System] [CHAT] First position set to (-148, -22, 954) (40).
+[15:12:17] [Render thread/INFO]: [System] [CHAT] Second position set to (-151, -22, 955) (8).
+[15:12:18] [Render thread/INFO]: [System] [CHAT] Operation completed (8 blocks affected).
+[15:12:21] [Render thread/INFO]: [System] [CHAT] Second position set to (-156, -22, 950) (45).
+[15:12:22] [Render thread/INFO]: [System] [CHAT] Operation completed (45 blocks affected).
+[15:12:23] [Render thread/INFO]: [System] [CHAT] First position set to (-153, -22, 955) (24).
+[15:12:24] [Render thread/INFO]: [System] [CHAT] Second position set to (-159, -22, 953) (21).
+[15:12:25] [Render thread/INFO]: [System] [CHAT] Operation completed (21 blocks affected).
+[15:12:27] [Render thread/INFO]: [System] [CHAT] First position set to (-156, -22, 958) (24).
+[15:12:30] [Render thread/INFO]: [System] [CHAT] Second position set to (-164, -22, 954) (45).
+[15:12:30] [Render thread/INFO]: [System] [CHAT] Operation completed (45 blocks affected).
+[15:12:32] [Render thread/INFO]: [System] [CHAT] First position set to (-163, -22, 953) (4).
+[15:12:32] [Render thread/INFO]: [System] [CHAT] Second position set to (-161, -22, 954) (6).
+[15:12:33] [Render thread/INFO]: [System] [CHAT] Operation completed (6 blocks affected).
+[15:12:35] [Render thread/INFO]: [System] [CHAT] First position set to (-160, -22, 962) (18).
+[15:12:36] [Render thread/INFO]: [System] [CHAT] Second position set to (-161, -22, 958) (10).
+[15:12:37] [Render thread/INFO]: [System] [CHAT] Operation completed (10 blocks affected).
+[15:15:48] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[15:15:48] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[15:16:09] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[15:16:09] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[15:16:44] [Render thread/INFO]: [System] [CHAT] First position set to (-162, -18, 962) (50).
+[15:16:45] [Render thread/INFO]: [System] [CHAT] Second position set to (-159, -18, 959) (16).
+[15:16:54] [Render thread/INFO]: [System] [CHAT] 6 blocks have been replaced.
+[15:16:56] [Render thread/INFO]: [System] [CHAT] First position set to (-165, -18, 954) (42).
+[15:16:57] [Render thread/INFO]: [System] [CHAT] Second position set to (-160, -18, 958) (30).
+[15:16:57] [Render thread/INFO]: [System] [CHAT] 20 blocks have been replaced.
+[15:16:59] [Render thread/INFO]: [System] [CHAT] First position set to (-156, -18, 959) (10).
+[15:17:00] [Render thread/INFO]: [System] [CHAT] Second position set to (-159, -18, 952) (32).
+[15:17:01] [Render thread/INFO]: [System] [CHAT] 20 blocks have been replaced.
+[15:17:03] [Render thread/INFO]: [System] [CHAT] First position set to (-157, -18, 955) (12).
+[15:17:04] [Render thread/INFO]: [System] [CHAT] Second position set to (-153, -18, 950) (30).
+[15:17:05] [Render thread/INFO]: [System] [CHAT] 12 blocks have been replaced.
+[15:17:07] [Render thread/INFO]: [System] [CHAT] First position set to (-153, -18, 954) (5).
+[15:17:08] [Render thread/INFO]: [System] [CHAT] Second position set to (-149, -18, 947) (40).
+[15:17:11] [Render thread/INFO]: [System] [CHAT] Second position set to (-147, -18, 946) (63).
+[15:17:12] [Render thread/INFO]: [System] [CHAT] 36 blocks have been replaced.
+[15:17:17] [Render thread/INFO]: [System] [CHAT] First position set to (-148, -18, 953) (16).
+[15:17:19] [Render thread/INFO]: [System] [CHAT] Second position set to (-141, -18, 943) (88).
+[15:17:20] [Render thread/INFO]: [System] [CHAT] 53 blocks have been replaced.
+[15:17:24] [Render thread/INFO]: [System] [CHAT] First position set to (-144, -18, 942) (8).
+[15:17:26] [Render thread/INFO]: [System] [CHAT] Second position set to (-135, -18, 950) (90).
+[15:17:27] [Render thread/INFO]: [System] [CHAT] 38 blocks have been replaced.
+[15:17:29] [Render thread/INFO]: [System] [CHAT] First position set to (-140, -18, 938) (78).
+[15:17:31] [Render thread/INFO]: [System] [CHAT] Second position set to (-129, -18, 941) (48).
+[15:17:31] [Render thread/INFO]: [System] [CHAT] 25 blocks have been replaced.
+[15:17:34] [Render thread/INFO]: [System] [CHAT] First position set to (-135, -18, 942) (14).
+[15:17:35] [Render thread/INFO]: [System] [CHAT] Second position set to (-130, -18, 947) (36).
+[15:17:35] [Render thread/INFO]: [System] [CHAT] 24 blocks have been replaced.
+[15:17:37] [Render thread/INFO]: [System] [CHAT] First position set to (-127, -18, 945) (12).
+[15:17:37] [Render thread/INFO]: [System] [CHAT] Second position set to (-130, -18, 942) (16).
+[15:17:38] [Render thread/INFO]: [System] [CHAT] 9 blocks have been replaced.
+[15:21:43] [Render thread/INFO]: Audio device was lost!
+[15:21:43] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[15:21:43] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[15:21:43] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[15:21:43] [Render thread/INFO]: Sound engine started
+[15:21:43] [IO-Worker-136/INFO]: System default audio device has changed!
+[15:21:43] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[15:21:43] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[15:21:43] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[15:21:43] [Render thread/INFO]: Sound engine started
+[15:22:02] [IO-Worker-136/INFO]: System default audio device has changed!
+[15:22:02] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[15:22:02] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[15:22:02] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (Realtek(R) Audio)
+[15:22:02] [Render thread/INFO]: Sound engine started
+[15:29:21] [Server thread/INFO]: Saving and pausing game...
+[15:29:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[15:29:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[15:29:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[15:32:47] [Render thread/INFO]: [System] [CHAT] First position set to (-170, -26, 987) (16974).
+[15:32:56] [Render thread/INFO]: [System] [CHAT] Second position set to (-128, -7, 1039) (45580).
+[15:33:01] [Render thread/INFO]: [System] [CHAT] Operation completed (45580 blocks affected).
+[15:33:13] [Render thread/INFO]: [System] [CHAT] First position set to (-126, -27, 1030) (630).
+[15:33:18] [Server thread/INFO]: [Liopyu: Gamerule randomTickSpeed is now set to: 0]
+[15:33:18] [Render thread/INFO]: [System] [CHAT] Gamerule randomTickSpeed is now set to: 0
+[15:33:19] [Render thread/INFO]: [System] [CHAT] First position set to (-123, -27, 1037) (378).
+[15:33:23] [Render thread/INFO]: [System] [CHAT] Second position set to (-168, -27, 988) (2300).
+[15:33:35] [Render thread/INFO]: [System] [CHAT] 1058 blocks have been replaced.
+[15:33:45] [Render thread/INFO]: [System] [CHAT] 1058 blocks affected
+[15:33:45] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[15:33:45] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[15:33:47] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (-168, -25, 989)
+[15:33:47] [Render thread/INFO]: [System] [CHAT] 2300 blocks affected
+[15:33:47] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[15:33:47] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[15:33:54] [Render thread/INFO]: [System] [CHAT] 2300 blocks affected
+[15:33:54] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[15:33:54] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[15:34:00] [Render thread/INFO]: [System] [CHAT] 1058 blocks affected
+[15:34:00] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[15:34:00] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[15:34:04] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (-164, -27, 997)
+[15:34:04] [Render thread/INFO]: [System] [CHAT] 2300 blocks affected
+[15:34:04] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[15:34:04] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[15:34:08] [Render thread/INFO]: [System] [CHAT] Unknown or incomplete command, see below for error
+[15:34:08] [Render thread/INFO]: [System] [CHAT] /un<--[HERE]
+[15:34:09] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[15:34:21] [Render thread/INFO]: [System] [CHAT] First position set to (-165, -27, 987) (8).
+[15:34:26] [Render thread/INFO]: [System] [CHAT] Second position set to (-124, -27, 1036) (2100).
+[15:34:47] [Render thread/INFO]: [System] [CHAT] 1061 blocks affected
+[15:34:47] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[15:34:47] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[15:34:53] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (-132, -24, 1016)
+[15:34:53] [Render thread/INFO]: [System] [CHAT] 2100 blocks affected
+[15:34:53] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[15:34:53] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[15:35:02] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[15:35:08] [Render thread/INFO]: [System] [CHAT] Second position set to (-121, -27, 1038) (2340).
+[15:35:14] [Render thread/INFO]: [System] [CHAT] First position set to (-173, -27, 987) (2756).
+[15:35:22] [Render thread/INFO]: [System] [CHAT] 1068 blocks affected
+[15:35:22] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[15:35:22] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[15:35:26] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (-165, -27, 995)
+[15:35:26] [Render thread/INFO]: [System] [CHAT] 2756 blocks affected
+[15:35:26] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[15:35:26] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[15:35:29] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[15:35:33] [Server thread/INFO]: [Liopyu: Set own game mode to Spectator Mode]
+[15:35:33] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[15:35:37] [Render thread/INFO]: [System] [CHAT] Redid 1 available edits.
+[15:35:40] [Server thread/INFO]: [Liopyu: Set own game mode to Creative Mode]
+[15:35:40] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[15:36:32] [Render thread/INFO]: [System] [CHAT] 1062 blocks affected
+[15:36:32] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[15:36:32] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[15:36:33] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (-163, -24, 998)
+[15:36:33] [Render thread/INFO]: [System] [CHAT] 2756 blocks affected
+[15:36:33] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[15:36:33] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[15:36:40] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[15:36:45] [Render thread/INFO]: [System] [CHAT] First position set to (-172, -27, 987) (2704).
+[15:36:49] [Render thread/INFO]: [System] [CHAT] Second position set to (-123, -27, 1039) (2650).
+[15:37:01] [Render thread/INFO]: [System] [CHAT] 1062 blocks affected
+[15:37:01] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[15:37:01] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[15:37:05] [Render thread/INFO]: [System] [CHAT] The clipboard has been pasted at (-163, -25, 998)
+[15:37:05] [Render thread/INFO]: [System] [CHAT] 2650 blocks affected
+[15:37:05] [Render thread/INFO]: [System] [CHAT] 0 biomes affected
+[15:37:05] [Render thread/INFO]: [System] [CHAT] 0 entities affected
+[15:37:12] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[15:37:32] [Render thread/INFO]: [System] [CHAT] Smooth brush equipped (5 x 4x using any block).
+[15:37:32] [Render thread/INFO]: [System] [CHAT] Run /brush unbind while holding the item to unbind it.
+[15:37:43] [Render thread/INFO]: [System] [CHAT] Brush mask set.
+[15:38:19] [Render thread/INFO]: [System] [CHAT] First position set to (-150, -28, 1012) (1568).
+[15:38:24] [Render thread/INFO]: [System] [CHAT] Second position set to (-137, -31, 1027) (896).
+[15:38:26] [Render thread/INFO]: [System] [CHAT] Operation completed (896 blocks affected).
+[15:38:29] [Render thread/INFO]: [System] [CHAT] First position set to (-145, -28, 1010) (648).
+[15:38:35] [Render thread/INFO]: [System] [CHAT] Second position set to (-159, -32, 1001) (750).
+[15:38:36] [Render thread/INFO]: [System] [CHAT] Operation completed (750 blocks affected).
+[15:38:54] [Render thread/INFO]: [System] [CHAT] First position set to (-152, -33, 1009) (144).
+[15:38:56] [Render thread/INFO]: [System] [CHAT] First position set to (-157, -28, 1015) (225).
+[15:39:01] [Render thread/INFO]: [System] [CHAT] First position set to (-140, -30, 1011) (660).
+[15:39:05] [Render thread/INFO]: [System] [CHAT] Second position set to (-139, -31, 1009) (12).
+[15:39:06] [Render thread/INFO]: [System] [CHAT] Operation completed (12 blocks affected).
+[15:39:07] [Render thread/INFO]: [System] [CHAT] First position set to (-140, -29, 1010) (12).
+[15:39:10] [Render thread/INFO]: [System] [CHAT] First position set to (-137, -28, 1009) (12).
+[15:39:12] [Render thread/INFO]: [System] [CHAT] Second position set to (-151, -31, 1019) (660).
+[15:39:13] [Render thread/INFO]: [System] [CHAT] Operation completed (660 blocks affected).
+[15:39:17] [Render thread/INFO]: [System] [CHAT] Second position set to (-159, -32, 1000) (1150).
+[15:39:18] [Render thread/INFO]: [System] [CHAT] First position set to (-150, -28, 990) (550).
+[15:39:19] [Render thread/INFO]: [System] [CHAT] Operation completed (550 blocks affected).
+[15:39:23] [Render thread/INFO]: [System] [CHAT] First position set to (-134, -28, 1025) (3380).
+[15:39:24] [Render thread/INFO]: [System] [CHAT] Second position set to (-136, -31, 1012) (168).
+[15:39:25] [Render thread/INFO]: [System] [CHAT] Operation completed (168 blocks affected).
+[15:45:27] [Render thread/INFO]: [System] [CHAT] First position set to (-122, -27, 1034) (1725).
+[15:45:29] [Render thread/INFO]: [System] [CHAT] First position set to (-122, -27, 1039) (2100).
+[15:45:39] [Render thread/INFO]: [System] [CHAT] Second position set to (-164, -33, 986) (16254).
+[15:45:44] [Render thread/INFO]: [System] [CHAT] 5808 blocks have been replaced.
+[15:45:46] [Render thread/INFO]: [System] [CHAT] First position set to (-157, -27, 985) (112).
+[15:45:48] [Render thread/INFO]: [System] [CHAT] Second position set to (-170, -27, 1005) (294).
+[15:45:51] [Render thread/INFO]: [System] [CHAT] 192 blocks have been replaced.
+[15:46:09] [Render thread/INFO]: [System] [CHAT] Second position set to (-165, -33, 985) (63).
+[15:46:15] [Render thread/INFO]: [System] [CHAT] First position set to (-121, -27, 1042) (18270).
+[15:46:22] [Render thread/INFO]: [System] [CHAT] 5840 blocks have been replaced.
+[15:46:29] [Render thread/INFO]: [System] [CHAT] Second position set to (-166, -33, 985) (18676).
+[15:46:32] [Render thread/INFO]: [System] [CHAT] 137 blocks have been replaced.
+[15:46:49] [Render thread/INFO]: [System] [CHAT] 2544 blocks have been replaced.
+[15:46:54] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[15:47:06] [Render thread/INFO]: [System] [CHAT] First position set to (-126, -28, 1038) (13284).
+[15:47:07] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[15:47:10] [Render thread/INFO]: [System] [CHAT] Redid 1 available edits.
+[15:47:12] [Render thread/INFO]: [System] [CHAT] 1331 blocks have been replaced.
+[15:47:27] [Render thread/INFO]: [System] [CHAT] Second position set to (-166, -34, 985) (15498).
+[15:47:29] [Render thread/INFO]: [System] [CHAT] 1560 blocks have been replaced.
+[15:51:17] [Render thread/INFO]: [System] [CHAT] First position set to (-165, -36, 984) (12).
+[15:51:21] [Render thread/INFO]: [System] [CHAT] Second position set to (-125, -27, 1038) (22550).
+[15:51:26] [Render thread/INFO]: [System] [CHAT] 5865 blocks have been replaced.
+[15:51:57] [Render thread/INFO]: [System] [CHAT] 5901 blocks have been replaced.
+[15:52:06] [Server thread/INFO]: [Liopyu: Killed 211 entities]
+[15:52:06] [Render thread/INFO]: [System] [CHAT] Killed 211 entities
+[15:52:14] [Render thread/INFO]: [System] [CHAT] Undid 1 available edits.
+[16:06:02] [Server thread/INFO]: Saving and pausing game...
+[16:06:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[16:06:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[16:06:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[16:06:03] [Server thread/INFO]: Saving and pausing game...
+[16:06:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[16:06:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[16:06:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[16:06:04] [Render thread/INFO]: Finalizing world map session...
+[16:06:04] [Thread-7/INFO]: World map cleaned normally!
+[16:06:04] [Render thread/INFO]: World map session finalized.
+[16:06:04] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[16:06:04] [Render thread/INFO]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[16:06:04] [Render thread/INFO]: Stopping JEI
+[16:06:04] [Render thread/INFO]: Sending Runtime Unavailable...
+[16:06:04] [Render thread/INFO]: Stopping JEI GUI
+[16:06:04] [Render thread/INFO]: Sending Runtime Unavailable took 5.738 ms
+[16:06:04] [Server thread/INFO]: Liopyu lost connection: Disconnected
+[16:06:04] [Server thread/INFO]: Liopyu left the game
+[16:06:04] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[16:06:04] [Server thread/INFO]: Stopping server
+[16:06:04] [Server thread/INFO]: Saving players
+[16:06:04] [Server thread/INFO]: Saving worlds
+[16:06:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:overworld
+[16:06:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_end
+[16:06:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Other structures]'/minecraft:the_nether
+[16:06:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (Other structures): All chunks are saved
+[16:06:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:06:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:06:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:06:05] [Render thread/INFO]: Stopping worker threads

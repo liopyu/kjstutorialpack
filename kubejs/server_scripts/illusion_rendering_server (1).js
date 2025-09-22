@@ -509,3 +509,26 @@ NetworkEvents.dataReceived("pathRadius", event => {
         player.persistentData.putInt("pathRadius", pathRadius)
     }
 })
+ItemEvents.entityInteracted("minecraft:wooden_hoe", event => {
+    let { player, target, target: { type }, level, item } = event
+    if ((!player.isShiftKeyDown() || item.nbt.stored_entity != null)) return
+    item.nbt.stored_entity = { id: type, nbt: target.nbt }
+    target.remove("discarded")
+    item.setHoverName("Stored: " + type)
+    event.cancel()
+})
+BlockEvents.rightClicked(event => {
+    let { player, block, level, server, item } = event
+    if (item.id != "minecraft:wooden_hoe") return
+    if (!player.isShiftKeyDown()) return
+    let nbtTag = item.nbt.stored_entity
+    if (!nbtTag) return
+    let nbt = nbtTag.nbt
+    let summon = block.createEntity(nbtTag.id)
+    summon.nbt = nbt
+    summon.setPos(block.x + 0.5, block.y + 1, block.z + 0.5)
+    summon.spawn()
+    item.nbt.remove("stored_entity")
+    item.resetHoverName()
+    event.cancel()
+})

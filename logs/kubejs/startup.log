@@ -1,14 +1,14 @@
-[17:41:14] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[17:41:14] [INIT] Loaded plugins:
-[17:41:14] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[17:41:14] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[17:41:14] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[17:41:14] [INIT] - com.probejs.ProbeJSPlugin
-[17:41:15] [INFO] Loaded script startup_scripts:@libs/uniui.js in 0.086 s
-[17:41:15] [INFO] forge.js#1: Loaded Java class 'net.minecraft.world.entity.item.ItemEntity'
-[17:41:15] [INFO] forge.js#2: Loaded Java class 'net.minecraft.world.entity.PathfinderMob'
-[17:41:15] [INFO] forge.js#3: Loaded Java class 'net.minecraft.world.entity.npc.Villager'
-[17:41:15] [INFO] forge.js#4: Loaded Java class 'net.liopyu.entityjs.builders.modification.ModifyLivingEntityBuilder'
-[17:41:15] [INFO] forge.js#34: Loaded Java class 'net.minecraftforge.client.event.InputEvent$MouseScrollingEvent'
-[17:41:15] [INFO] Loaded script startup_scripts:forge.js in 0.096 s
-[17:41:15] [INFO] Loaded 2/2 KubeJS startup scripts in 0.866 s with 0 errors and 0 warnings
+[10:32:28] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[10:32:28] [INIT] Loaded plugins:
+[10:32:28] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[10:32:28] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[10:32:28] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[10:32:28] [INIT] - com.probejs.ProbeJSPlugin
+[10:32:29] [INFO] Loaded script startup_scripts:@libs/uniui.js in 0.085 s
+[10:32:29] [INFO] forge.js#1: Loaded Java class 'net.minecraft.world.entity.item.ItemEntity'
+[10:32:29] [INFO] forge.js#2: Loaded Java class 'net.minecraft.world.entity.PathfinderMob'
+[10:32:29] [INFO] forge.js#3: Loaded Java class 'net.minecraft.world.entity.npc.Villager'
+[10:32:29] [INFO] forge.js#4: Loaded Java class 'net.liopyu.entityjs.builders.modification.ModifyLivingEntityBuilder'
+[10:32:29] [INFO] forge.js#34: Loaded Java class 'net.minecraftforge.client.event.InputEvent$MouseScrollingEvent'
+[10:32:29] [INFO] Loaded script startup_scripts:forge.js in 0.096 s
+[10:32:29] [INFO] Loaded 2/2 KubeJS startup scripts in 0.899 s with 0 errors and 0 warnings
