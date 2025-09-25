@@ -1,0 +1,153 @@
+---- Minecraft Crash Report ----
+// Embeddium instance tainted by mods: [oculus]
+// Please do not reach out for Embeddium support without removing these mods first.
+// -------
+// My bad.
+
+Time: 2025-09-24 15:29:45
+Description: Exception in server tick loop
+
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.ArrayList.grow(ArrayList.java:239) ~[?:?] {re:mixin}
+	at java.util.ArrayList.grow(ArrayList.java:244) ~[?:?] {re:mixin}
+	at java.util.ArrayList.add(ArrayList.java:486) ~[?:?] {re:mixin}
+	at net.minecraft.nbt.ListTag.m_7614_(ListTag.java:305) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:computing_frames,re:classloading,re:mixin}
+	at net.minecraft.nbt.ListTag.add(ListTag.java:288) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:computing_frames,re:classloading,re:mixin}
+	at net.minecraft.nbt.ListTag.add(ListTag.java:13) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:computing_frames,re:classloading,re:mixin}
+	at java.util.AbstractList.add(AbstractList.java:111) ~[?:?] {re:computing_frames,re:mixin}
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate.m_74625_(StructureTemplate.java:708) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:classloading,xf:fml:forge:forge_method_redirector}
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate.m_74618_(StructureTemplate.java:582) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:classloading,xf:fml:forge:forge_method_redirector}
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230416_(StructureTemplateManager.java:261) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:classloading}
+	at net.minecraft.world.level.block.entity.StructureBlockEntity.m_59889_(StructureBlockEntity.java:336) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:mixin,re:classloading,pl:mixin:APP:hugestructureblocks.mixins.json:structure.StructureBlockUnlimit,pl:mixin:A}
+	at net.minecraft.world.level.block.entity.StructureBlockEntity.m_59830_(StructureBlockEntity.java:314) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:mixin,re:classloading,pl:mixin:APP:hugestructureblocks.mixins.json:structure.StructureBlockUnlimit,pl:mixin:A}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7424_(ServerGamePacketListenerImpl.java:666) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:pehkui.mixins.json:ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:compat1204minus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.compat119plus.ServerPlayNetworkHandlerMixin,pl:mixin:A}
+	at net.minecraft.network.protocol.game.ServerboundSetStructureBlockPacket.m_5797_(ServerboundSetStructureBlockPacket.java:103) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:mixin,re:classloading,pl:mixin:APP:hugestructureblocks.mixins.json:structure.packet.ClientUpdateStructureBlockUnlimit,pl:mixin:A}
+	at net.minecraft.network.protocol.game.ServerboundSetStructureBlockPacket.m_5797_(ServerboundSetStructureBlockPacket.java:13) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:mixin,re:classloading,pl:mixin:APP:hugestructureblocks.mixins.json:structure.packet.ClientUpdateStructureBlockUnlimit,pl:mixin:A}
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:classloading}
+	at net.minecraft.network.protocol.PacketUtils$$Lambda$11823/0x00000008017f6380.run(Unknown Source) ~[?:?] {}
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:classloading}
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:computing_frames,re:mixin,re:classloading}
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[client-1.20.1-20230612.114412-srg.jar%23220!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraftserver,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer$$Lambda$10897/0x0000000801670b18.run(Unknown Source) ~[?:?] {}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.15, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 3142322936 bytes (2996 MiB) / 6677331968 bytes (6368 MiB) up to 6677331968 bytes (6368 MiB)
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+	Identifier: Intel64 Family 6 Model 141 Stepping 1
+	Microarchitecture: unknown
+	Frequency (GHz): 2.69
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: Intel(R) UHD Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 2048.00
+	Graphics card #0 deviceId: 0x9a68
+	Graphics card #0 versionInfo: DriverVersion=32.0.101.6987
+	Graphics card #1 name: NVIDIA GeForce RTX 3050 Laptop GPU
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x25a2
+	Graphics card #1 versionInfo: DriverVersion=32.0.15.7602
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 37342.47
+	Virtual memory used (MB): 35747.26
+	Swap memory total (MB): 21256.81
+	Swap memory used (MB): 2722.36
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx6368m -Xms256m
+	Loaded Shaderpack: (off)
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Liopyu'/1, l='ServerLevel[Other structures]', x=-350.08, y=-50.21, z=1114.92]]
+	Data Packs: vanilla, mod:okzoomer (incompatible), mod:rhino (incompatible), mod:notenoughcrashes (incompatible), mod:mousetweaks, mod:bettertags, mod:jade (incompatible), mod:geckolib, mod:jei, mod:pehkui (incompatible), mod:caelus (incompatible), mod:paxi, mod:entityjs (incompatible), mod:curios (incompatible), mod:xaeroworldmap (incompatible), mod:yungsapi, mod:mixinextras (incompatible), mod:worldedit (incompatible), mod:lios_overhauled_villages (incompatible), mod:constructionwand, mod:architectury (incompatible), mod:kubejs (incompatible), mod:mightyarchitect (incompatible), mod:lightoverlay (incompatible), mod:command_structures (incompatible), mod:jadeaddons (incompatible), mod:hugestructureblocks, mod:probejs (incompatible), mod:cloth_config (incompatible), mod:forge, mod:embeddium, mod:oculus, lov (incompatible), mod:reforgedplaymod (incompatible), mod:corgilib, Spiral_Tower_Village-1.18.2-1.21.5-v0.0.1 (incompatible), port_city (incompatible), mod:lios_island_harbor (incompatible)
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: forge-47.3.5
+	Client Crashes Since Restart: 0
+	Integrated Server Crashes Since Restart: 1
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.5.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.5.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.5.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.5.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.5.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		rhino-forge-2001.2.3-build.6.jar                  |Rhino                         |rhino                         |2001.2.3-build.6    |DONE      |Manifest: NOSIGNATURE
+		notenoughcrashes-4.4.7+1.20.1-forge.jar           |Not Enough Crashes            |notenoughcrashes              |4.4.7+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.20.1-4.7.jar                     |GeckoLib 4                    |geckolib                      |4.7                 |DONE      |Manifest: NOSIGNATURE
+		jei-1.20.1-forge-15.20.0.112.jar                  |Just Enough Items             |jei                           |15.20.0.112         |DONE      |Manifest: NOSIGNATURE
+		Pehkui-3.8.2+1.20.1-forge.jar                     |Pehkui                        |pehkui                        |3.8.2+1.20.1-forge  |DONE      |Manifest: NOSIGNATURE
+		caelus-forge-3.2.0+1.20.1.jar                     |Caelus API                    |caelus                        |3.2.0+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		Paxi-1.20-Forge-4.0.jar                           |Paxi                          |paxi                          |1.20-Forge-4.0      |DONE      |Manifest: NOSIGNATURE
+		XaerosWorldMap_1.39.0_Forge_1.20.jar              |Xaero's World Map             |xaeroworldmap                 |1.39.0              |DONE      |Manifest: NOSIGNATURE
+		YungsApi-1.20-Forge-4.0.5.jar                     |YUNG's API                    |yungsapi                      |1.20-Forge-4.0.5    |DONE      |Manifest: NOSIGNATURE
+		reforgedplaymod-1.20.1-0.3.1.jar                  |ReForgedPlay Mod              |reforgedplaymod               |0.3.1               |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.3.6.jar                       |MixinExtras                   |mixinextras                   |0.3.6               |DONE      |Manifest: NOSIGNATURE
+		cloth-config-11.1.136-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.136            |DONE      |Manifest: NOSIGNATURE
+		forge-1.20.1-47.3.5-universal.jar                 |Forge                         |forge                         |47.3.5              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		embeddium-0.3.31+mc1.20.1.jar                     |Embeddium                     |embeddium                     |0.3.31+mc1.20.1     |DONE      |Manifest: NOSIGNATURE
+		client-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		okzoomer-forge-1.20-3.0.1.jar                     |OkZoomer                      |okzoomer                      |3.0.1               |DONE      |Manifest: NOSIGNATURE
+		MouseTweaks-forge-mc1.20.1-2.25.1.jar             |Mouse Tweaks                  |mousetweaks                   |2.25.1              |DONE      |Manifest: NOSIGNATURE
+		BetterTags-1.20.1-1.1.jar                         |Better Tags                   |bettertags                    |1.20.1-1.1          |DONE      |Manifest: NOSIGNATURE
+		Jade-1.20.1-forge-11.11.1.jar                     |Jade                          |jade                          |11.11.1+forge       |DONE      |Manifest: NOSIGNATURE
+		Corgilib-Forge-1.20.1-4.0.3.3.jar                 |CorgiLib                      |corgilib                      |4.0.3.3             |DONE      |Manifest: NOSIGNATURE
+		lios_island_harbor-0.0.1.jar                      |Lios Island Harbor            |lios_island_harbor            |0.0.1               |DONE      |Manifest: NOSIGNATURE
+		entityjs-0.4.7-1.20.1.jar                         |EntityJS                      |entityjs                      |0.4.7-1.20.1        |DONE      |Manifest: NOSIGNATURE
+		curios-forge-5.10.0+1.20.1.jar                    |Curios API                    |curios                        |5.10.0+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		oculus-mc1.20.1-1.7.0.jar                         |Oculus                        |oculus                        |1.7.0               |DONE      |Manifest: NOSIGNATURE
+		worldedit-mod-7.2.15.jar                          |WorldEdit                     |worldedit                     |7.2.15+6463-5ca4dff |DONE      |Manifest: NOSIGNATURE
+		lios_overhauled_villages-1.18.2-1.21.5-v0.0.7.jar |Lio's Overhauled Villages     |lios_overhauled_villages      |1.18.2-1.21.5-v0.0.7|DONE      |Manifest: NOSIGNATURE
+		constructionwand-1.20.1-2.11.jar                  |Construction Wand             |constructionwand              |1.20.1-2.11         |DONE      |Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |DONE      |Manifest: NOSIGNATURE
+		kubejs-forge-2001.6.5-build.16.jar                |KubeJS                        |kubejs                        |2001.6.5-build.16   |DONE      |Manifest: NOSIGNATURE
+		mightyarchitect-0.9.0-FORGE.jar                   |The Mighty Architect          |mightyarchitect               |0.9.0               |DONE      |Manifest: NOSIGNATURE
+		light-overlay-8.0.0-forge.jar                     |Light Overlay                 |lightoverlay                  |8.0.0               |DONE      |Manifest: NOSIGNATURE
+		command_structures_forge-4.1.0+1.20.1.jar         |Command Structure Mod         |command_structures            |4.1.0+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		JadeAddons-1.20.1-Forge-5.3.1.jar                 |Jade Addons                   |jadeaddons                    |5.3.1+forge         |DONE      |Manifest: NOSIGNATURE
+		huge-structure-blocks-1.0.9-forge.jar             |Huge Structure Blocks         |hugestructureblocks           |1.0.9               |DONE      |Manifest: NOSIGNATURE
+		probejs-6.0.1-forge.jar                           |ProbeJS                       |probejs                       |6.0.1               |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 1ebd84c6-5967-4f9c-935b-9f9be9d5bc4f
+	FML: 47.3
+	Forge: net.minecraftforge:47.3.5
+	Suspected Mods: Minecraft (minecraft)

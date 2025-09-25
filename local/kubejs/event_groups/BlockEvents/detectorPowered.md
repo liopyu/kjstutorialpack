@@ -25,30 +25,20 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| isPowered |  |  | boolean | ✘ |
-| getDetectorId |  |  | String | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
 | getLevel |  |  | Level | ✘ |
+| getDetectorId |  |  | String | ✘ |
+| isPowered |  |  | boolean | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
-
-- `boolean isPowered()`
-```
-If the detector block is powered.
-```
-
-- `String getDetectorId()`
-```
-The id of the detector block when it was registered.
-```
 
 - `BlockContainerJS getBlock()`
 ```
@@ -60,22 +50,14 @@ The detector block.
 The level where the detector block is located.
 ```
 
-- `Object exit(Object var0)`
-
-  Parameters:
-  - var0: Object
-
+- `String getDetectorId()`
 ```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
+The id of the detector block when it was registered.
 ```
 
-- `Object exit()`
+- `boolean isPowered()`
 ```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
+If the detector block is powered.
 ```
 
 - `Object success(Object var0)`
@@ -112,6 +94,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 

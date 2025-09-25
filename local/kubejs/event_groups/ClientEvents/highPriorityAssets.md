@@ -20,41 +20,23 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| add | ResourceLocation, JsonElement |  | void | ✘ |
-| addModel | String, ResourceLocation, Consumer<ModelGenerator> |  | void | ✘ |
+| defaultHandheldItemModel | ResourceLocation |  | void | ✘ |
+| addMultipartBlockState | ResourceLocation, Consumer<MultipartBlockStateGenerator> |  | void | ✘ |
+| stencil | ResourceLocation, String, JsonObject |  | void | ✘ |
 | addLang | String, String |  | void | ✘ |
+| addModel | String, ResourceLocation, Consumer<ModelGenerator> |  | void | ✘ |
 | defaultItemModel | ResourceLocation |  | void | ✘ |
 | addBlockState | ResourceLocation, Consumer<VariantBlockStateGenerator> |  | void | ✘ |
-| addMultipartBlockState | ResourceLocation, Consumer<MultipartBlockStateGenerator> |  | void | ✘ |
-| defaultHandheldItemModel | ResourceLocation |  | void | ✘ |
-| stencil | ResourceLocation, String, JsonObject |  | void | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
+| add | ResourceLocation, JsonElement |  | void | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
-
-- `Object exit(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object exit()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
 
 - `Object success(Object var0)`
 
@@ -90,6 +72,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 

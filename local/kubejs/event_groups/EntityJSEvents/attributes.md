@@ -19,27 +19,18 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getAttributes | EntityType<? extends LivingEntity> |  | List<Attribute> | ✘ |
 | modify | EntityType<? extends LivingEntity>, Consumer<AttributeModificationHelper> |  | void | ✘ |
 | getAllTypes |  |  | List<EntityType<? extends LivingEntity>> | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
+| getAttributes | EntityType<? extends LivingEntity> |  | List<Attribute> | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
-
-- `List<Attribute> getAttributes(EntityType<? extends LivingEntity> var0)`
-
-  Parameters:
-  - var0: EntityType<? extends LivingEntity>
-
-```
-Returns a list of all attributes the given entity type has by default
-```
 
 - `void modify(EntityType<? extends LivingEntity> entityType, Consumer<AttributeModificationHelper> attributes)`
 
@@ -56,22 +47,13 @@ Modifies the given entity type's attributes
 Returns a list of all entity types that can have their attributes modified by this event
 ```
 
-- `Object exit(Object var0)`
+- `List<Attribute> getAttributes(EntityType<? extends LivingEntity> var0)`
 
   Parameters:
-  - var0: Object
+  - var0: EntityType<? extends LivingEntity>
 
 ```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object exit()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
+Returns a list of all attributes the given entity type has by default
 ```
 
 - `Object success(Object var0)`
@@ -108,6 +90,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 

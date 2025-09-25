@@ -168,10 +168,10 @@ let weightedBlocks = [
     ['minecraft:lily_of_the_valley', 3],
     ['minecraft:azalea', 1],
     ['minecraft:flowering_azalea', 1], */
-    ['minecraft:moss_carpet', 4],
+    // ['minecraft:moss_carpet', 4],
     //['minecraft:wither_rose', 1],
     ['minecraft:air', 100],
-    ['minecraft:wheat', 30]
+    // ['minecraft:wheat', 30]
 ]
 let useVanillaBonemeal = false
 let radius = 10
@@ -531,4 +531,39 @@ BlockEvents.rightClicked(event => {
     item.nbt.remove("stored_entity")
     item.resetHoverName()
     event.cancel()
+})
+
+
+ItemEvents.rightClicked('minecraft:golden_hoe', e => {
+    let off = e.player.offHandItem
+    if (off.empty) return
+    let targetId = off.id
+    let lvl = e.level
+    let p = e.player.blockPosition()
+    let topBlock = 'minecraft:stripped_spruce_log'
+    for (let dx = -15; dx <= 15; dx++) {
+        for (let dy = -15; dy <= 15; dy++) {
+            for (let dz = -15; dz <= 15; dz++) {
+                let x = p.x + dx
+                let y = p.y + dy
+                let z = p.z + dz
+                if (lvl.getBlock(x, y, z).id != targetId) continue
+                if (lvl.getBlock(x, y + 1, z).id != 'minecraft:air') continue
+                let y2 = y + 1
+                let found = false
+                while (y2 <= y + 30) {
+                    let id = lvl.getBlock(x, y2, z).id
+                    if (id == topBlock) { found = true; break }
+                    y2++
+                }
+                if (!found) continue
+                for (let yy = y + 1; yy < y2; yy++) {
+                    if (lvl.getBlock(x, yy, z).id == 'minecraft:air') {
+                        let b = lvl.getBlock(x, yy, z)
+                        b.set(targetId)
+                    }
+                }
+            }
+        }
+    }
 })

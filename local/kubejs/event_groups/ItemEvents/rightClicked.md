@@ -25,30 +25,25 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getTarget |  |  | RayTraceResultJS | ✘ |
 | getItem |  |  | ItemStack | ✘ |
 | getEntity |  |  | LivingEntity | ✘ |
 | getHand |  |  | InteractionHand | ✘ |
-| getPlayer |  |  | Player | ✘ |
+| getTarget |  |  | RayTraceResultJS | ✘ |
 | removeGameStage | String |  | void | ✘ |
-| addGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
+| addGameStage | String |  | void | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
-
-- `RayTraceResultJS getTarget()`
-```
-The ray trace result of the click.
-```
 
 - `ItemStack getItem()`
 ```
@@ -65,6 +60,11 @@ The player that clicked with the item.
 The hand that the item was clicked with.
 ```
 
+- `RayTraceResultJS getTarget()`
+```
+The ray trace result of the click.
+```
+
 - `void removeGameStage(String var0)`
 
   Parameters:
@@ -72,15 +72,6 @@ The hand that the item was clicked with.
 
 ```
 Removes the specified game stage from the player
-```
-
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Adds the specified game stage to the player
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -92,22 +83,13 @@ Adds the specified game stage to the player
 Checks if the player has the specified game stage
 ```
 
-- `Object exit(Object var0)`
+- `void addGameStage(String var0)`
 
   Parameters:
-  - var0: Object
+  - var0: String
 
 ```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object exit()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
+Adds the specified game stage to the player
 ```
 
 - `Object success(Object var0)`
@@ -144,6 +126,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 

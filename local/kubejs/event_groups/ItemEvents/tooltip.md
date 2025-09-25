@@ -25,61 +25,22 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| add | Ingredient, Object |  | void | ✘ |
-| addAdvancedToAll | StaticTooltipHandlerFromJS |  | void | ✘ |
-| isShift |  |  | boolean | ✘ |
-| addAdvanced | Ingredient, StaticTooltipHandlerFromJS |  | void | ✘ |
-| isCtrl |  |  | boolean | ✘ |
 | isAlt |  |  | boolean | ✘ |
 | addToAll | Object |  | void | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
+| addAdvanced | Ingredient, StaticTooltipHandlerFromJS |  | void | ✘ |
+| isShift |  |  | boolean | ✘ |
+| addAdvancedToAll | StaticTooltipHandlerFromJS |  | void | ✘ |
+| isCtrl |  |  | boolean | ✘ |
+| add | Ingredient, Object |  | void | ✘ |
 | success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
-
-- `void add(Ingredient var0, Object var1)`
-
-  Parameters:
-  - var0: Ingredient
-  - var1: Object
-
-```
-Adds text to all items matching the ingredient.
-```
-
-- `void addAdvancedToAll(StaticTooltipHandlerFromJS var0)`
-
-  Parameters:
-  - var0: StaticTooltipHandlerFromJS
-
-```
-Adds a dynamic tooltip handler to all items.
-```
-
-- `boolean isShift()`
-```
-Is shift key pressed.
-```
-
-- `void addAdvanced(Ingredient var0, StaticTooltipHandlerFromJS var1)`
-
-  Parameters:
-  - var0: Ingredient
-  - var1: StaticTooltipHandlerFromJS
-
-```
-Adds a dynamic tooltip handler to all items matching the ingredient.
-```
-
-- `boolean isCtrl()`
-```
-Is control key pressed.
-```
 
 - `boolean isAlt()`
 ```
@@ -95,22 +56,43 @@ Is alt key pressed.
 Adds text to all items.
 ```
 
-- `Object exit(Object var0)`
+- `void addAdvanced(Ingredient var0, StaticTooltipHandlerFromJS var1)`
 
   Parameters:
-  - var0: Object
+  - var0: Ingredient
+  - var1: StaticTooltipHandlerFromJS
 
 ```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
+Adds a dynamic tooltip handler to all items matching the ingredient.
 ```
 
-- `Object exit()`
+- `boolean isShift()`
 ```
-Stops the event with default exit value. Execution will be stopped **immediately**.
+Is shift key pressed.
+```
 
-`exit` denotes a `default` outcome.
+- `void addAdvancedToAll(StaticTooltipHandlerFromJS var0)`
+
+  Parameters:
+  - var0: StaticTooltipHandlerFromJS
+
+```
+Adds a dynamic tooltip handler to all items.
+```
+
+- `boolean isCtrl()`
+```
+Is control key pressed.
+```
+
+- `void add(Ingredient var0, Object var1)`
+
+  Parameters:
+  - var0: Ingredient
+  - var1: Object
+
+```
+Adds text to all items matching the ingredient.
 ```
 
 - `Object success(Object var0)`
@@ -147,6 +129,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 
